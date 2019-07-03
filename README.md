@@ -5,7 +5,7 @@ O Projeto App01 é um projeto open-source project escrito em .NET Core
 O objetivo deste projeto é implementar e compartilhar com a comunidade novas tecnologias e boas praticas utilizando o .NET Core.
 
 ## Como usar:
-Você vai precisar da versão do Visual Code 2017 and e nome minimo a versão 2.1 do .NET Core SDK.
+Foi utlizado Visual Code (version 1.35) e a versão 2.1 do .NET Core SDK.
 Por favor, verifique se você instalou a mesma versão de tempo de execução (SDK) descrita em global.json
 
 O SDK e as ferramentas mais recentes podem ser baixados em https://dot.net/core.
