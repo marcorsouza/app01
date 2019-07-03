@@ -1,0 +1,11 @@
+F:\Estudos\DotNet\App01\App01.Model.Application\App01.Model.Application.Console\obj\Debug\netcoreapp2.1\App01.Model.Application.Console.csprojAssemblyReference.cache
+F:\Estudos\DotNet\App01\App01.Model.Application\App01.Model.Application.Console\obj\Debug\netcoreapp2.1\App01.Model.Application.Console.csproj.CoreCompileInputs.cache
+F:\Estudos\DotNet\App01\App01.Model.Application\App01.Model.Application.Console\obj\Debug\netcoreapp2.1\App01.Model.Application.Console.AssemblyInfoInputs.cache
+F:\Estudos\DotNet\App01\App01.Model.Application\App01.Model.Application.Console\obj\Debug\netcoreapp2.1\App01.Model.Application.Console.AssemblyInfo.cs
+F:\Estudos\DotNet\App01\App01.Model.Application\App01.Model.Application.Console\bin\Debug\netcoreapp2.1\App01.Model.Application.Console.deps.json
+F:\Estudos\DotNet\App01\App01.Model.Application\App01.Model.Application.Console\bin\Debug\netcoreapp2.1\App01.Model.Application.Console.runtimeconfig.json
+F:\Estudos\DotNet\App01\App01.Model.Application\App01.Model.Application.Console\bin\Debug\netcoreapp2.1\App01.Model.Application.Console.runtimeconfig.dev.json
+F:\Estudos\DotNet\App01\App01.Model.Application\App01.Model.Application.Console\bin\Debug\netcoreapp2.1\App01.Model.Application.Console.dll
+F:\Estudos\DotNet\App01\App01.Model.Application\App01.Model.Application.Console\bin\Debug\netcoreapp2.1\App01.Model.Application.Console.pdb
+F:\Estudos\DotNet\App01\App01.Model.Application\App01.Model.Application.Console\obj\Debug\netcoreapp2.1\App01.Model.Application.Console.dll
+F:\Estudos\DotNet\App01\App01.Model.Application\App01.Model.Application.Console\obj\Debug\netcoreapp2.1\App01.Model.Application.Console.pdb

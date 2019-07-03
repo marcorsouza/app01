@@ -1,0 +1,377 @@
+2019-07-02 09:39:17.247 -03:00 [INF] Starting Amplifier web host
+2019-07-02 09:39:18.514 -03:00 [INF] User profile is available. Using 'C:\Users\manz\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-07-02 09:53:45.654 -03:00 [INF] Starting Amplifier web host
+2019-07-02 09:53:45.947 -03:00 [INF] User profile is available. Using 'C:\Users\manz\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-07-02 09:53:57.622 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/User/1  
+2019-07-02 09:53:57.833 -03:00 [INF] Route matched with {action = "Get", controller = "User"}. Executing action App01.Model.Application.Api.Controllers.UserController.Get (App01.Model..Application.Api)
+2019-07-02 09:53:57.875 -03:00 [INF] Executing action method App01.Model.Application.Api.Controllers.UserController.Get (App01.Model..Application.Api) with arguments (["1"]) - Validation state: "Valid"
+2019-07-02 09:53:57.886 -03:00 [INF] Executed action method App01.Model.Application.Api.Controllers.UserController.Get (App01.Model..Application.Api), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 2.1777ms.
+2019-07-02 09:53:57.891 -03:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[System.Object, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2019-07-02 09:53:57.940 -03:00 [INF] Executed action App01.Model.Application.Api.Controllers.UserController.Get (App01.Model..Application.Api) in 103.4603ms
+2019-07-02 09:53:57.953 -03:00 [INF] Request finished in 332.1548ms 200 application/json; charset=utf-8
+2019-07-02 15:42:26.927 -03:00 [INF] Starting Amplifier web host
+2019-07-02 15:42:28.575 -03:00 [INF] User profile is available. Using 'C:\Users\manz\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-07-02 15:42:34.996 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/  
+2019-07-02 15:42:35.358 -03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing action App01.Model.Application.Api.Controllers.HomeController.Index (App01.Model..Application.Api)
+2019-07-02 15:42:35.374 -03:00 [INF] Executing action method App01.Model.Application.Api.Controllers.HomeController.Index (App01.Model..Application.Api) - Validation state: "Valid"
+2019-07-02 15:42:35.386 -03:00 [INF] Executed action method App01.Model.Application.Api.Controllers.HomeController.Index (App01.Model..Application.Api), returned result Microsoft.AspNetCore.Mvc.ViewResult in 2.0212ms.
+2019-07-02 15:42:35.416 -03:00 [INF] Executing ViewResult, running view Index.
+2019-07-02 15:42:35.496 -03:00 [INF] Executed ViewResult - view Index executed in 97.6517ms.
+2019-07-02 15:42:35.652 -03:00 [INF] Executed action App01.Model.Application.Api.Controllers.HomeController.Index (App01.Model..Application.Api) in 289.4755ms
+2019-07-02 15:42:35.676 -03:00 [INF] Request finished in 681.9459ms 200 text/html; charset=utf-8
+2019-07-02 15:42:40.788 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/User/1  
+2019-07-02 15:42:40.828 -03:00 [INF] Route matched with {action = "Get", controller = "User"}. Executing action App01.Model.Application.Api.Controllers.UserController.Get (App01.Model..Application.Api)
+2019-07-02 15:42:40.872 -03:00 [INF] Executing action method App01.Model.Application.Api.Controllers.UserController.Get (App01.Model..Application.Api) with arguments (["1"]) - Validation state: "Valid"
+2019-07-02 15:42:41.004 -03:00 [INF] Executed action method App01.Model.Application.Api.Controllers.UserController.Get (App01.Model..Application.Api), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.9838ms.
+2019-07-02 15:42:41.011 -03:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[System.Object, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2019-07-02 15:42:41.104 -03:00 [INF] Executed action App01.Model.Application.Api.Controllers.UserController.Get (App01.Model..Application.Api) in 264.33840000000004ms
+2019-07-02 15:42:41.138 -03:00 [INF] Request finished in 349.7406ms 200 application/json; charset=utf-8
+2019-07-02 15:42:44.269 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/User  
+2019-07-02 15:42:44.270 -03:00 [INF] Route matched with {action = "Get", controller = "User"}. Executing action App01.Model.Application.Api.Controllers.UserController.Get (App01.Model..Application.Api)
+2019-07-02 15:42:44.275 -03:00 [INF] Executing action method App01.Model.Application.Api.Controllers.UserController.Get (App01.Model..Application.Api) with arguments ([""]) - Validation state: "Valid"
+2019-07-02 15:42:44.375 -03:00 [INF] Executed action method App01.Model.Application.Api.Controllers.UserController.Get (App01.Model..Application.Api), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.0391ms.
+2019-07-02 15:42:44.380 -03:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[System.Object, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2019-07-02 15:42:44.391 -03:00 [INF] Executed action App01.Model.Application.Api.Controllers.UserController.Get (App01.Model..Application.Api) in 116.7579ms
+2019-07-02 15:42:44.562 -03:00 [INF] Request finished in 293.6547ms 200 application/json; charset=utf-8
+2019-07-02 15:42:50.674 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/User  
+2019-07-02 15:42:50.704 -03:00 [INF] Route matched with {action = "Get", controller = "User"}. Executing action App01.Model.Application.Api.Controllers.UserController.Get (App01.Model..Application.Api)
+2019-07-02 15:42:50.705 -03:00 [INF] Executing action method App01.Model.Application.Api.Controllers.UserController.Get (App01.Model..Application.Api) with arguments ([""]) - Validation state: "Valid"
+2019-07-02 15:42:50.707 -03:00 [INF] Executed action method App01.Model.Application.Api.Controllers.UserController.Get (App01.Model..Application.Api), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.0162ms.
+2019-07-02 15:42:50.708 -03:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[System.Object, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2019-07-02 15:42:50.709 -03:00 [INF] Executed action App01.Model.Application.Api.Controllers.UserController.Get (App01.Model..Application.Api) in 3.6619ms
+2019-07-02 15:42:50.710 -03:00 [INF] Request finished in 35.8964ms 200 application/json; charset=utf-8
+2019-07-02 17:01:07.380 -03:00 [INF] Starting Amplifier web host
+2019-07-02 17:01:09.847 -03:00 [INF] User profile is available. Using 'C:\Users\manz\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-07-02 17:01:10.462 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44383/  
+2019-07-02 17:01:10.462 -03:00 [INF] Request starting HTTP/1.1 DEBUG http://localhost:64819/  0
+2019-07-02 17:01:10.524 -03:00 [INF] Request finished in 62.0983ms 200 
+2019-07-02 17:01:10.887 -03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing action App01.Model.Application.Api.Controllers.HomeController.Index (App01.Model..Application.Api)
+2019-07-02 17:01:10.900 -03:00 [INF] Executing action method App01.Model.Application.Api.Controllers.HomeController.Index (App01.Model..Application.Api) - Validation state: "Valid"
+2019-07-02 17:01:10.907 -03:00 [INF] Executed action method App01.Model.Application.Api.Controllers.HomeController.Index (App01.Model..Application.Api), returned result Microsoft.AspNetCore.Mvc.ViewResult in 1.8142ms.
+2019-07-02 17:01:10.927 -03:00 [INF] Executing ViewResult, running view Index.
+2019-07-02 17:01:10.956 -03:00 [INF] Executed ViewResult - view Index executed in 41.839800000000004ms.
+2019-07-02 17:01:10.958 -03:00 [INF] Executed action App01.Model.Application.Api.Controllers.HomeController.Index (App01.Model..Application.Api) in 69.9543ms
+2019-07-02 17:01:10.964 -03:00 [INF] Request finished in 503.9912ms 200 text/html; charset=utf-8
+2019-07-02 17:01:11.225 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44383/favicon.ico  
+2019-07-02 17:01:11.227 -03:00 [INF] Request finished in 1.2232ms 404 
+2019-07-02 17:01:32.777 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44383/api/User  
+2019-07-02 17:01:32.812 -03:00 [INF] Route matched with {action = "Get", controller = "User"}. Executing action App01.Model.Application.Api.Controllers.UserController.Get (App01.Model..Application.Api)
+2019-07-02 17:01:32.839 -03:00 [INF] Executing action method App01.Model.Application.Api.Controllers.UserController.Get (App01.Model..Application.Api) with arguments ([""]) - Validation state: "Valid"
+2019-07-02 17:01:32.842 -03:00 [INF] Executed action method App01.Model.Application.Api.Controllers.UserController.Get (App01.Model..Application.Api), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1.1629ms.
+2019-07-02 17:01:32.850 -03:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[System.Object, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2019-07-02 17:01:32.946 -03:00 [INF] Executed action App01.Model.Application.Api.Controllers.UserController.Get (App01.Model..Application.Api) in 133.1676ms
+2019-07-02 17:01:32.947 -03:00 [INF] Request finished in 169.2774ms 200 application/json; charset=utf-8
+2019-07-02 17:11:27.656 -03:00 [INF] Starting Amplifier web host
+2019-07-02 17:11:30.763 -03:00 [INF] User profile is available. Using 'C:\Users\manz\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-07-02 17:11:31.571 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44383/  
+2019-07-02 17:11:31.571 -03:00 [INF] Request starting HTTP/1.1 DEBUG http://localhost:64819/  0
+2019-07-02 17:11:31.705 -03:00 [INF] Request finished in 134.5862ms 200 
+2019-07-02 17:11:32.164 -03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing action App01.Model.Application.Api.Controllers.HomeController.Index (App01.Model..Application.Api)
+2019-07-02 17:11:32.186 -03:00 [INF] Executing action method App01.Model.Application.Api.Controllers.HomeController.Index (App01.Model..Application.Api) - Validation state: "Valid"
+2019-07-02 17:11:32.200 -03:00 [INF] Executed action method App01.Model.Application.Api.Controllers.HomeController.Index (App01.Model..Application.Api), returned result Microsoft.AspNetCore.Mvc.ViewResult in 2.8632ms.
+2019-07-02 17:11:32.224 -03:00 [INF] Executing ViewResult, running view Index.
+2019-07-02 17:11:32.271 -03:00 [INF] Executed ViewResult - view Index executed in 60.5923ms.
+2019-07-02 17:11:32.272 -03:00 [INF] Executed action App01.Model.Application.Api.Controllers.HomeController.Index (App01.Model..Application.Api) in 107.0493ms
+2019-07-02 17:11:32.281 -03:00 [INF] Request finished in 712.8817ms 200 text/html; charset=utf-8
+2019-07-02 17:11:52.047 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44383/api/User  
+2019-07-02 17:11:52.066 -03:00 [INF] Route matched with {action = "Get", controller = "User"}. Executing action App01.Model.Application.Api.Controllers.UserController.Get (App01.Model..Application.Api)
+2019-07-02 17:11:52.927 -03:00 [INF] Executing action method App01.Model.Application.Api.Controllers.UserController.Get (App01.Model..Application.Api) with arguments ([""]) - Validation state: "Valid"
+2019-07-02 17:11:52.931 -03:00 [INF] Executed action method App01.Model.Application.Api.Controllers.UserController.Get (App01.Model..Application.Api), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1.3261ms.
+2019-07-02 17:11:52.938 -03:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[System.Object, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2019-07-02 17:11:53.045 -03:00 [INF] Executed action App01.Model.Application.Api.Controllers.UserController.Get (App01.Model..Application.Api) in 979.1525ms
+2019-07-02 17:11:53.046 -03:00 [INF] Request finished in 998.7616ms 200 application/json; charset=utf-8
+2019-07-02 17:13:31.423 -03:00 [INF] Starting Amplifier web host
+2019-07-02 17:13:32.984 -03:00 [INF] User profile is available. Using 'C:\Users\manz\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-07-02 17:13:33.625 -03:00 [INF] Request starting HTTP/1.1 DEBUG http://localhost:64819/  0
+2019-07-02 17:13:33.625 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44383/  
+2019-07-02 17:13:33.673 -03:00 [INF] Request finished in 38.3594ms 200 
+2019-07-02 17:13:33.883 -03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing action App01.Model.Application.Api.Controllers.HomeController.Index (App01.Model..Application.Api)
+2019-07-02 17:13:33.895 -03:00 [INF] Executing action method App01.Model.Application.Api.Controllers.HomeController.Index (App01.Model..Application.Api) - Validation state: "Valid"
+2019-07-02 17:13:33.904 -03:00 [INF] Executed action method App01.Model.Application.Api.Controllers.HomeController.Index (App01.Model..Application.Api), returned result Microsoft.AspNetCore.Mvc.ViewResult in 2.0427ms.
+2019-07-02 17:13:33.925 -03:00 [INF] Executing ViewResult, running view Index.
+2019-07-02 17:13:33.957 -03:00 [INF] Executed ViewResult - view Index executed in 45.5595ms.
+2019-07-02 17:13:33.958 -03:00 [INF] Executed action App01.Model.Application.Api.Controllers.HomeController.Index (App01.Model..Application.Api) in 74.8874ms
+2019-07-02 17:13:33.965 -03:00 [INF] Request finished in 342.7178ms 200 text/html; charset=utf-8
+2019-07-02 17:13:39.142 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44383/api/User  
+2019-07-02 17:13:39.160 -03:00 [INF] Route matched with {action = "Get", controller = "User"}. Executing action App01.Model.Application.Api.Controllers.UserController.Get (App01.Model..Application.Api)
+2019-07-02 17:13:39.596 -03:00 [INF] Executing action method App01.Model.Application.Api.Controllers.UserController.Get (App01.Model..Application.Api) with arguments ([""]) - Validation state: "Valid"
+2019-07-02 17:13:39.600 -03:00 [INF] Executed action method App01.Model.Application.Api.Controllers.UserController.Get (App01.Model..Application.Api), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1.9051ms.
+2019-07-02 17:13:39.603 -03:00 [INF] Executing ObjectResult, writing value of type 'System.Threading.Tasks.Task`1[[System.Collections.Generic.IEnumerable`1[[App01.Model.Domain.Entities.User, App01.Model.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2019-07-02 17:13:40.247 -03:00 [INF] Executed action App01.Model.Application.Api.Controllers.UserController.Get (App01.Model..Application.Api) in 1086.7121ms
+2019-07-02 17:13:40.247 -03:00 [INF] Request finished in 1105.3694ms 200 application/json; charset=utf-8
+2019-07-02 17:14:06.633 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44383/api/User  
+2019-07-02 17:14:06.634 -03:00 [INF] Route matched with {action = "Get", controller = "User"}. Executing action App01.Model.Application.Api.Controllers.UserController.Get (App01.Model..Application.Api)
+2019-07-02 17:14:06.635 -03:00 [INF] Executing action method App01.Model.Application.Api.Controllers.UserController.Get (App01.Model..Application.Api) with arguments ([""]) - Validation state: "Valid"
+2019-07-02 17:17:33.968 -03:00 [INF] Starting Amplifier web host
+2019-07-02 17:17:39.847 -03:00 [INF] User profile is available. Using 'C:\Users\manz\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-07-02 17:17:40.627 -03:00 [INF] Request starting HTTP/1.1 DEBUG http://localhost:64819/  0
+2019-07-02 17:17:40.628 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44383/  
+2019-07-02 17:17:40.709 -03:00 [INF] Request finished in 81.9909ms 200 
+2019-07-02 17:17:41.159 -03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing action App01.Model.Application.Api.Controllers.HomeController.Index (App01.Model..Application.Api)
+2019-07-02 17:17:41.183 -03:00 [INF] Executing action method App01.Model.Application.Api.Controllers.HomeController.Index (App01.Model..Application.Api) - Validation state: "Valid"
+2019-07-02 17:17:41.195 -03:00 [INF] Executed action method App01.Model.Application.Api.Controllers.HomeController.Index (App01.Model..Application.Api), returned result Microsoft.AspNetCore.Mvc.ViewResult in 4.0914ms.
+2019-07-02 17:17:41.220 -03:00 [INF] Executing ViewResult, running view Index.
+2019-07-02 17:17:41.269 -03:00 [INF] Executed ViewResult - view Index executed in 61.925200000000004ms.
+2019-07-02 17:17:41.269 -03:00 [INF] Executed action App01.Model.Application.Api.Controllers.HomeController.Index (App01.Model..Application.Api) in 109.27600000000001ms
+2019-07-02 17:17:41.289 -03:00 [INF] Request finished in 664.8404ms 200 text/html; charset=utf-8
+2019-07-02 17:17:54.981 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44383/api/User/1  
+2019-07-02 17:17:55.074 -03:00 [INF] Route matched with {action = "Get", controller = "User"}. Executing action App01.Model.Application.Api.Controllers.UserController.Get (App01.Model..Application.Api)
+2019-07-02 17:17:59.697 -03:00 [INF] Executing action method App01.Model.Application.Api.Controllers.UserController.Get (App01.Model..Application.Api) with arguments (["1"]) - Validation state: "Valid"
+2019-07-02 17:18:47.042 -03:00 [INF] Executed action method App01.Model.Application.Api.Controllers.UserController.Get (App01.Model..Application.Api), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 47205.197100000005ms.
+2019-07-02 17:18:47.048 -03:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1[[App01.Model.Domain.Entities.User, App01.Model.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2019-07-02 17:18:47.134 -03:00 [INF] Executed action App01.Model.Application.Api.Controllers.UserController.Get (App01.Model..Application.Api) in 52058.353500000005ms
+2019-07-02 17:18:47.135 -03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: A second operation started on this context before a previous operation completed. Any instance members are not guaranteed to be thread safe.
+   at Microsoft.EntityFrameworkCore.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.LinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.MoveNext()
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeList(JsonWriter writer, IEnumerable values, JsonArrayContract contract, JsonProperty member, JsonContainerContract collectionContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeValue(JsonWriter writer, Object value, JsonContract valueContract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.Serialize(JsonWriter jsonWriter, Object value, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.SerializeInternal(JsonWriter jsonWriter, Object value, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Serialize(JsonWriter jsonWriter, Object value)
+   at Microsoft.AspNetCore.Mvc.Formatters.JsonOutputFormatter.WriteObject(TextWriter writer, Object value)
+   at Microsoft.AspNetCore.Mvc.Formatters.JsonOutputFormatter.WriteResponseBodyAsync(OutputFormatterWriteContext context, Encoding selectedEncoding)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeResultAsync(IActionResult result)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResultFilterAsync[TFilter,TFilterAsync]()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResultExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeResultFilters()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2019-07-02 17:19:00.963 -03:00 [WRN] The response has already started, the error page middleware will not be executed.
+2019-07-02 17:19:00.971 -03:00 [ERR] Connection id "0HLNV59AKMG26", Request id "0HLNV59AKMG26:00000002": An unhandled exception was thrown by the application.
+System.InvalidOperationException: A second operation started on this context before a previous operation completed. Any instance members are not guaranteed to be thread safe.
+   at Microsoft.EntityFrameworkCore.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.LinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.MoveNext()
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeList(JsonWriter writer, IEnumerable values, JsonArrayContract contract, JsonProperty member, JsonContainerContract collectionContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeValue(JsonWriter writer, Object value, JsonContract valueContract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.Serialize(JsonWriter jsonWriter, Object value, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.SerializeInternal(JsonWriter jsonWriter, Object value, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Serialize(JsonWriter jsonWriter, Object value)
+   at Microsoft.AspNetCore.Mvc.Formatters.JsonOutputFormatter.WriteObject(TextWriter writer, Object value)
+   at Microsoft.AspNetCore.Mvc.Formatters.JsonOutputFormatter.WriteResponseBodyAsync(OutputFormatterWriteContext context, Encoding selectedEncoding)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeResultAsync(IActionResult result)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResultFilterAsync[TFilter,TFilterAsync]()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResultExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeResultFilters()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.IISIntegration.IISMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2019-07-02 17:19:00.991 -03:00 [INF] Request finished in 66009.2216ms 200 application/json; charset=utf-8
+2019-07-02 17:19:43.402 -03:00 [INF] Starting Amplifier web host
+2019-07-02 17:19:45.356 -03:00 [INF] User profile is available. Using 'C:\Users\manz\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-07-02 17:19:46.161 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44383/  
+2019-07-02 17:19:46.161 -03:00 [INF] Request starting HTTP/1.1 DEBUG http://localhost:64819/  0
+2019-07-02 17:19:46.242 -03:00 [INF] Request finished in 81.731ms 200 
+2019-07-02 17:19:46.902 -03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing action App01.Model.Application.Api.Controllers.HomeController.Index (App01.Model..Application.Api)
+2019-07-02 17:19:46.935 -03:00 [INF] Executing action method App01.Model.Application.Api.Controllers.HomeController.Index (App01.Model..Application.Api) - Validation state: "Valid"
+2019-07-02 17:19:46.951 -03:00 [INF] Executed action method App01.Model.Application.Api.Controllers.HomeController.Index (App01.Model..Application.Api), returned result Microsoft.AspNetCore.Mvc.ViewResult in 5.4257ms.
+2019-07-02 17:19:46.981 -03:00 [INF] Executing ViewResult, running view Index.
+2019-07-02 17:19:47.029 -03:00 [INF] Executed ViewResult - view Index executed in 62.0839ms.
+2019-07-02 17:19:47.030 -03:00 [INF] Executed action App01.Model.Application.Api.Controllers.HomeController.Index (App01.Model..Application.Api) in 126.885ms
+2019-07-02 17:19:47.038 -03:00 [INF] Request finished in 879.3047ms 200 text/html; charset=utf-8
+2019-07-02 17:19:55.145 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44383/api/User/1  
+2019-07-02 17:19:55.163 -03:00 [INF] Route matched with {action = "Get", controller = "User"}. Executing action App01.Model.Application.Api.Controllers.UserController.Get (App01.Model..Application.Api)
+2019-07-02 17:19:55.652 -03:00 [INF] Executing action method App01.Model.Application.Api.Controllers.UserController.Get (App01.Model..Application.Api) with arguments (["1"]) - Validation state: "Valid"
+2019-07-02 17:20:32.386 -03:00 [INF] Executed action method App01.Model.Application.Api.Controllers.UserController.Get (App01.Model..Application.Api), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 36731.015ms.
+2019-07-02 17:20:32.390 -03:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1[[App01.Model.Domain.Entities.User, App01.Model.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2019-07-02 17:20:32.491 -03:00 [INF] Executed action App01.Model.Application.Api.Controllers.UserController.Get (App01.Model..Application.Api) in 37326.7739ms
+2019-07-02 17:20:32.493 -03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: A second operation started on this context before a previous operation completed. Any instance members are not guaranteed to be thread safe.
+   at Microsoft.EntityFrameworkCore.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.LinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.MoveNext()
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeList(JsonWriter writer, IEnumerable values, JsonArrayContract contract, JsonProperty member, JsonContainerContract collectionContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeValue(JsonWriter writer, Object value, JsonContract valueContract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.Serialize(JsonWriter jsonWriter, Object value, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.SerializeInternal(JsonWriter jsonWriter, Object value, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Serialize(JsonWriter jsonWriter, Object value)
+   at Microsoft.AspNetCore.Mvc.Formatters.JsonOutputFormatter.WriteObject(TextWriter writer, Object value)
+   at Microsoft.AspNetCore.Mvc.Formatters.JsonOutputFormatter.WriteResponseBodyAsync(OutputFormatterWriteContext context, Encoding selectedEncoding)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeResultAsync(IActionResult result)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResultFilterAsync[TFilter,TFilterAsync]()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResultExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeResultFilters()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2019-07-02 17:20:36.552 -03:00 [WRN] The response has already started, the error page middleware will not be executed.
+2019-07-02 17:20:36.558 -03:00 [ERR] Connection id "0HLNV5AG2HPGH", Request id "0HLNV5AG2HPGH:00000002": An unhandled exception was thrown by the application.
+System.InvalidOperationException: A second operation started on this context before a previous operation completed. Any instance members are not guaranteed to be thread safe.
+   at Microsoft.EntityFrameworkCore.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.LinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.MoveNext()
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeList(JsonWriter writer, IEnumerable values, JsonArrayContract contract, JsonProperty member, JsonContainerContract collectionContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeValue(JsonWriter writer, Object value, JsonContract valueContract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.Serialize(JsonWriter jsonWriter, Object value, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.SerializeInternal(JsonWriter jsonWriter, Object value, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Serialize(JsonWriter jsonWriter, Object value)
+   at Microsoft.AspNetCore.Mvc.Formatters.JsonOutputFormatter.WriteObject(TextWriter writer, Object value)
+   at Microsoft.AspNetCore.Mvc.Formatters.JsonOutputFormatter.WriteResponseBodyAsync(OutputFormatterWriteContext context, Encoding selectedEncoding)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeResultAsync(IActionResult result)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResultFilterAsync[TFilter,TFilterAsync]()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResultExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeResultFilters()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.IISIntegration.IISMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2019-07-02 17:20:36.578 -03:00 [INF] Request finished in 41432.3567ms 200 application/json; charset=utf-8
+2019-07-02 17:21:22.293 -03:00 [INF] Starting Amplifier web host
+2019-07-02 17:21:24.460 -03:00 [INF] User profile is available. Using 'C:\Users\manz\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-07-02 17:21:25.037 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44383/  
+2019-07-02 17:21:25.037 -03:00 [INF] Request starting HTTP/1.1 DEBUG http://localhost:64819/  0
+2019-07-02 17:21:25.105 -03:00 [INF] Request finished in 67.2737ms 200 
+2019-07-02 17:21:25.462 -03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing action App01.Model.Application.Api.Controllers.HomeController.Index (App01.Model..Application.Api)
+2019-07-02 17:21:25.481 -03:00 [INF] Executing action method App01.Model.Application.Api.Controllers.HomeController.Index (App01.Model..Application.Api) - Validation state: "Valid"
+2019-07-02 17:21:25.493 -03:00 [INF] Executed action method App01.Model.Application.Api.Controllers.HomeController.Index (App01.Model..Application.Api), returned result Microsoft.AspNetCore.Mvc.ViewResult in 2.9048000000000003ms.
+2019-07-02 17:21:25.517 -03:00 [INF] Executing ViewResult, running view Index.
+2019-07-02 17:21:25.562 -03:00 [INF] Executed ViewResult - view Index executed in 57.938100000000006ms.
+2019-07-02 17:21:25.562 -03:00 [INF] Executed action App01.Model.Application.Api.Controllers.HomeController.Index (App01.Model..Application.Api) in 99.4197ms
+2019-07-02 17:21:25.570 -03:00 [INF] Request finished in 535.4472ms 200 text/html; charset=utf-8
+2019-07-02 17:22:35.824 -03:00 [INF] Starting Amplifier web host
+2019-07-02 17:22:37.873 -03:00 [INF] User profile is available. Using 'C:\Users\manz\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-07-02 17:22:38.738 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44383/  
+2019-07-02 17:22:38.738 -03:00 [INF] Request starting HTTP/1.1 DEBUG http://localhost:64819/  0
+2019-07-02 17:22:38.785 -03:00 [INF] Request finished in 46.7753ms 200 
+2019-07-02 17:22:39.073 -03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing action App01.Model.Application.Api.Controllers.HomeController.Index (App01.Model..Application.Api)
+2019-07-02 17:22:39.085 -03:00 [INF] Executing action method App01.Model.Application.Api.Controllers.HomeController.Index (App01.Model..Application.Api) - Validation state: "Valid"
+2019-07-02 17:22:39.094 -03:00 [INF] Executed action method App01.Model.Application.Api.Controllers.HomeController.Index (App01.Model..Application.Api), returned result Microsoft.AspNetCore.Mvc.ViewResult in 2.7137000000000002ms.
+2019-07-02 17:22:39.118 -03:00 [INF] Executing ViewResult, running view Index.
+2019-07-02 17:22:39.148 -03:00 [INF] Executed ViewResult - view Index executed in 44.7725ms.
+2019-07-02 17:22:39.149 -03:00 [INF] Executed action App01.Model.Application.Api.Controllers.HomeController.Index (App01.Model..Application.Api) in 75.47590000000001ms
+2019-07-02 17:22:39.157 -03:00 [INF] Request finished in 423.5166ms 200 text/html; charset=utf-8
+2019-07-02 17:22:46.456 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44383/api/User  
+2019-07-02 17:22:46.481 -03:00 [INF] Route matched with {action = "Get", controller = "User"}. Executing action App01.Model.Application.Api.Controllers.UserController.Get (App01.Model..Application.Api)
+2019-07-02 17:22:47.054 -03:00 [INF] Executing action method App01.Model.Application.Api.Controllers.UserController.Get (App01.Model..Application.Api) with arguments ([""]) - Validation state: "Valid"
+2019-07-02 17:22:47.058 -03:00 [INF] Executed action method App01.Model.Application.Api.Controllers.UserController.Get (App01.Model..Application.Api), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 2.5056000000000003ms.
+2019-07-02 17:22:47.063 -03:00 [INF] Executing ObjectResult, writing value of type 'System.Threading.Tasks.Task`1[[System.Collections.Generic.IEnumerable`1[[App01.Model.Domain.Entities.User, App01.Model.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2019-07-02 17:22:47.546 -03:00 [INF] Executed action App01.Model.Application.Api.Controllers.UserController.Get (App01.Model..Application.Api) in 1064.5691000000002ms
+2019-07-02 17:22:47.547 -03:00 [INF] Request finished in 1091.1099ms 200 application/json; charset=utf-8
+2019-07-02 17:23:15.699 -03:00 [INF] Starting Amplifier web host
+2019-07-02 17:23:17.438 -03:00 [INF] User profile is available. Using 'C:\Users\manz\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-07-02 17:23:18.399 -03:00 [INF] Request starting HTTP/1.1 DEBUG http://localhost:64819/  0
+2019-07-02 17:23:18.399 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44383/  
+2019-07-02 17:23:18.568 -03:00 [INF] Request finished in 163.3919ms 200 
+2019-07-02 17:23:19.051 -03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing action App01.Model.Application.Api.Controllers.HomeController.Index (App01.Model..Application.Api)
+2019-07-02 17:23:19.069 -03:00 [INF] Executing action method App01.Model.Application.Api.Controllers.HomeController.Index (App01.Model..Application.Api) - Validation state: "Valid"
+2019-07-02 17:23:19.078 -03:00 [INF] Executed action method App01.Model.Application.Api.Controllers.HomeController.Index (App01.Model..Application.Api), returned result Microsoft.AspNetCore.Mvc.ViewResult in 2.3413ms.
+2019-07-02 17:23:19.103 -03:00 [INF] Executing ViewResult, running view Index.
+2019-07-02 17:23:19.149 -03:00 [INF] Executed ViewResult - view Index executed in 57.8521ms.
+2019-07-02 17:23:19.150 -03:00 [INF] Executed action App01.Model.Application.Api.Controllers.HomeController.Index (App01.Model..Application.Api) in 98.3054ms
+2019-07-02 17:23:19.158 -03:00 [INF] Request finished in 762.1861ms 200 text/html; charset=utf-8
+2019-07-02 17:23:42.731 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44383/api/User  
+2019-07-02 17:23:42.768 -03:00 [INF] Route matched with {action = "Get", controller = "User"}. Executing action App01.Model.Application.Api.Controllers.UserController.Get (App01.Model..Application.Api)
+2019-07-02 17:23:43.571 -03:00 [INF] Executing action method App01.Model.Application.Api.Controllers.UserController.Get (App01.Model..Application.Api) with arguments ([""]) - Validation state: "Valid"
+2019-07-02 17:23:43.575 -03:00 [INF] Executed action method App01.Model.Application.Api.Controllers.UserController.Get (App01.Model..Application.Api), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 2.6830000000000003ms.
+2019-07-02 17:23:43.580 -03:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1[[App01.Model.Domain.Entities.User, App01.Model.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2019-07-02 17:23:44.047 -03:00 [INF] Executed action App01.Model.Application.Api.Controllers.UserController.Get (App01.Model..Application.Api) in 1278.9668000000001ms
+2019-07-02 17:23:44.048 -03:00 [INF] Request finished in 1316.884ms 200 application/json; charset=utf-8
+2019-07-02 17:25:20.025 -03:00 [INF] Starting Amplifier web host
+2019-07-02 17:25:21.717 -03:00 [INF] User profile is available. Using 'C:\Users\manz\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-07-02 17:25:22.537 -03:00 [INF] Request starting HTTP/1.1 DEBUG http://localhost:64819/  0
+2019-07-02 17:25:22.537 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44383/  
+2019-07-02 17:25:22.690 -03:00 [INF] Request finished in 154.2728ms 200 
+2019-07-02 17:25:23.269 -03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing action App01.Model.Application.Api.Controllers.HomeController.Index (App01.Model..Application.Api)
+2019-07-02 17:25:23.292 -03:00 [INF] Executing action method App01.Model.Application.Api.Controllers.HomeController.Index (App01.Model..Application.Api) - Validation state: "Valid"
+2019-07-02 17:25:23.302 -03:00 [INF] Executed action method App01.Model.Application.Api.Controllers.HomeController.Index (App01.Model..Application.Api), returned result Microsoft.AspNetCore.Mvc.ViewResult in 2.982ms.
+2019-07-02 17:25:23.340 -03:00 [INF] Executing ViewResult, running view Index.
+2019-07-02 17:25:23.386 -03:00 [INF] Executed ViewResult - view Index executed in 68.2497ms.
+2019-07-02 17:25:23.387 -03:00 [INF] Executed action App01.Model.Application.Api.Controllers.HomeController.Index (App01.Model..Application.Api) in 116.86370000000001ms
+2019-07-02 17:25:23.407 -03:00 [INF] Request finished in 872.8634ms 200 text/html; charset=utf-8
+2019-07-02 17:26:45.600 -03:00 [INF] Starting Amplifier web host
+2019-07-02 17:26:47.111 -03:00 [INF] User profile is available. Using 'C:\Users\manz\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-07-02 17:26:47.727 -03:00 [INF] Request starting HTTP/1.1 DEBUG http://localhost:64819/  0
+2019-07-02 17:26:47.727 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44383/  
+2019-07-02 17:26:47.816 -03:00 [INF] Request finished in 90.0711ms 200 
+2019-07-02 17:26:48.224 -03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing action App01.Model.Application.Api.Controllers.HomeController.Index (App01.Model..Application.Api)
+2019-07-02 17:26:48.243 -03:00 [INF] Executing action method App01.Model.Application.Api.Controllers.HomeController.Index (App01.Model..Application.Api) - Validation state: "Valid"
+2019-07-02 17:26:48.255 -03:00 [INF] Executed action method App01.Model.Application.Api.Controllers.HomeController.Index (App01.Model..Application.Api), returned result Microsoft.AspNetCore.Mvc.ViewResult in 2.8022ms.
+2019-07-02 17:26:48.284 -03:00 [INF] Executing ViewResult, running view Index.
+2019-07-02 17:26:48.331 -03:00 [INF] Executed ViewResult - view Index executed in 61.482600000000005ms.
+2019-07-02 17:26:48.332 -03:00 [INF] Executed action App01.Model.Application.Api.Controllers.HomeController.Index (App01.Model..Application.Api) in 107.6692ms
+2019-07-02 17:26:48.375 -03:00 [INF] Request finished in 651.0799ms 200 text/html; charset=utf-8
+2019-07-02 17:26:56.079 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44383/api/User  
+2019-07-02 17:26:56.105 -03:00 [INF] Route matched with {action = "Get", controller = "User"}. Executing action App01.Model.Application.Api.Controllers.UserController.Get (App01.Model..Application.Api)
+2019-07-02 17:26:56.654 -03:00 [INF] Executing action method App01.Model.Application.Api.Controllers.UserController.Get (App01.Model..Application.Api) with arguments ([""]) - Validation state: "Valid"
+2019-07-02 17:26:56.663 -03:00 [INF] Executed action method App01.Model.Application.Api.Controllers.UserController.Get (App01.Model..Application.Api), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 5.8858000000000006ms.
+2019-07-02 17:26:56.668 -03:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1[[App01.Model.Domain.Entities.User, App01.Model.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2019-07-02 17:26:57.227 -03:00 [INF] Executed action App01.Model.Application.Api.Controllers.UserController.Get (App01.Model..Application.Api) in 1121.1032ms
+2019-07-02 17:26:57.229 -03:00 [INF] Request finished in 1149.6546ms 200 application/json; charset=utf-8
+2019-07-02 17:27:24.192 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44383/api/User  
+2019-07-02 17:27:24.193 -03:00 [INF] Route matched with {action = "Get", controller = "User"}. Executing action App01.Model.Application.Api.Controllers.UserController.Get (App01.Model..Application.Api)
+2019-07-02 17:27:24.195 -03:00 [INF] Executing action method App01.Model.Application.Api.Controllers.UserController.Get (App01.Model..Application.Api) with arguments ([""]) - Validation state: "Valid"
+2019-07-02 17:27:24.195 -03:00 [INF] Executed action method App01.Model.Application.Api.Controllers.UserController.Get (App01.Model..Application.Api), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.037700000000000004ms.
+2019-07-02 17:27:24.195 -03:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1[[App01.Model.Domain.Entities.User, App01.Model.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2019-07-02 17:27:24.226 -03:00 [INF] Executed action App01.Model.Application.Api.Controllers.UserController.Get (App01.Model..Application.Api) in 33.5173ms
+2019-07-02 17:27:24.227 -03:00 [INF] Request finished in 34.5914ms 200 application/json; charset=utf-8
+2019-07-02 17:27:31.415 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44383/api/User  
+2019-07-02 17:27:31.415 -03:00 [INF] Route matched with {action = "Get", controller = "User"}. Executing action App01.Model.Application.Api.Controllers.UserController.Get (App01.Model..Application.Api)
+2019-07-02 17:27:31.416 -03:00 [INF] Executing action method App01.Model.Application.Api.Controllers.UserController.Get (App01.Model..Application.Api) with arguments ([""]) - Validation state: "Valid"
+2019-07-02 17:27:31.416 -03:00 [INF] Executed action method App01.Model.Application.Api.Controllers.UserController.Get (App01.Model..Application.Api), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.0081ms.
+2019-07-02 17:27:31.416 -03:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1[[App01.Model.Domain.Entities.User, App01.Model.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2019-07-02 17:27:31.418 -03:00 [INF] Executed action App01.Model.Application.Api.Controllers.UserController.Get (App01.Model..Application.Api) in 2.0525ms
+2019-07-02 17:27:31.418 -03:00 [INF] Request finished in 2.8008ms 200 application/json; charset=utf-8
+2019-07-02 17:28:45.666 -03:00 [INF] Starting Amplifier web host
+2019-07-02 17:28:49.214 -03:00 [INF] User profile is available. Using 'C:\Users\manz\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-07-02 17:28:50.215 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44383/  
+2019-07-02 17:28:50.215 -03:00 [INF] Request starting HTTP/1.1 DEBUG http://localhost:64819/  0
+2019-07-02 17:28:50.310 -03:00 [INF] Request finished in 94.178ms 200 
+2019-07-02 17:28:50.561 -03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing action App01.Model.Application.Api.Controllers.HomeController.Index (App01.Model..Application.Api)
+2019-07-02 17:28:50.581 -03:00 [INF] Executing action method App01.Model.Application.Api.Controllers.HomeController.Index (App01.Model..Application.Api) - Validation state: "Valid"
+2019-07-02 17:28:50.592 -03:00 [INF] Executed action method App01.Model.Application.Api.Controllers.HomeController.Index (App01.Model..Application.Api), returned result Microsoft.AspNetCore.Mvc.ViewResult in 2.5635000000000003ms.
+2019-07-02 17:28:50.615 -03:00 [INF] Executing ViewResult, running view Index.
+2019-07-02 17:28:50.668 -03:00 [INF] Executed ViewResult - view Index executed in 63.5758ms.
+2019-07-02 17:28:50.669 -03:00 [INF] Executed action App01.Model.Application.Api.Controllers.HomeController.Index (App01.Model..Application.Api) in 107.2326ms
+2019-07-02 17:28:50.675 -03:00 [INF] Request finished in 462.2403ms 200 text/html; charset=utf-8
+2019-07-02 17:28:57.980 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44383/api/User  
+2019-07-02 17:28:58.024 -03:00 [INF] Route matched with {action = "Get", controller = "User"}. Executing action App01.Model.Application.Api.Controllers.UserController.Get (App01.Model..Application.Api)
+2019-07-02 17:28:58.826 -03:00 [INF] Executing action method App01.Model.Application.Api.Controllers.UserController.Get (App01.Model..Application.Api) with arguments ([""]) - Validation state: "Valid"
+2019-07-02 17:28:58.835 -03:00 [INF] Executed action method App01.Model.Application.Api.Controllers.UserController.Get (App01.Model..Application.Api), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 6.3181ms.
+2019-07-02 17:28:58.840 -03:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1[[App01.Model.Domain.Entities.User, App01.Model.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2019-07-02 17:28:59.317 -03:00 [INF] Executed action App01.Model.Application.Api.Controllers.UserController.Get (App01.Model..Application.Api) in 1292.8137000000002ms
+2019-07-02 17:28:59.317 -03:00 [INF] Request finished in 1337.0287ms 200 application/json; charset=utf-8
+2019-07-02 19:54:42.762 -03:00 [INF] Starting Amplifier web host
+2019-07-02 19:54:44.619 -03:00 [INF] User profile is available. Using 'C:\Users\marco\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-07-02 19:57:08.228 -03:00 [INF] Starting Amplifier web host
+2019-07-02 19:57:08.633 -03:00 [INF] User profile is available. Using 'C:\Users\marco\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-07-02 19:57:11.966 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/  
+2019-07-02 19:57:12.585 -03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller App01.Model.Application.Api.Controllers.HomeController (App01.Model..Application.Api).
+2019-07-02 19:57:12.598 -03:00 [INF] Executing action method App01.Model.Application.Api.Controllers.HomeController.Index (App01.Model..Application.Api) - Validation state: "Valid"
+2019-07-02 19:57:12.623 -03:00 [INF] Executed action method App01.Model.Application.Api.Controllers.HomeController.Index (App01.Model..Application.Api), returned result Microsoft.AspNetCore.Mvc.ViewResult in 2.3055000000000003ms.
+2019-07-02 19:57:12.651 -03:00 [INF] Executing ViewResult, running view Index.
+2019-07-02 19:57:12.711 -03:00 [INF] Executed ViewResult - view Index executed in 76.5613ms.
+2019-07-02 19:57:12.717 -03:00 [INF] Executed action App01.Model.Application.Api.Controllers.HomeController.Index (App01.Model..Application.Api) in 129.3357ms
+2019-07-02 19:57:12.725 -03:00 [INF] Request finished in 761.9187ms 200 text/html; charset=utf-8
+2019-07-02 19:57:12.819 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/favicon.ico  
+2019-07-02 19:57:12.824 -03:00 [INF] Request finished in 4.5829ms 404 
+2019-07-02 19:57:21.552 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/user  
+2019-07-02 19:57:21.576 -03:00 [INF] Route matched with {action = "Get", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get(System.Nullable`1[System.Int32]) on controller App01.Model.Application.Api.Controllers.UserController (App01.Model..Application.Api).
+2019-07-02 19:57:22.129 -03:00 [INF] Executing action method App01.Model.Application.Api.Controllers.UserController.Get (App01.Model..Application.Api) - Validation state: "Valid"
+2019-07-02 19:57:22.133 -03:00 [INF] Executed action method App01.Model.Application.Api.Controllers.UserController.Get (App01.Model..Application.Api), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 2.6215ms.
+2019-07-02 19:57:22.140 -03:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1[[App01.Model.Domain.Entities.User, App01.Model.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2019-07-02 19:57:22.486 -03:00 [INF] Executed action App01.Model.Application.Api.Controllers.UserController.Get (App01.Model..Application.Api) in 899.6042ms
+2019-07-02 19:57:22.488 -03:00 [INF] Request finished in 935.683ms 200 application/json; charset=utf-8

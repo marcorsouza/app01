@@ -1,0 +1,9 @@
+F:\Estudos\DotNet\App01\App01.Model.Domain\bin\Debug\netstandard2.0\App01.Model.Domain.deps.json
+F:\Estudos\DotNet\App01\App01.Model.Domain\bin\Debug\netstandard2.0\App01.Model.Domain.dll
+F:\Estudos\DotNet\App01\App01.Model.Domain\bin\Debug\netstandard2.0\App01.Model.Domain.pdb
+F:\Estudos\DotNet\App01\App01.Model.Domain\obj\Debug\netstandard2.0\App01.Model.Domain.csprojAssemblyReference.cache
+F:\Estudos\DotNet\App01\App01.Model.Domain\obj\Debug\netstandard2.0\App01.Model.Domain.csproj.CoreCompileInputs.cache
+F:\Estudos\DotNet\App01\App01.Model.Domain\obj\Debug\netstandard2.0\App01.Model.Domain.AssemblyInfoInputs.cache
+F:\Estudos\DotNet\App01\App01.Model.Domain\obj\Debug\netstandard2.0\App01.Model.Domain.AssemblyInfo.cs
+F:\Estudos\DotNet\App01\App01.Model.Domain\obj\Debug\netstandard2.0\App01.Model.Domain.dll
+F:\Estudos\DotNet\App01\App01.Model.Domain\obj\Debug\netstandard2.0\App01.Model.Domain.pdb
