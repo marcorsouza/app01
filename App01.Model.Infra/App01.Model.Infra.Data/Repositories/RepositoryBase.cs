@@ -9,24 +9,24 @@ using App01.Model.Domain.Entities;
 using App01.Model.Domain.Repositories;
 
 namespace App01.Model.Infra.Data.Repositories {
-    public abstract class RepositoryBase<T> : IRepository<T> {
+    public abstract class RepositoryBase<TEntity, TType> : IRepository<TEntity, TType> {
         protected readonly IUnitOfWork _unitOfWork;
 
         public RepositoryBase (IUnitOfWork unitOfWork) {
             _unitOfWork = unitOfWork;
         }
 
-        protected abstract IQueryable<T> RepositoryQuery { get; }
+        protected abstract IQueryable<TEntity> RepositoryQuery { get; }
 
-        public abstract Task<T> GetById(object id);
-        public abstract Task<T> Get(T entity);
-        public abstract Task<IQueryable<T>> GetAll ();
-        public abstract Task Create (T entity, bool commit = false);
-        public abstract Task Update(T entity, bool commit = false);
+        public abstract Task<TEntity> GetById(TType id);
+        public abstract Task<TEntity> Get(TEntity entity);
+        public abstract Task<IQueryable<TEntity>> GetAll ();
+        public abstract Task Create (TEntity entity, bool commit = false);
+        public abstract Task Update(TEntity entity, bool commit = false);
 
-        #region IEnumerable<T> Members
+        #region IEnumerable<TEntity> Members
 
-        public IEnumerator<T> GetEnumerator () {
+        public IEnumerator<TEntity> GetEnumerator () {
             return RepositoryQuery.GetEnumerator ();
         }
 

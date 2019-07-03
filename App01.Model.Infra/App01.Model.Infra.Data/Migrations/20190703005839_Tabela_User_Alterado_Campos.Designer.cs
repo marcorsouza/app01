@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace App01.Model.Infra.Data.Migrations
 {
-    [DbContext(typeof(MySqlContext))]
+    [DbContext(typeof(MyContext))]
     [Migration("20190703005839_Tabela_User_Alterado_Campos")]
     partial class Tabela_User_Alterado_Campos
     {

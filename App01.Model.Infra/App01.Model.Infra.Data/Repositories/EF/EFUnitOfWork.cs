@@ -6,7 +6,7 @@ namespace App01.Model.Infra.Data.Repositories.EF
 {
     public class EFUnitOfWork : IEFUnitOfWork
     {
-        public EFUnitOfWork(MySqlContext context)
+        public EFUnitOfWork(DbContext context)
         {
             Context = context;
         }

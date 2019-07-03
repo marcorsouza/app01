@@ -7,7 +7,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace App01.Model.Infra.Data.Migrations
 {
-    [DbContext(typeof(MySqlContext))]
+    [DbContext(typeof(MyContext))]
     partial class MySqlContextModelSnapshot : ModelSnapshot
     {
         protected override void BuildModel(ModelBuilder modelBuilder)

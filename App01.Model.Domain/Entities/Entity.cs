@@ -2,17 +2,12 @@
 
 namespace App01.Model.Domain.Entities
 {
-    public class Entity
+    public abstract class Entity<T> : IEntity<T>
     {
-        public virtual object IdBase { get; set; }
-    }
-
-    public class Entity<T> : Entity , IEquatable<T> where T : Entity<T>
-    {
-        public virtual bool Equals(T other)
-        {
-            if (other == null) return false;
-            return (this.IdBase.Equals(other.IdBase));
+        public T Id { get; set; }
+        object IEntity.Id {
+            get { return this.Id; }
         }
+
     }
 }

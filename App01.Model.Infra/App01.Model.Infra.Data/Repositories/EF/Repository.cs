@@ -1,40 +1,38 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Linq.Expressions;
-using System.Threading.Tasks;
-using App01.Model.Domain;
-using App01.Model.Domain.Entities;
-using App01.Model.Infra.Data.Context.EF;
+﻿using App01.Model.Domain.Entities;
 using App01.Model.Infra.Data.Repositories.EF;
 using Microsoft.EntityFrameworkCore;
+using System.Linq;
+using System.Threading.Tasks;
 
-namespace App01.Model.Infra.Data.Repositories {
-    public class Repository<T> : RepositoryBase<T> where T : Entity<T> {
+namespace App01.Model.Infra.Data.Repositories
+{
+    public class Repository<TEntity, TType> : RepositoryBase<TEntity, TType> 
+        where TEntity : Entity<TType>
+    {
 
-        protected DbSet<T> DbSet;
+        protected DbSet<TEntity> DbSet;
 
         public Repository (IEFUnitOfWork unitOfWork) : base (unitOfWork) {
-            DbSet = unitOfWork.Context.Set<T> ();
+            DbSet = unitOfWork.Context.Set<TEntity> ();
         }
 
-        protected override IQueryable<T> RepositoryQuery {
+        protected override IQueryable<TEntity> RepositoryQuery {
             get { return DbSet; }
         }
 
-        public override async Task<T> GetById(object id)
+        public override async Task<TEntity> GetById(TType id)
         {
             return await DbSet
                             .AsNoTracking()
-                            .FirstOrDefaultAsync(e => e.IdBase.Equals(id));
+                            .FirstOrDefaultAsync(e => e.Id.Equals(id));
         }
 
-        public override async Task<T> Get(T entity)
+        public override async Task<TEntity> Get(TEntity entity)
         {
-            return DbSet.Find(entity);
+            return await DbSet.FindAsync(entity);
         }
 
-        public override async Task<IQueryable<T>> GetAll () {
+        public override async Task<IQueryable<TEntity>> GetAll () {
             return RepositoryQuery;
         }
 
@@ -42,7 +40,7 @@ namespace App01.Model.Infra.Data.Repositories {
 
         }
 
-        public override async Task Create(T entity, bool commit = false)
+        public override async Task Create(TEntity entity, bool commit = false)
         {
             await DbSet.AddAsync(entity);
 
@@ -50,7 +48,7 @@ namespace App01.Model.Infra.Data.Repositories {
                 await _unitOfWork.CommitSync();
         }
 
-        public override async Task Update(T entity, bool commit = false)
+        public override async Task Update(TEntity entity, bool commit = false)
         {
             DbSet.Update(entity);
             if(commit)

@@ -5,7 +5,7 @@ using Microsoft.Extensions.Configuration;
 
 namespace App01.Model.Infra.Data.Context.EF
 {
-    public class MySqlContext : DbContext
+    public class MyContext : DbContext
 	{
 		public DbSet<User> User { get; set; }
 
@@ -21,8 +21,7 @@ namespace App01.Model.Infra.Data.Context.EF
 		{
 			base.OnModelCreating(modelBuilder);
 
-			modelBuilder.Entity<User>()
-					.Ignore(b => b.IdBase);
+			//modelBuilder.Entity<User>().Ignore(b => b.IdBase);
 					
 			modelBuilder
 				.Entity<User>(new UserMap().Configure);

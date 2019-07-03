@@ -5,16 +5,16 @@ namespace App01.Model.Infra.Data.Repositories.EF
 {
     public class EFUnitOfWorkFactory : IUnitOfWorkFactory
     {
-        private readonly MySqlContext _context;
+        private readonly MyContext _context;
 
-        public EFUnitOfWorkFactory(MySqlContext context)
+        public EFUnitOfWorkFactory(MyContext context)
         {
             _context = context;
         }
 
         public EFUnitOfWorkFactory()
         {
-            _context = new MySqlContext();
+            _context = new MyContext();
         }
 
         #region IUnitOfWorkFactory Members

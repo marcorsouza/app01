@@ -1,0 +1,586 @@
+2019-07-03 08:59:28.718 -03:00 [INF] Starting Amplifier web host
+2019-07-03 08:59:34.733 -03:00 [INF] User profile is available. Using 'C:\Users\manz\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-07-03 08:59:35.642 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44383/  
+2019-07-03 08:59:35.642 -03:00 [INF] Request starting HTTP/1.1 DEBUG http://localhost:64819/  0
+2019-07-03 08:59:35.718 -03:00 [INF] Request finished in 76.4026ms 200 
+2019-07-03 08:59:36.090 -03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing action App01.Model.Application.Api.Controllers.HomeController.Index (App01.Model..Application.Api)
+2019-07-03 08:59:36.104 -03:00 [INF] Executing action method App01.Model.Application.Api.Controllers.HomeController.Index (App01.Model..Application.Api) - Validation state: "Valid"
+2019-07-03 08:59:36.112 -03:00 [INF] Executed action method App01.Model.Application.Api.Controllers.HomeController.Index (App01.Model..Application.Api), returned result Microsoft.AspNetCore.Mvc.ViewResult in 2.5836ms.
+2019-07-03 08:59:36.138 -03:00 [INF] Executing ViewResult, running view Index.
+2019-07-03 08:59:36.169 -03:00 [INF] Executed ViewResult - view Index executed in 48.690400000000004ms.
+2019-07-03 08:59:36.171 -03:00 [INF] Executed action App01.Model.Application.Api.Controllers.HomeController.Index (App01.Model..Application.Api) in 79.7595ms
+2019-07-03 08:59:36.181 -03:00 [INF] Request finished in 541.948ms 200 text/html; charset=utf-8
+2019-07-03 08:59:58.434 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44383/api/User/1  
+2019-07-03 08:59:58.459 -03:00 [INF] Route matched with {action = "Get", controller = "User"}. Executing action App01.Model.Application.Api.Controllers.UserController.Get (App01.Model..Application.Api)
+2019-07-03 08:59:59.278 -03:00 [INF] Executing action method App01.Model.Application.Api.Controllers.UserController.Get (App01.Model..Application.Api) with arguments (["1"]) - Validation state: "Valid"
+2019-07-03 09:15:43.306 -03:00 [INF] Starting Amplifier web host
+2019-07-03 09:15:46.432 -03:00 [INF] User profile is available. Using 'C:\Users\manz\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-07-03 09:15:47.985 -03:00 [INF] Request starting HTTP/1.1 DEBUG http://localhost:64819/  0
+2019-07-03 09:15:47.986 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44383/  
+2019-07-03 09:15:48.116 -03:00 [INF] Request finished in 132.3295ms 200 
+2019-07-03 09:15:48.625 -03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing action App01.Model.Application.Api.Controllers.HomeController.Index (App01.Model..Application.Api)
+2019-07-03 09:15:48.637 -03:00 [INF] Executing action method App01.Model.Application.Api.Controllers.HomeController.Index (App01.Model..Application.Api) - Validation state: "Valid"
+2019-07-03 09:15:48.644 -03:00 [INF] Executed action method App01.Model.Application.Api.Controllers.HomeController.Index (App01.Model..Application.Api), returned result Microsoft.AspNetCore.Mvc.ViewResult in 1.7433ms.
+2019-07-03 09:15:48.664 -03:00 [INF] Executing ViewResult, running view Index.
+2019-07-03 09:15:48.696 -03:00 [INF] Executed ViewResult - view Index executed in 45.4964ms.
+2019-07-03 09:15:48.697 -03:00 [INF] Executed action App01.Model.Application.Api.Controllers.HomeController.Index (App01.Model..Application.Api) in 72.1673ms
+2019-07-03 09:15:48.705 -03:00 [INF] Request finished in 723.3639ms 200 text/html; charset=utf-8
+2019-07-03 09:16:05.706 -03:00 [INF] Starting Amplifier web host
+2019-07-03 09:16:08.494 -03:00 [INF] User profile is available. Using 'C:\Users\manz\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-07-03 09:16:09.160 -03:00 [INF] Request starting HTTP/1.1 DEBUG http://localhost:64819/  0
+2019-07-03 09:16:09.160 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44383/  
+2019-07-03 09:16:09.210 -03:00 [INF] Request finished in 49.4344ms 200 
+2019-07-03 09:16:09.428 -03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing action App01.Model.Application.Api.Controllers.HomeController.Index (App01.Model..Application.Api)
+2019-07-03 09:16:09.443 -03:00 [INF] Executing action method App01.Model.Application.Api.Controllers.HomeController.Index (App01.Model..Application.Api) - Validation state: "Valid"
+2019-07-03 09:16:09.451 -03:00 [INF] Executed action method App01.Model.Application.Api.Controllers.HomeController.Index (App01.Model..Application.Api), returned result Microsoft.AspNetCore.Mvc.ViewResult in 2.9577ms.
+2019-07-03 09:16:09.473 -03:00 [INF] Executing ViewResult, running view Index.
+2019-07-03 09:16:09.518 -03:00 [INF] Executed ViewResult - view Index executed in 56.920100000000005ms.
+2019-07-03 09:16:09.519 -03:00 [INF] Executed action App01.Model.Application.Api.Controllers.HomeController.Index (App01.Model..Application.Api) in 90.3789ms
+2019-07-03 09:16:09.525 -03:00 [INF] Request finished in 367.8633ms 200 text/html; charset=utf-8
+2019-07-03 09:16:14.758 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44383/api/User  
+2019-07-03 09:16:14.781 -03:00 [INF] Route matched with {action = "Get", controller = "User"}. Executing action App01.Model.Application.Api.Controllers.UserController.Get (App01.Model..Application.Api)
+2019-07-03 09:16:15.431 -03:00 [INF] Executing action method App01.Model.Application.Api.Controllers.UserController.Get (App01.Model..Application.Api) with arguments ([""]) - Validation state: "Valid"
+2019-07-03 09:16:15.438 -03:00 [INF] Executed action method App01.Model.Application.Api.Controllers.UserController.Get (App01.Model..Application.Api), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 5.1055ms.
+2019-07-03 09:16:15.444 -03:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1[[App01.Model.Domain.Entities.User, App01.Model.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2019-07-03 09:16:16.045 -03:00 [INF] Executed action App01.Model.Application.Api.Controllers.UserController.Get (App01.Model..Application.Api) in 1263.9223ms
+2019-07-03 09:16:16.046 -03:00 [INF] Request finished in 1287.4063ms 200 application/json; charset=utf-8
+2019-07-03 09:16:21.192 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44383/api/User/3  
+2019-07-03 09:16:21.193 -03:00 [INF] Route matched with {action = "Get", controller = "User"}. Executing action App01.Model.Application.Api.Controllers.UserController.Get (App01.Model..Application.Api)
+2019-07-03 09:16:21.205 -03:00 [INF] Executing action method App01.Model.Application.Api.Controllers.UserController.Get (App01.Model..Application.Api) with arguments (["3"]) - Validation state: "Valid"
+2019-07-03 09:16:21.362 -03:00 [INF] Executed action method App01.Model.Application.Api.Controllers.UserController.Get (App01.Model..Application.Api), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 157.4788ms.
+2019-07-03 09:16:21.363 -03:00 [INF] Executing ObjectResult, writing value of type 'App01.Model.Domain.Entities.User'.
+2019-07-03 09:16:21.364 -03:00 [INF] Executed action App01.Model.Application.Api.Controllers.UserController.Get (App01.Model..Application.Api) in 170.56900000000002ms
+2019-07-03 09:16:21.364 -03:00 [INF] Request finished in 171.6688ms 200 application/json; charset=utf-8
+2019-07-03 09:31:38.391 -03:00 [INF] Starting Amplifier web host
+2019-07-03 09:31:40.259 -03:00 [INF] User profile is available. Using 'C:\Users\manz\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-07-03 09:31:40.878 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44383/  
+2019-07-03 09:31:40.878 -03:00 [INF] Request starting HTTP/1.1 DEBUG http://localhost:64819/  0
+2019-07-03 09:31:40.952 -03:00 [INF] Request finished in 44.5902ms 200 
+2019-07-03 09:31:41.140 -03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing action App01.Model.Application.Api.Controllers.HomeController.Index (App01.Model..Application.Api)
+2019-07-03 09:31:41.149 -03:00 [INF] Executing action method App01.Model.Application.Api.Controllers.HomeController.Index (App01.Model..Application.Api) - Validation state: "Valid"
+2019-07-03 09:31:41.155 -03:00 [INF] Executed action method App01.Model.Application.Api.Controllers.HomeController.Index (App01.Model..Application.Api), returned result Microsoft.AspNetCore.Mvc.ViewResult in 1.6139000000000001ms.
+2019-07-03 09:31:41.175 -03:00 [INF] Executing ViewResult, running view Index.
+2019-07-03 09:31:41.204 -03:00 [INF] Executed ViewResult - view Index executed in 40.5587ms.
+2019-07-03 09:31:41.205 -03:00 [INF] Executed action App01.Model.Application.Api.Controllers.HomeController.Index (App01.Model..Application.Api) in 64.6939ms
+2019-07-03 09:31:41.224 -03:00 [INF] Request finished in 347.6495ms 200 text/html; charset=utf-8
+2019-07-03 09:31:52.318 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44383/api/User/1  
+2019-07-03 09:31:52.350 -03:00 [INF] Route matched with {action = "Get", controller = "User"}. Executing action App01.Model.Application.Api.Controllers.UserController.Get (App01.Model..Application.Api)
+2019-07-03 09:32:00.105 -03:00 [INF] Executing action method App01.Model.Application.Api.Controllers.UserController.Get (App01.Model..Application.Api) with arguments (["1"]) - Validation state: "Valid"
+2019-07-03 09:32:00.814 -03:00 [INF] Executed action method App01.Model.Application.Api.Controllers.UserController.Get (App01.Model..Application.Api), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 707.37700000000007ms.
+2019-07-03 09:32:00.818 -03:00 [INF] Executing ObjectResult, writing value of type 'App01.Model.Domain.Entities.User'.
+2019-07-03 09:32:37.899 -03:00 [INF] Starting Amplifier web host
+2019-07-03 09:32:39.832 -03:00 [INF] User profile is available. Using 'C:\Users\manz\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-07-03 09:32:40.383 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44383/  
+2019-07-03 09:32:40.383 -03:00 [INF] Request starting HTTP/1.1 DEBUG http://localhost:64819/  0
+2019-07-03 09:32:40.438 -03:00 [INF] Request finished in 45.5084ms 200 
+2019-07-03 09:32:40.652 -03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing action App01.Model.Application.Api.Controllers.HomeController.Index (App01.Model..Application.Api)
+2019-07-03 09:32:40.664 -03:00 [INF] Executing action method App01.Model.Application.Api.Controllers.HomeController.Index (App01.Model..Application.Api) - Validation state: "Valid"
+2019-07-03 09:32:40.671 -03:00 [INF] Executed action method App01.Model.Application.Api.Controllers.HomeController.Index (App01.Model..Application.Api), returned result Microsoft.AspNetCore.Mvc.ViewResult in 1.9545000000000001ms.
+2019-07-03 09:32:40.697 -03:00 [INF] Executing ViewResult, running view Index.
+2019-07-03 09:32:40.726 -03:00 [INF] Executed ViewResult - view Index executed in 42.4889ms.
+2019-07-03 09:32:40.728 -03:00 [INF] Executed action App01.Model.Application.Api.Controllers.HomeController.Index (App01.Model..Application.Api) in 75.6811ms
+2019-07-03 09:32:40.735 -03:00 [INF] Request finished in 353.5129ms 200 text/html; charset=utf-8
+2019-07-03 09:32:45.052 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44383/api/User  
+2019-07-03 09:32:45.073 -03:00 [INF] Route matched with {action = "Get", controller = "User"}. Executing action App01.Model.Application.Api.Controllers.UserController.Get (App01.Model..Application.Api)
+2019-07-03 09:32:49.914 -03:00 [INF] Executing action method App01.Model.Application.Api.Controllers.UserController.Get (App01.Model..Application.Api) with arguments ([""]) - Validation state: "Valid"
+2019-07-03 09:32:49.921 -03:00 [INF] Executed action method App01.Model.Application.Api.Controllers.UserController.Get (App01.Model..Application.Api), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 5.0466000000000006ms.
+2019-07-03 09:32:49.928 -03:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1[[App01.Model.Domain.Entities.User, App01.Model.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2019-07-03 09:32:50.460 -03:00 [INF] Executed action App01.Model.Application.Api.Controllers.UserController.Get (App01.Model..Application.Api) in 5386.6927000000005ms
+2019-07-03 09:32:50.461 -03:00 [INF] Request finished in 5408.298ms 200 application/json; charset=utf-8
+2019-07-03 09:42:22.173 -03:00 [INF] Starting Amplifier web host
+2019-07-03 09:42:24.789 -03:00 [INF] User profile is available. Using 'C:\Users\manz\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-07-03 09:42:25.703 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44383/  
+2019-07-03 09:42:25.703 -03:00 [INF] Request starting HTTP/1.1 DEBUG http://localhost:64819/  0
+2019-07-03 09:42:25.763 -03:00 [INF] Request finished in 56.8965ms 200 
+2019-07-03 09:42:25.985 -03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing action App01.Model.Application.Api.Controllers.HomeController.Index (App01.Model..Application.Api)
+2019-07-03 09:42:25.999 -03:00 [INF] Executing action method App01.Model.Application.Api.Controllers.HomeController.Index (App01.Model..Application.Api) - Validation state: "Valid"
+2019-07-03 09:42:26.007 -03:00 [INF] Executed action method App01.Model.Application.Api.Controllers.HomeController.Index (App01.Model..Application.Api), returned result Microsoft.AspNetCore.Mvc.ViewResult in 2.591ms.
+2019-07-03 09:42:26.033 -03:00 [INF] Executing ViewResult, running view Index.
+2019-07-03 09:42:26.066 -03:00 [INF] Executed ViewResult - view Index executed in 50.6418ms.
+2019-07-03 09:42:26.067 -03:00 [INF] Executed action App01.Model.Application.Api.Controllers.HomeController.Index (App01.Model..Application.Api) in 81.1136ms
+2019-07-03 09:42:26.073 -03:00 [INF] Request finished in 372.5115ms 200 text/html; charset=utf-8
+2019-07-03 09:42:32.140 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44383/api/User/1  
+2019-07-03 09:42:32.166 -03:00 [INF] Route matched with {action = "Get", controller = "User"}. Executing action App01.Model.Application.Api.Controllers.UserController.Get (App01.Model..Application.Api)
+2019-07-03 09:42:32.177 -03:00 [INF] Executed action App01.Model.Application.Api.Controllers.UserController.Get (App01.Model..Application.Api) in 10.8835ms
+2019-07-03 09:42:32.179 -03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'App01.Model.Domain.Services.IUserService' while attempting to activate 'App01.Model.Application.Api.Controllers.UserController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2019-07-03 09:42:32.428 -03:00 [INF] Request finished in 288.2981ms 500 text/html; charset=utf-8
+2019-07-03 09:44:09.719 -03:00 [INF] Starting Amplifier web host
+2019-07-03 09:44:11.793 -03:00 [FTL] Host terminated unexpectedly
+System.ArgumentException: Cannot instantiate implementation type 'App01.Model.Domain.Services.IService' for service type 'App01.Model.Domain.Services.IService'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.Populate(IEnumerable`1 descriptors)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory..ctor(IEnumerable`1 descriptors)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine..ctor(IEnumerable`1 serviceDescriptors, IServiceProviderEngineCallback callback)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CompiledServiceProviderEngine..ctor(IEnumerable`1 serviceDescriptors, IServiceProviderEngineCallback callback)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(IEnumerable`1 serviceDescriptors, ServiceProviderOptions options)
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionContainerBuilderExtensions.BuildServiceProvider(IServiceCollection services, ServiceProviderOptions options)
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionContainerBuilderExtensions.BuildServiceProvider(IServiceCollection services)
+   at Microsoft.AspNetCore.Hosting.Internal.WebHost.Initialize()
+   at Microsoft.AspNetCore.Hosting.WebHostBuilder.Build()
+   at App01.Model.Application.Api.Program.Main(String[] args) in F:\Estudos\DotNet\app01\App01.Model.Application\App01.Model.Application.Api\Program.cs:line 32
+2019-07-03 09:44:16.469 -03:00 [INF] Starting Amplifier web host
+2019-07-03 09:44:16.829 -03:00 [FTL] Host terminated unexpectedly
+System.ArgumentException: Cannot instantiate implementation type 'App01.Model.Domain.Services.IService' for service type 'App01.Model.Domain.Services.IService'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.Populate(IEnumerable`1 descriptors)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory..ctor(IEnumerable`1 descriptors)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine..ctor(IEnumerable`1 serviceDescriptors, IServiceProviderEngineCallback callback)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CompiledServiceProviderEngine..ctor(IEnumerable`1 serviceDescriptors, IServiceProviderEngineCallback callback)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(IEnumerable`1 serviceDescriptors, ServiceProviderOptions options)
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionContainerBuilderExtensions.BuildServiceProvider(IServiceCollection services, ServiceProviderOptions options)
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionContainerBuilderExtensions.BuildServiceProvider(IServiceCollection services)
+   at Microsoft.AspNetCore.Hosting.Internal.WebHost.Initialize()
+   at Microsoft.AspNetCore.Hosting.WebHostBuilder.Build()
+   at App01.Model.Application.Api.Program.Main(String[] args) in F:\Estudos\DotNet\app01\App01.Model.Application\App01.Model.Application.Api\Program.cs:line 32
+2019-07-03 09:44:25.938 -03:00 [INF] Starting Amplifier web host
+2019-07-03 09:44:32.284 -03:00 [FTL] Host terminated unexpectedly
+System.ArgumentException: Cannot instantiate implementation type 'App01.Model.Domain.Services.IService' for service type 'App01.Model.Domain.Services.IService'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.Populate(IEnumerable`1 descriptors)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory..ctor(IEnumerable`1 descriptors)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine..ctor(IEnumerable`1 serviceDescriptors, IServiceProviderEngineCallback callback)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CompiledServiceProviderEngine..ctor(IEnumerable`1 serviceDescriptors, IServiceProviderEngineCallback callback)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(IEnumerable`1 serviceDescriptors, ServiceProviderOptions options)
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionContainerBuilderExtensions.BuildServiceProvider(IServiceCollection services, ServiceProviderOptions options)
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionContainerBuilderExtensions.BuildServiceProvider(IServiceCollection services)
+   at Microsoft.AspNetCore.Hosting.Internal.WebHost.Initialize()
+   at Microsoft.AspNetCore.Hosting.WebHostBuilder.Build()
+   at App01.Model.Application.Api.Program.Main(String[] args) in F:\Estudos\DotNet\app01\App01.Model.Application\App01.Model.Application.Api\Program.cs:line 32
+2019-07-03 09:44:36.934 -03:00 [INF] Starting Amplifier web host
+2019-07-03 09:44:37.448 -03:00 [FTL] Host terminated unexpectedly
+System.ArgumentException: Cannot instantiate implementation type 'App01.Model.Domain.Services.IService' for service type 'App01.Model.Domain.Services.IService'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.Populate(IEnumerable`1 descriptors)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory..ctor(IEnumerable`1 descriptors)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine..ctor(IEnumerable`1 serviceDescriptors, IServiceProviderEngineCallback callback)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CompiledServiceProviderEngine..ctor(IEnumerable`1 serviceDescriptors, IServiceProviderEngineCallback callback)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(IEnumerable`1 serviceDescriptors, ServiceProviderOptions options)
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionContainerBuilderExtensions.BuildServiceProvider(IServiceCollection services, ServiceProviderOptions options)
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionContainerBuilderExtensions.BuildServiceProvider(IServiceCollection services)
+   at Microsoft.AspNetCore.Hosting.Internal.WebHost.Initialize()
+   at Microsoft.AspNetCore.Hosting.WebHostBuilder.Build()
+   at App01.Model.Application.Api.Program.Main(String[] args) in F:\Estudos\DotNet\app01\App01.Model.Application\App01.Model.Application.Api\Program.cs:line 32
+2019-07-03 09:45:06.567 -03:00 [INF] Starting Amplifier web host
+2019-07-03 09:45:08.661 -03:00 [FTL] Host terminated unexpectedly
+System.ArgumentException: Cannot instantiate implementation type 'App01.Model.Domain.Services.IService' for service type 'App01.Model.Domain.Services.IService'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.Populate(IEnumerable`1 descriptors)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory..ctor(IEnumerable`1 descriptors)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine..ctor(IEnumerable`1 serviceDescriptors, IServiceProviderEngineCallback callback)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CompiledServiceProviderEngine..ctor(IEnumerable`1 serviceDescriptors, IServiceProviderEngineCallback callback)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(IEnumerable`1 serviceDescriptors, ServiceProviderOptions options)
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionContainerBuilderExtensions.BuildServiceProvider(IServiceCollection services, ServiceProviderOptions options)
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionContainerBuilderExtensions.BuildServiceProvider(IServiceCollection services)
+   at Microsoft.AspNetCore.Hosting.Internal.WebHost.Initialize()
+   at Microsoft.AspNetCore.Hosting.WebHostBuilder.Build()
+   at App01.Model.Application.Api.Program.Main(String[] args) in F:\Estudos\DotNet\app01\App01.Model.Application\App01.Model.Application.Api\Program.cs:line 32
+2019-07-03 09:45:13.309 -03:00 [INF] Starting Amplifier web host
+2019-07-03 09:45:13.716 -03:00 [FTL] Host terminated unexpectedly
+System.ArgumentException: Cannot instantiate implementation type 'App01.Model.Domain.Services.IService' for service type 'App01.Model.Domain.Services.IService'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.Populate(IEnumerable`1 descriptors)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory..ctor(IEnumerable`1 descriptors)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine..ctor(IEnumerable`1 serviceDescriptors, IServiceProviderEngineCallback callback)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CompiledServiceProviderEngine..ctor(IEnumerable`1 serviceDescriptors, IServiceProviderEngineCallback callback)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(IEnumerable`1 serviceDescriptors, ServiceProviderOptions options)
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionContainerBuilderExtensions.BuildServiceProvider(IServiceCollection services, ServiceProviderOptions options)
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionContainerBuilderExtensions.BuildServiceProvider(IServiceCollection services)
+   at Microsoft.AspNetCore.Hosting.Internal.WebHost.Initialize()
+   at Microsoft.AspNetCore.Hosting.WebHostBuilder.Build()
+   at App01.Model.Application.Api.Program.Main(String[] args) in F:\Estudos\DotNet\app01\App01.Model.Application\App01.Model.Application.Api\Program.cs:line 32
+2019-07-03 09:46:33.882 -03:00 [INF] Starting Amplifier web host
+2019-07-03 09:46:37.221 -03:00 [FTL] Host terminated unexpectedly
+System.ArgumentException: Cannot instantiate implementation type 'App01.Model.Domain.Services.IService`2[T,R]' for service type 'App01.Model.Domain.Services.IService`2[T,R]'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.Populate(IEnumerable`1 descriptors)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory..ctor(IEnumerable`1 descriptors)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine..ctor(IEnumerable`1 serviceDescriptors, IServiceProviderEngineCallback callback)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CompiledServiceProviderEngine..ctor(IEnumerable`1 serviceDescriptors, IServiceProviderEngineCallback callback)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(IEnumerable`1 serviceDescriptors, ServiceProviderOptions options)
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionContainerBuilderExtensions.BuildServiceProvider(IServiceCollection services, ServiceProviderOptions options)
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionContainerBuilderExtensions.BuildServiceProvider(IServiceCollection services)
+   at Microsoft.AspNetCore.Hosting.Internal.WebHost.Initialize()
+   at Microsoft.AspNetCore.Hosting.WebHostBuilder.Build()
+   at App01.Model.Application.Api.Program.Main(String[] args) in F:\Estudos\DotNet\app01\App01.Model.Application\App01.Model.Application.Api\Program.cs:line 32
+2019-07-03 09:46:41.798 -03:00 [INF] Starting Amplifier web host
+2019-07-03 09:46:42.198 -03:00 [FTL] Host terminated unexpectedly
+System.ArgumentException: Cannot instantiate implementation type 'App01.Model.Domain.Services.IService`2[T,R]' for service type 'App01.Model.Domain.Services.IService`2[T,R]'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.Populate(IEnumerable`1 descriptors)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory..ctor(IEnumerable`1 descriptors)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine..ctor(IEnumerable`1 serviceDescriptors, IServiceProviderEngineCallback callback)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CompiledServiceProviderEngine..ctor(IEnumerable`1 serviceDescriptors, IServiceProviderEngineCallback callback)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(IEnumerable`1 serviceDescriptors, ServiceProviderOptions options)
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionContainerBuilderExtensions.BuildServiceProvider(IServiceCollection services, ServiceProviderOptions options)
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionContainerBuilderExtensions.BuildServiceProvider(IServiceCollection services)
+   at Microsoft.AspNetCore.Hosting.Internal.WebHost.Initialize()
+   at Microsoft.AspNetCore.Hosting.WebHostBuilder.Build()
+   at App01.Model.Application.Api.Program.Main(String[] args) in F:\Estudos\DotNet\app01\App01.Model.Application\App01.Model.Application.Api\Program.cs:line 32
+2019-07-03 09:52:00.193 -03:00 [INF] Starting Amplifier web host
+2019-07-03 09:52:03.095 -03:00 [INF] User profile is available. Using 'C:\Users\manz\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-07-03 09:52:04.005 -03:00 [INF] Request starting HTTP/1.1 DEBUG http://localhost:64819/  0
+2019-07-03 09:52:04.005 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44383/  
+2019-07-03 09:52:04.093 -03:00 [INF] Request finished in 89.2329ms 200 
+2019-07-03 09:52:04.399 -03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing action App01.Model.Application.Api.Controllers.HomeController.Index (App01.Model..Application.Api)
+2019-07-03 09:52:04.417 -03:00 [INF] Executing action method App01.Model.Application.Api.Controllers.HomeController.Index (App01.Model..Application.Api) - Validation state: "Valid"
+2019-07-03 09:52:04.428 -03:00 [INF] Executed action method App01.Model.Application.Api.Controllers.HomeController.Index (App01.Model..Application.Api), returned result Microsoft.AspNetCore.Mvc.ViewResult in 2.5868ms.
+2019-07-03 09:52:04.452 -03:00 [INF] Executing ViewResult, running view Index.
+2019-07-03 09:52:04.491 -03:00 [INF] Executed ViewResult - view Index executed in 53.882000000000005ms.
+2019-07-03 09:52:04.492 -03:00 [INF] Executed action App01.Model.Application.Api.Controllers.HomeController.Index (App01.Model..Application.Api) in 91.9467ms
+2019-07-03 09:52:04.498 -03:00 [INF] Request finished in 496.4932ms 200 text/html; charset=utf-8
+2019-07-03 09:52:08.991 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44383/api/User/1  
+2019-07-03 09:52:09.021 -03:00 [INF] Route matched with {action = "Get", controller = "User"}. Executing action App01.Model.Application.Api.Controllers.UserController.Get (App01.Model..Application.Api)
+2019-07-03 09:52:09.482 -03:00 [INF] Executing action method App01.Model.Application.Api.Controllers.UserController.Get (App01.Model..Application.Api) with arguments (["1"]) - Validation state: "Valid"
+2019-07-03 09:52:10.192 -03:00 [INF] Executed action method App01.Model.Application.Api.Controllers.UserController.Get (App01.Model..Application.Api), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 708.56950000000006ms.
+2019-07-03 09:52:10.197 -03:00 [INF] Executing ObjectResult, writing value of type 'App01.Model.Domain.Entities.User'.
+2019-07-03 09:52:10.301 -03:00 [INF] Executed action App01.Model.Application.Api.Controllers.UserController.Get (App01.Model..Application.Api) in 1279.7055ms
+2019-07-03 09:52:10.301 -03:00 [INF] Request finished in 1310.0725ms 200 application/json; charset=utf-8
+2019-07-03 09:58:11.489 -03:00 [INF] Starting Amplifier web host
+2019-07-03 09:58:15.011 -03:00 [INF] User profile is available. Using 'C:\Users\manz\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-07-03 09:58:15.870 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44383/  
+2019-07-03 09:58:15.870 -03:00 [INF] Request starting HTTP/1.1 DEBUG http://localhost:64819/  0
+2019-07-03 09:58:15.931 -03:00 [INF] Request finished in 59.7319ms 200 
+2019-07-03 09:58:16.220 -03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing action App01.Model.Application.Api.Controllers.HomeController.Index (App01.Model..Application.Api)
+2019-07-03 09:58:16.233 -03:00 [INF] Executing action method App01.Model.Application.Api.Controllers.HomeController.Index (App01.Model..Application.Api) - Validation state: "Valid"
+2019-07-03 09:58:16.242 -03:00 [INF] Executed action method App01.Model.Application.Api.Controllers.HomeController.Index (App01.Model..Application.Api), returned result Microsoft.AspNetCore.Mvc.ViewResult in 2.3554ms.
+2019-07-03 09:58:16.263 -03:00 [INF] Executing ViewResult, running view Index.
+2019-07-03 09:58:16.306 -03:00 [INF] Executed ViewResult - view Index executed in 53.3284ms.
+2019-07-03 09:58:16.307 -03:00 [INF] Executed action App01.Model.Application.Api.Controllers.HomeController.Index (App01.Model..Application.Api) in 86.5805ms
+2019-07-03 09:58:16.317 -03:00 [INF] Request finished in 448.758ms 200 text/html; charset=utf-8
+2019-07-03 09:58:20.790 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44383/api/User/1  
+2019-07-03 09:58:20.808 -03:00 [INF] Route matched with {action = "Get", controller = "User"}. Executing action App01.Model.Application.Api.Controllers.UserController.Get (App01.Model..Application.Api)
+2019-07-03 09:58:21.271 -03:00 [INF] Executing action method App01.Model.Application.Api.Controllers.UserController.Get (App01.Model..Application.Api) with arguments (["1"]) - Validation state: "Valid"
+2019-07-03 09:58:22.032 -03:00 [INF] Executed action method App01.Model.Application.Api.Controllers.UserController.Get (App01.Model..Application.Api), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 759.33760000000007ms.
+2019-07-03 09:58:22.037 -03:00 [INF] Executing ObjectResult, writing value of type 'App01.Model.Domain.Entities.User'.
+2019-07-03 09:58:22.237 -03:00 [INF] Executed action App01.Model.Application.Api.Controllers.UserController.Get (App01.Model..Application.Api) in 1429.3386ms
+2019-07-03 09:58:22.238 -03:00 [INF] Request finished in 1447.4582ms 200 application/json; charset=utf-8
+2019-07-03 09:59:40.736 -03:00 [INF] Starting Amplifier web host
+2019-07-03 09:59:43.598 -03:00 [INF] User profile is available. Using 'C:\Users\manz\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-07-03 09:59:44.414 -03:00 [INF] Request starting HTTP/1.1 DEBUG http://localhost:64819/  0
+2019-07-03 09:59:44.414 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44383/  
+2019-07-03 09:59:44.466 -03:00 [INF] Request finished in 47.1481ms 200 
+2019-07-03 09:59:44.810 -03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing action App01.Model.Application.Api.Controllers.HomeController.Index (App01.Model..Application.Api)
+2019-07-03 09:59:44.823 -03:00 [INF] Executing action method App01.Model.Application.Api.Controllers.HomeController.Index (App01.Model..Application.Api) - Validation state: "Valid"
+2019-07-03 09:59:44.833 -03:00 [INF] Executed action method App01.Model.Application.Api.Controllers.HomeController.Index (App01.Model..Application.Api), returned result Microsoft.AspNetCore.Mvc.ViewResult in 3.7179ms.
+2019-07-03 09:59:44.855 -03:00 [INF] Executing ViewResult, running view Index.
+2019-07-03 09:59:44.900 -03:00 [INF] Executed ViewResult - view Index executed in 55.4797ms.
+2019-07-03 09:59:44.901 -03:00 [INF] Executed action App01.Model.Application.Api.Controllers.HomeController.Index (App01.Model..Application.Api) in 89.955800000000011ms
+2019-07-03 09:59:44.914 -03:00 [INF] Request finished in 501.5455ms 200 text/html; charset=utf-8
+2019-07-03 09:59:48.591 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44383/api/User/1  
+2019-07-03 09:59:48.631 -03:00 [INF] Route matched with {action = "Get", controller = "User"}. Executing action App01.Model.Application.Api.Controllers.UserController.Get (App01.Model..Application.Api)
+2019-07-03 09:59:48.633 -03:00 [INF] Executed action App01.Model.Application.Api.Controllers.UserController.Get (App01.Model..Application.Api) in 2.0702000000000003ms
+2019-07-03 09:59:48.634 -03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'App01.Model.Domain.Repositories.IRepository`2[App01.Model.Domain.Entities.User,System.Int32]' while attempting to activate 'App01.Model.Service.Services.UserService'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(Type serviceType, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(Type serviceType, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, Type serviceType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(Type serviceType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateCallSite(Type serviceType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.CreateServiceAccessor(Type serviceType)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.GetService(Type serviceType, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2019-07-03 09:59:48.797 -03:00 [INF] Request finished in 206.6643ms 500 text/html; charset=utf-8
+2019-07-03 10:02:48.591 -03:00 [INF] Starting Amplifier web host
+2019-07-03 10:02:53.278 -03:00 [INF] User profile is available. Using 'C:\Users\manz\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-07-03 10:02:54.260 -03:00 [INF] Request starting HTTP/1.1 DEBUG http://localhost:64819/  0
+2019-07-03 10:02:54.260 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44383/  
+2019-07-03 10:02:54.325 -03:00 [INF] Request finished in 64.8477ms 200 
+2019-07-03 10:02:54.707 -03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing action App01.Model.Application.Api.Controllers.HomeController.Index (App01.Model..Application.Api)
+2019-07-03 10:02:54.725 -03:00 [INF] Executing action method App01.Model.Application.Api.Controllers.HomeController.Index (App01.Model..Application.Api) - Validation state: "Valid"
+2019-07-03 10:02:54.735 -03:00 [INF] Executed action method App01.Model.Application.Api.Controllers.HomeController.Index (App01.Model..Application.Api), returned result Microsoft.AspNetCore.Mvc.ViewResult in 2.8928000000000003ms.
+2019-07-03 10:02:54.756 -03:00 [INF] Executing ViewResult, running view Index.
+2019-07-03 10:02:54.796 -03:00 [INF] Executed ViewResult - view Index executed in 50.4514ms.
+2019-07-03 10:02:54.800 -03:00 [INF] Executed action App01.Model.Application.Api.Controllers.HomeController.Index (App01.Model..Application.Api) in 92.6593ms
+2019-07-03 10:02:54.813 -03:00 [INF] Request finished in 555.0248ms 200 text/html; charset=utf-8
+2019-07-03 10:02:56.097 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44383/api/User/1  
+2019-07-03 10:02:56.119 -03:00 [INF] Route matched with {action = "Get", controller = "User"}. Executing action App01.Model.Application.Api.Controllers.UserController.Get (App01.Model..Application.Api)
+2019-07-03 10:02:56.121 -03:00 [INF] Executed action App01.Model.Application.Api.Controllers.UserController.Get (App01.Model..Application.Api) in 1.5649000000000002ms
+2019-07-03 10:02:56.122 -03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'App01.Model.Domain.Repositories.IRepository`2[App01.Model.Domain.Entities.User,System.Int32]' while attempting to activate 'App01.Model.Service.Services.UserService'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(Type serviceType, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(Type serviceType, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, Type serviceType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(Type serviceType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateCallSite(Type serviceType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.CreateServiceAccessor(Type serviceType)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.GetService(Type serviceType, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2019-07-03 10:02:56.262 -03:00 [INF] Request finished in 164.1764ms 500 text/html; charset=utf-8
+2019-07-03 10:03:23.620 -03:00 [INF] Starting Amplifier web host
+2019-07-03 10:03:27.622 -03:00 [INF] User profile is available. Using 'C:\Users\manz\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-07-03 10:03:28.902 -03:00 [INF] Request starting HTTP/1.1 DEBUG http://localhost:64819/  0
+2019-07-03 10:03:28.902 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44383/  
+2019-07-03 10:03:28.967 -03:00 [INF] Request finished in 63.2062ms 200 
+2019-07-03 10:03:29.364 -03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing action App01.Model.Application.Api.Controllers.HomeController.Index (App01.Model..Application.Api)
+2019-07-03 10:03:29.378 -03:00 [INF] Executing action method App01.Model.Application.Api.Controllers.HomeController.Index (App01.Model..Application.Api) - Validation state: "Valid"
+2019-07-03 10:03:29.387 -03:00 [INF] Executed action method App01.Model.Application.Api.Controllers.HomeController.Index (App01.Model..Application.Api), returned result Microsoft.AspNetCore.Mvc.ViewResult in 2.3043ms.
+2019-07-03 10:03:29.411 -03:00 [INF] Executing ViewResult, running view Index.
+2019-07-03 10:03:29.461 -03:00 [INF] Executed ViewResult - view Index executed in 61.041900000000005ms.
+2019-07-03 10:03:29.462 -03:00 [INF] Executed action App01.Model.Application.Api.Controllers.HomeController.Index (App01.Model..Application.Api) in 96.9782ms
+2019-07-03 10:03:29.479 -03:00 [INF] Request finished in 579.7743ms 200 text/html; charset=utf-8
+2019-07-03 10:03:43.682 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44383/api/User/1  
+2019-07-03 10:03:43.707 -03:00 [INF] Route matched with {action = "Get", controller = "User"}. Executing action App01.Model.Application.Api.Controllers.UserController.Get (App01.Model..Application.Api)
+2019-07-03 10:03:43.710 -03:00 [INF] Executed action App01.Model.Application.Api.Controllers.UserController.Get (App01.Model..Application.Api) in 2.1322ms
+2019-07-03 10:03:43.712 -03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'App01.Model.Domain.Repositories.IRepository`2[App01.Model.Domain.Entities.User,System.Int32]' while attempting to activate 'App01.Model.Service.Services.UserService'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(Type serviceType, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(Type serviceType, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, Type serviceType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(Type serviceType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateCallSite(Type serviceType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.CreateServiceAccessor(Type serviceType)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.GetService(Type serviceType, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2019-07-03 10:03:43.881 -03:00 [INF] Request finished in 198.4318ms 500 text/html; charset=utf-8
+2019-07-03 10:04:23.582 -03:00 [INF] Starting Amplifier web host
+2019-07-03 10:04:43.772 -03:00 [INF] User profile is available. Using 'C:\Users\manz\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-07-03 10:04:44.493 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44383/  
+2019-07-03 10:04:44.493 -03:00 [INF] Request starting HTTP/1.1 DEBUG http://localhost:64819/  0
+2019-07-03 10:04:44.628 -03:00 [INF] Request finished in 130.2836ms 200 
+2019-07-03 10:04:45.045 -03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing action App01.Model.Application.Api.Controllers.HomeController.Index (App01.Model..Application.Api)
+2019-07-03 10:04:45.063 -03:00 [INF] Executing action method App01.Model.Application.Api.Controllers.HomeController.Index (App01.Model..Application.Api) - Validation state: "Valid"
+2019-07-03 10:04:45.077 -03:00 [INF] Executed action method App01.Model.Application.Api.Controllers.HomeController.Index (App01.Model..Application.Api), returned result Microsoft.AspNetCore.Mvc.ViewResult in 3.8904ms.
+2019-07-03 10:04:45.109 -03:00 [INF] Executing ViewResult, running view Index.
+2019-07-03 10:04:45.152 -03:00 [INF] Executed ViewResult - view Index executed in 61.755900000000004ms.
+2019-07-03 10:04:45.154 -03:00 [INF] Executed action App01.Model.Application.Api.Controllers.HomeController.Index (App01.Model..Application.Api) in 107.67160000000001ms
+2019-07-03 10:04:45.166 -03:00 [INF] Request finished in 674.7832ms 200 text/html; charset=utf-8
+2019-07-03 10:04:49.433 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44383/api/User/1  
+2019-07-03 10:04:49.450 -03:00 [INF] Route matched with {action = "Get", controller = "User"}. Executing action App01.Model.Application.Api.Controllers.UserController.Get (App01.Model..Application.Api)
+2019-07-03 10:04:49.452 -03:00 [INF] Executed action App01.Model.Application.Api.Controllers.UserController.Get (App01.Model..Application.Api) in 1.5331000000000001ms
+2019-07-03 10:04:49.453 -03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'App01.Model.Domain.Repositories.IRepository`2[App01.Model.Domain.Entities.User,System.Int32]' while attempting to activate 'App01.Model.Service.Services.UserService'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(Type serviceType, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(Type serviceType, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, Type serviceType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(Type serviceType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateCallSite(Type serviceType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.CreateServiceAccessor(Type serviceType)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.GetService(Type serviceType, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2019-07-03 10:04:49.570 -03:00 [INF] Request finished in 137.3856ms 500 text/html; charset=utf-8
+2019-07-03 10:05:45.691 -03:00 [INF] Starting Amplifier web host
+2019-07-03 10:05:52.808 -03:00 [INF] User profile is available. Using 'C:\Users\manz\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-07-03 10:05:54.122 -03:00 [INF] Request starting HTTP/1.1 DEBUG http://localhost:64819/  0
+2019-07-03 10:05:54.136 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44383/  
+2019-07-03 10:05:54.212 -03:00 [INF] Request finished in 89.5827ms 200 
+2019-07-03 10:05:54.586 -03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing action App01.Model.Application.Api.Controllers.HomeController.Index (App01.Model..Application.Api)
+2019-07-03 10:05:54.621 -03:00 [INF] Executing action method App01.Model.Application.Api.Controllers.HomeController.Index (App01.Model..Application.Api) - Validation state: "Valid"
+2019-07-03 10:05:54.635 -03:00 [INF] Executed action method App01.Model.Application.Api.Controllers.HomeController.Index (App01.Model..Application.Api), returned result Microsoft.AspNetCore.Mvc.ViewResult in 3.3258ms.
+2019-07-03 10:05:54.673 -03:00 [INF] Executing ViewResult, running view Index.
+2019-07-03 10:05:54.719 -03:00 [INF] Executed ViewResult - view Index executed in 70.601700000000008ms.
+2019-07-03 10:05:54.721 -03:00 [INF] Executed action App01.Model.Application.Api.Controllers.HomeController.Index (App01.Model..Application.Api) in 132.6027ms
+2019-07-03 10:05:54.731 -03:00 [INF] Request finished in 595.1315ms 200 text/html; charset=utf-8
+2019-07-03 10:05:58.760 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44383/api/User/1  
+2019-07-03 10:05:58.779 -03:00 [INF] Route matched with {action = "Get", controller = "User"}. Executing action App01.Model.Application.Api.Controllers.UserController.Get (App01.Model..Application.Api)
+2019-07-03 10:05:58.781 -03:00 [INF] Executed action App01.Model.Application.Api.Controllers.UserController.Get (App01.Model..Application.Api) in 1.6735ms
+2019-07-03 10:05:58.782 -03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'App01.Model.Infra.Data.Repositories.EF.IEFUnitOfWork' while attempting to activate 'App01.Model.Infra.Data.Repositories.UserRepository'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(Type serviceType, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(Type serviceType, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, Type serviceType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(Type serviceType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateCallSite(Type serviceType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(Type serviceType, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(Type serviceType, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, Type serviceType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(Type serviceType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateCallSite(Type serviceType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.CreateServiceAccessor(Type serviceType)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.GetService(Type serviceType, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2019-07-03 10:05:58.905 -03:00 [INF] Request finished in 144.8326ms 500 text/html; charset=utf-8
+2019-07-03 10:06:46.223 -03:00 [INF] Starting Amplifier web host
+2019-07-03 10:06:49.947 -03:00 [INF] User profile is available. Using 'C:\Users\manz\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-07-03 10:06:50.803 -03:00 [INF] Request starting HTTP/1.1 DEBUG http://localhost:64819/  0
+2019-07-03 10:06:50.803 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44383/  
+2019-07-03 10:06:50.852 -03:00 [INF] Request finished in 46.6297ms 200 
+2019-07-03 10:06:51.062 -03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing action App01.Model.Application.Api.Controllers.HomeController.Index (App01.Model..Application.Api)
+2019-07-03 10:06:51.076 -03:00 [INF] Executing action method App01.Model.Application.Api.Controllers.HomeController.Index (App01.Model..Application.Api) - Validation state: "Valid"
+2019-07-03 10:06:51.083 -03:00 [INF] Executed action method App01.Model.Application.Api.Controllers.HomeController.Index (App01.Model..Application.Api), returned result Microsoft.AspNetCore.Mvc.ViewResult in 1.6657000000000002ms.
+2019-07-03 10:06:51.100 -03:00 [INF] Executing ViewResult, running view Index.
+2019-07-03 10:06:51.132 -03:00 [INF] Executed ViewResult - view Index executed in 38.5967ms.
+2019-07-03 10:06:51.133 -03:00 [INF] Executed action App01.Model.Application.Api.Controllers.HomeController.Index (App01.Model..Application.Api) in 70.04740000000001ms
+2019-07-03 10:06:51.147 -03:00 [INF] Request finished in 346.2437ms 200 text/html; charset=utf-8
+2019-07-03 10:06:58.106 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44383/api/User/1  
+2019-07-03 10:06:58.135 -03:00 [INF] Route matched with {action = "Get", controller = "User"}. Executing action App01.Model.Application.Api.Controllers.UserController.Get (App01.Model..Application.Api)
+2019-07-03 10:06:58.155 -03:00 [INF] Executed action App01.Model.Application.Api.Controllers.UserController.Get (App01.Model..Application.Api) in 19.0758ms
+2019-07-03 10:06:58.158 -03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'App01.Model.Infra.Data.Context.EF.MySqlContext' while attempting to activate 'App01.Model.Infra.Data.Repositories.EF.EFUnitOfWork'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(Type serviceType, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(Type serviceType, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, Type serviceType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(Type serviceType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateCallSite(Type serviceType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(Type serviceType, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(Type serviceType, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, Type serviceType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(Type serviceType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateCallSite(Type serviceType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(Type serviceType, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(Type serviceType, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, Type serviceType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(Type serviceType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateCallSite(Type serviceType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.CreateServiceAccessor(Type serviceType)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.GetService(Type serviceType, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2019-07-03 10:06:58.413 -03:00 [INF] Request finished in 307.0206ms 500 text/html; charset=utf-8
+2019-07-03 10:08:29.972 -03:00 [INF] Starting Amplifier web host
+2019-07-03 10:08:32.807 -03:00 [INF] User profile is available. Using 'C:\Users\manz\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-07-03 10:08:33.883 -03:00 [INF] Request starting HTTP/1.1 DEBUG http://localhost:64819/  0
+2019-07-03 10:08:33.883 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44383/  
+2019-07-03 10:08:33.985 -03:00 [INF] Request finished in 102.3517ms 200 
+2019-07-03 10:08:34.273 -03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing action App01.Model.Application.Api.Controllers.HomeController.Index (App01.Model..Application.Api)
+2019-07-03 10:08:34.289 -03:00 [INF] Executing action method App01.Model.Application.Api.Controllers.HomeController.Index (App01.Model..Application.Api) - Validation state: "Valid"
+2019-07-03 10:08:34.298 -03:00 [INF] Executed action method App01.Model.Application.Api.Controllers.HomeController.Index (App01.Model..Application.Api), returned result Microsoft.AspNetCore.Mvc.ViewResult in 2.4517ms.
+2019-07-03 10:08:34.336 -03:00 [INF] Executing ViewResult, running view Index.
+2019-07-03 10:08:34.384 -03:00 [INF] Executed ViewResult - view Index executed in 72.2488ms.
+2019-07-03 10:08:34.385 -03:00 [INF] Executed action App01.Model.Application.Api.Controllers.HomeController.Index (App01.Model..Application.Api) in 110.6713ms
+2019-07-03 10:08:34.391 -03:00 [INF] Request finished in 511.0898ms 200 text/html; charset=utf-8
+2019-07-03 10:08:37.653 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44383/api/User/1  
+2019-07-03 10:08:37.679 -03:00 [INF] Route matched with {action = "Get", controller = "User"}. Executing action App01.Model.Application.Api.Controllers.UserController.Get (App01.Model..Application.Api)
+2019-07-03 10:08:38.409 -03:00 [INF] Executing action method App01.Model.Application.Api.Controllers.UserController.Get (App01.Model..Application.Api) with arguments (["1"]) - Validation state: "Valid"
+2019-07-03 10:08:39.261 -03:00 [INF] Executed action method App01.Model.Application.Api.Controllers.UserController.Get (App01.Model..Application.Api), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 850.15000000000009ms.
+2019-07-03 10:08:39.266 -03:00 [INF] Executing ObjectResult, writing value of type 'App01.Model.Domain.Entities.User'.
+2019-07-03 10:08:39.337 -03:00 [INF] Executed action App01.Model.Application.Api.Controllers.UserController.Get (App01.Model..Application.Api) in 1658.4344ms
+2019-07-03 10:08:39.339 -03:00 [INF] Request finished in 1686.0507ms 200 application/json; charset=utf-8
+2019-07-03 10:10:33.851 -03:00 [INF] Starting Amplifier web host
+2019-07-03 10:10:36.787 -03:00 [INF] User profile is available. Using 'C:\Users\manz\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-07-03 10:10:38.339 -03:00 [INF] Request starting HTTP/1.1 DEBUG http://localhost:64819/  0
+2019-07-03 10:10:38.339 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44383/  
+2019-07-03 10:10:38.467 -03:00 [INF] Request finished in 128.195ms 200 
+2019-07-03 10:10:38.792 -03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing action App01.Model.Application.Api.Controllers.HomeController.Index (App01.Model..Application.Api)
+2019-07-03 10:10:38.805 -03:00 [INF] Executing action method App01.Model.Application.Api.Controllers.HomeController.Index (App01.Model..Application.Api) - Validation state: "Valid"
+2019-07-03 10:10:38.817 -03:00 [INF] Executed action method App01.Model.Application.Api.Controllers.HomeController.Index (App01.Model..Application.Api), returned result Microsoft.AspNetCore.Mvc.ViewResult in 2.3713ms.
+2019-07-03 10:10:38.845 -03:00 [INF] Executing ViewResult, running view Index.
+2019-07-03 10:10:38.888 -03:00 [INF] Executed ViewResult - view Index executed in 61.456900000000005ms.
+2019-07-03 10:10:38.889 -03:00 [INF] Executed action App01.Model.Application.Api.Controllers.HomeController.Index (App01.Model..Application.Api) in 96.591000000000008ms
+2019-07-03 10:10:38.898 -03:00 [INF] Request finished in 560.8966ms 200 text/html; charset=utf-8
+2019-07-03 10:10:45.616 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44383/api/User/1  
+2019-07-03 10:10:45.642 -03:00 [INF] Route matched with {action = "Get", controller = "User"}. Executing action App01.Model.Application.Api.Controllers.UserController.Get (App01.Model..Application.Api)
+2019-07-03 10:10:45.645 -03:00 [INF] Executed action App01.Model.Application.Api.Controllers.UserController.Get (App01.Model..Application.Api) in 2.0698000000000003ms
+2019-07-03 10:10:45.647 -03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'App01.Model.Domain.Services.IUserService' while attempting to activate 'App01.Model.Application.Api.Controllers.UserController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2019-07-03 10:10:45.796 -03:00 [INF] Request finished in 179.2977ms 500 text/html; charset=utf-8
+2019-07-03 10:11:32.878 -03:00 [INF] Starting Amplifier web host
+2019-07-03 10:11:35.592 -03:00 [INF] User profile is available. Using 'C:\Users\manz\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-07-03 10:11:36.292 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44383/  
+2019-07-03 10:11:36.292 -03:00 [INF] Request starting HTTP/1.1 DEBUG http://localhost:64819/  0
+2019-07-03 10:11:36.292 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44383/api/User/1  
+2019-07-03 10:11:36.423 -03:00 [INF] Request finished in 99.5251ms 200 
+2019-07-03 10:11:36.668 -03:00 [INF] Route matched with {action = "Get", controller = "User"}. Executing action App01.Model.Application.Api.Controllers.UserController.Get (App01.Model..Application.Api)
+2019-07-03 10:11:36.668 -03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing action App01.Model.Application.Api.Controllers.HomeController.Index (App01.Model..Application.Api)
+2019-07-03 10:11:36.685 -03:00 [INF] Executing action method App01.Model.Application.Api.Controllers.HomeController.Index (App01.Model..Application.Api) - Validation state: "Valid"
+2019-07-03 10:11:36.711 -03:00 [INF] Executed action method App01.Model.Application.Api.Controllers.HomeController.Index (App01.Model..Application.Api), returned result Microsoft.AspNetCore.Mvc.ViewResult in 3.1569000000000003ms.
+2019-07-03 10:11:36.741 -03:00 [INF] Executing ViewResult, running view Index.
+2019-07-03 10:11:36.778 -03:00 [INF] Executed ViewResult - view Index executed in 57.0901ms.
+2019-07-03 10:11:36.779 -03:00 [INF] Executed action App01.Model.Application.Api.Controllers.HomeController.Index (App01.Model..Application.Api) in 110.14590000000001ms
+2019-07-03 10:11:36.785 -03:00 [INF] Request finished in 495.2195ms 200 text/html; charset=utf-8
+2019-07-03 10:11:37.700 -03:00 [INF] Executing action method App01.Model.Application.Api.Controllers.UserController.Get (App01.Model..Application.Api) with arguments (["1"]) - Validation state: "Valid"
+2019-07-03 10:11:38.710 -03:00 [INF] Executed action method App01.Model.Application.Api.Controllers.UserController.Get (App01.Model..Application.Api), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1005.9384ms.
+2019-07-03 10:11:38.716 -03:00 [INF] Executing ObjectResult, writing value of type 'App01.Model.Domain.Entities.User'.
+2019-07-03 10:11:38.892 -03:00 [INF] Executed action App01.Model.Application.Api.Controllers.UserController.Get (App01.Model..Application.Api) in 2223.3872ms
+2019-07-03 10:11:38.894 -03:00 [INF] Request finished in 2604.1173ms 200 application/json; charset=utf-8

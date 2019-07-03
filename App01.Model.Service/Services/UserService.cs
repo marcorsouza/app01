@@ -5,15 +5,15 @@ using App01.Model.Infra.Data.Repositories;
 
 namespace App01.Model.Service.Services
 {
-    public class UserService  : BaseService<User> , IUserService 
+    public class UserService  : BaseService<User, int> , IUserService 
     {
-        public UserService(IRepository<User> repository) : base(repository)
+        public UserService(IUserRepository repository) : base(repository)
         {
         }
 
-        public UserService() : base(new UserRepository())
+        /*public UserService() : base(new UserRepository())
         {
-        }
+        }*/
     }
 }
 

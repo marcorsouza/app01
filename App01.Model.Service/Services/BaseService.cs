@@ -11,22 +11,22 @@ using System.Threading.Tasks;
 namespace App01.Model.Service.Services
 {
 
-    public class BaseService<T> : IService<T> where T : Entity
+    public class BaseService<T, R> : IService<T, R> 
     {
-        private readonly IRepository<T> repository;
+        private readonly IRepository<T, R> repository;
 
-        public BaseService(IRepository<T> repository)
+        public BaseService(IRepository<T, R> repository)
         {
             this.repository = repository;
 
         }
 
-        public void Delete(int id)
+        public void Delete(R id)
         {
             throw new NotImplementedException();
         }
 
-        public async Task<T> Get(int id)
+        public async Task<T> Get(R id)
         {
             return await repository.GetById(id);
         }

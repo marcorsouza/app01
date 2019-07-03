@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using System.Threading.Tasks;
+using App01.Model.Domain.Services;
 using App01.Model.Service.Services;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
@@ -12,12 +13,13 @@ namespace App01.Model.Application.Api.Controllers
     public class UserController : ApiBaseController
     {
 
-        public UserController(ILogger<UserController> logger) : base(logger)
+        public UserController(ILogger<UserController> logger, IUserService userService) : base(logger)
         {
-            userService = new UserService();
+            //userService = new UserService();
+            this.userService = userService;
         }
 
-        public UserService userService { get; }
+        public IUserService userService { get; }
 
         /// <summary>
         /// Action Get
@@ -27,17 +29,19 @@ namespace App01.Model.Application.Api.Controllers
         [HttpGet("{id?}")]
         public async Task<IActionResult> Get(int? id)
         {
-            var users = userService.Get().Result;
+            ObjectResult result;
 
-            //var user = await userService.Get(1);
+            if (id.HasValue)
+            {
+                var user = userService.Get(id.Value).Result;
+                result = new ObjectResult(user);
+            }
+            else {
+                var users = userService.Get().Result;
+                result = new ObjectResult(users);
+            }
 
-            return new ObjectResult(users);
-
-            var objectResult = new ObjectResult(new List<object>(){
-                new {Id = 1, Nome="Marco Souza", Email="marco.souza@tecon.com.br"}, 
-                new {Id = 2, Nome="Gabriel", Email="gasr@tecon.com.br"}
-            });
-            return objectResult;
+            return result;
         }
     }
 }

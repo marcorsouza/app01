@@ -1,4 +1,8 @@
-﻿using Microsoft.AspNetCore.Builder;
+﻿using App01.Model.Domain;
+using App01.Model.Domain.Services;
+using App01.Model.Service;
+using App01.Model.Service.Services;
+using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.DependencyInjection;
 
@@ -11,6 +15,9 @@ namespace App01.Model.Application.Api
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc();
+            services.RegisterUnitOfWork();
+            //services.RegisterAllTypes<IUserService>(new[] { typeof(ServiceCollectionExtensions).Assembly });
+            
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

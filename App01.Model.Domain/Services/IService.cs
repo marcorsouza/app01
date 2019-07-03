@@ -4,16 +4,21 @@ using App01.Model.Domain.Entities;
 
 namespace App01.Model.Domain.Services
 {
-    public interface IService<T> //where T : Entity<T>
+    public interface IService
     {
-        void Delete(int id);
 
-        Task<T> Get(int id);
+    }
+
+    public interface IService<T, R> : IService
+    {
+        void Delete(R id);
+
+        Task<T> Get(R id);
 
         Task<IEnumerable<T>> Get();
     }
 
-    public interface IUserService : IService<User>
+    public interface IUserService : IService<User, int>
     {
 
     }
