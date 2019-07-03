@@ -18,6 +18,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\App01.Model.Infra\App01.Model.Infra.CrossCutting\App01.Model.Infra.CrossCutting.csproj" />
     <ProjectReference Include="..\..\App01.Model.Service\App01.Model.Service.csproj" />
   </ItemGroup>
 

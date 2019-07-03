@@ -24,6 +24,7 @@
     ".NETCoreApp,Version=v2.1": {
       "App01.Model..Application.Api/1.0.0": {
         "dependencies": {
+          "App01.Model.Infra.CrossCutting": "1.0.0",
           "App01.Model.Service": "1.0.0",
           "Microsoft.AspNetCore.App": "2.1.1",
           "Microsoft.NETCore.App": "2.1.0",
@@ -507,6 +508,19 @@
           "App01.Model.Domain.dll": {}
         }
       },
+      "App01.Model.Infra.CrossCutting/1.0.0": {
+        "dependencies": {
+          "App01.Model.Domain": "1.0.0",
+          "App01.Model.Infra.Data": "1.0.0",
+          "App01.Model.Service": "1.0.0"
+        },
+        "runtime": {
+          "App01.Model.Infra.CrossCutting.dll": {}
+        },
+        "compile": {
+          "App01.Model.Infra.CrossCutting.dll": {}
+        }
+      },
       "App01.Model.Infra.Data/1.0.0": {
         "dependencies": {
           "App01.Model.Domain": "1.0.0",
@@ -523,7 +537,6 @@
       "App01.Model.Service/1.0.0": {
         "dependencies": {
           "App01.Model.Domain": "1.0.0",
-          "App01.Model.Infra.Data": "1.0.0",
           "FluentValidation.AspNetCore": "8.4.0"
         },
         "runtime": {
@@ -3670,6 +3683,11 @@
       "hashPath": "system.threading.timer.4.0.1.nupkg.sha512"
     },
     "App01.Model.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "App01.Model.Infra.CrossCutting/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

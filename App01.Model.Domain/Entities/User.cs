@@ -14,5 +14,11 @@ namespace App01.Model.Domain.Entities {
 
         public Authentication Authentication { get; set; }
         public bool Active { get; set; }
+
+        public User()
+        {
+            if(Authentication == null)
+                Authentication = new Authentication();
+        }
     }
 }

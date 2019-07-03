@@ -1,0 +1,16 @@
+F:\Estudos\DotNet\App01\App01.Model.Infra\App01.Model.Infra.CrossCutting\bin\Debug\netcoreapp2.0\App01.Model.Infra.CrossCutting.deps.json
+F:\Estudos\DotNet\App01\App01.Model.Infra\App01.Model.Infra.CrossCutting\bin\Debug\netcoreapp2.0\App01.Model.Infra.CrossCutting.dll
+F:\Estudos\DotNet\App01\App01.Model.Infra\App01.Model.Infra.CrossCutting\bin\Debug\netcoreapp2.0\App01.Model.Infra.CrossCutting.pdb
+F:\Estudos\DotNet\App01\App01.Model.Infra\App01.Model.Infra.CrossCutting\bin\Debug\netcoreapp2.0\App01.Model.Domain.dll
+F:\Estudos\DotNet\App01\App01.Model.Infra\App01.Model.Infra.CrossCutting\bin\Debug\netcoreapp2.0\App01.Model.Infra.Data.dll
+F:\Estudos\DotNet\App01\App01.Model.Infra\App01.Model.Infra.CrossCutting\bin\Debug\netcoreapp2.0\App01.Model.Service.dll
+F:\Estudos\DotNet\App01\App01.Model.Infra\App01.Model.Infra.CrossCutting\bin\Debug\netcoreapp2.0\App01.Model.Domain.pdb
+F:\Estudos\DotNet\App01\App01.Model.Infra\App01.Model.Infra.CrossCutting\bin\Debug\netcoreapp2.0\App01.Model.Service.pdb
+F:\Estudos\DotNet\App01\App01.Model.Infra\App01.Model.Infra.CrossCutting\bin\Debug\netcoreapp2.0\App01.Model.Infra.Data.pdb
+F:\Estudos\DotNet\App01\App01.Model.Infra\App01.Model.Infra.CrossCutting\obj\Debug\netcoreapp2.0\App01.Model.Infra.CrossCutting.csprojAssemblyReference.cache
+F:\Estudos\DotNet\App01\App01.Model.Infra\App01.Model.Infra.CrossCutting\obj\Debug\netcoreapp2.0\App01.Model.Infra.CrossCutting.csproj.CoreCompileInputs.cache
+F:\Estudos\DotNet\App01\App01.Model.Infra\App01.Model.Infra.CrossCutting\obj\Debug\netcoreapp2.0\App01.Model.Infra.CrossCutting.AssemblyInfoInputs.cache
+F:\Estudos\DotNet\App01\App01.Model.Infra\App01.Model.Infra.CrossCutting\obj\Debug\netcoreapp2.0\App01.Model.Infra.CrossCutting.AssemblyInfo.cs
+F:\Estudos\DotNet\App01\App01.Model.Infra\App01.Model.Infra.CrossCutting\obj\Debug\netcoreapp2.0\App01.Model.Infra.CrossCutting.csproj.CopyComplete
+F:\Estudos\DotNet\App01\App01.Model.Infra\App01.Model.Infra.CrossCutting\obj\Debug\netcoreapp2.0\App01.Model.Infra.CrossCutting.dll
+F:\Estudos\DotNet\App01\App01.Model.Infra\App01.Model.Infra.CrossCutting\obj\Debug\netcoreapp2.0\App01.Model.Infra.CrossCutting.pdb

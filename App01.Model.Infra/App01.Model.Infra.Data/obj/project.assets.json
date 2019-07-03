@@ -4313,11 +4313,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Estudos\\DotNet\\app01\\App01.Model.Infra\\App01.Model.Infra.Data\\App01.Model.Infra.Data.csproj",
+      "projectUniqueName": "F:\\Estudos\\DotNet\\App01\\App01.Model.Infra\\App01.Model.Infra.Data\\App01.Model.Infra.Data.csproj",
       "projectName": "App01.Model.Infra.Data",
-      "projectPath": "F:\\Estudos\\DotNet\\app01\\App01.Model.Infra\\App01.Model.Infra.Data\\App01.Model.Infra.Data.csproj",
+      "projectPath": "F:\\Estudos\\DotNet\\App01\\App01.Model.Infra\\App01.Model.Infra.Data\\App01.Model.Infra.Data.csproj",
       "packagesPath": "C:\\Users\\manz\\.nuget\\packages\\",
-      "outputPath": "F:\\Estudos\\DotNet\\app01\\App01.Model.Infra\\App01.Model.Infra.Data\\obj\\",
+      "outputPath": "F:\\Estudos\\DotNet\\App01\\App01.Model.Infra\\App01.Model.Infra.Data\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -4336,8 +4336,8 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "F:\\Estudos\\DotNet\\app01\\App01.Model.Domain\\App01.Model.Domain.csproj": {
-              "projectPath": "F:\\Estudos\\DotNet\\app01\\App01.Model.Domain\\App01.Model.Domain.csproj"
+            "F:\\Estudos\\DotNet\\App01\\App01.Model.Domain\\App01.Model.Domain.csproj": {
+              "projectPath": "F:\\Estudos\\DotNet\\App01\\App01.Model.Domain\\App01.Model.Domain.csproj"
             }
           }
         }

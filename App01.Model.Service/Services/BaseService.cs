@@ -5,7 +5,6 @@ using FluentValidation;
 using App01.Model.Domain.Entities;
 using App01.Model.Domain.Repositories;
 using App01.Model.Domain.Services;
-using App01.Model.Infra.Data.Repositories;
 using System.Threading.Tasks;
 
 namespace App01.Model.Service.Services

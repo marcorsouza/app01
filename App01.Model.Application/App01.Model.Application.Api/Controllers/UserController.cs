@@ -1,5 +1,7 @@
 using System.Collections.Generic;
 using System.Threading.Tasks;
+using App01.Model.Application.Api.Models;
+using App01.Model.Domain.Entities;
 using App01.Model.Domain.Services;
 using App01.Model.Service.Services;
 using Microsoft.AspNetCore.Mvc;
@@ -42,6 +44,22 @@ namespace App01.Model.Application.Api.Controllers
             }
 
             return result;
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Create([FromBody]NewUserViewModel viewModel)
+        {
+            var user = new Domain.Entities.User(){
+                Name = viewModel.Name,
+                Email = viewModel.Email,
+                Active=true,
+                Cpf=viewModel.Cpf,
+                BirthDate = viewModel.BirthDate
+            };
+
+            user.Authentication.Username = viewModel.AuthenticationUserName;
+            user.Authentication.Password = viewModel.AuthenticationPassword;
+            return  new ObjectResult(user);
         }
     }
 }

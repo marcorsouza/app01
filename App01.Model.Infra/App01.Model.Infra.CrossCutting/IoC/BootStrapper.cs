@@ -1,4 +1,3 @@
-﻿using App01.Model.Domain;
 using App01.Model.Domain.Repositories;
 using App01.Model.Domain.Services;
 using App01.Model.Infra.Data.Context.EF;
@@ -7,16 +6,24 @@ using App01.Model.Infra.Data.Repositories.EF;
 using App01.Model.Service.Services;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
-using System;
-using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
-using System.Text;
 
-namespace App01.Model.Service
+namespace App01.Model.Infra.CrossCutting.IoC
 {
-    public static class ServiceCollectionExtensions
+    public static class BootStrapper
     {
+
+
+        public static void RegisterServices(IServiceCollection services)
+        {
+            services.AddScoped<DbContext, MyContext> ();
+            services.AddTransient<IEFUnitOfWork, EFUnitOfWork>();
+
+            services.RegisterAllTypes<IUserRepository>(new[] { typeof(IUserRepository).Assembly, typeof(UserRepository).Assembly });
+            services.RegisterAllTypes<IUserService>(new[] { typeof(UserService).Assembly });
+        }
+
         public static void RegisterAllTypes<T>(this IServiceCollection services, Assembly[] assemblies,
             ServiceLifetime lifetime = ServiceLifetime.Transient)
         {
@@ -25,14 +32,5 @@ namespace App01.Model.Service
                 services.Add(new ServiceDescriptor(typeof(T), type, lifetime));
         }
 
-        public static void RegisterUnitOfWork(this IServiceCollection services)
-        {
-            services.AddScoped<DbContext, MyContext>();
-            services.AddTransient<IEFUnitOfWork, EFUnitOfWork>();
-
-            services.RegisterAllTypes<IUserRepository>(new[] { typeof(IUserRepository).Assembly, typeof(UserRepository).Assembly });
-            services.RegisterAllTypes<IUserService>(new[] { typeof(ServiceCollectionExtensions).Assembly });
-
-        }
     }
 }
