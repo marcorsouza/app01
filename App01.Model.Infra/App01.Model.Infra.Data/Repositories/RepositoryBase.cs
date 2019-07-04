@@ -23,6 +23,7 @@ namespace App01.Model.Infra.Data.Repositories {
         public abstract Task<IQueryable<TEntity>> GetAll ();
         public abstract Task Create (TEntity entity, bool commit = false);
         public abstract Task Update(TEntity entity, bool commit = false);
+        public abstract void Delete(TType id, bool commit = false);
 
         #region IEnumerable<TEntity> Members
 

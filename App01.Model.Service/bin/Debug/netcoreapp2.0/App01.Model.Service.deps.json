@@ -1826,6 +1826,9 @@
         }
       },
       "App01.Model.Domain/1.0.0": {
+        "dependencies": {
+          "FluentValidation.AspNetCore": "8.4.0"
+        },
         "runtime": {
           "App01.Model.Domain.dll": {}
         }

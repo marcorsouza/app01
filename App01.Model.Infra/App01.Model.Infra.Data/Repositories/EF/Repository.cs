@@ -42,17 +42,24 @@ namespace App01.Model.Infra.Data.Repositories
 
         public override async Task Create(TEntity entity, bool commit = false)
         {
-            await DbSet.AddAsync(entity);
-
-            if(commit)
-                await _unitOfWork.CommitSync();
+            DbSet.Add(entity);
+            if (commit)
+                _unitOfWork.Commit();
         }
 
         public override async Task Update(TEntity entity, bool commit = false)
         {
             DbSet.Update(entity);
             if(commit)
-                await _unitOfWork.CommitSync();
+                _unitOfWork.Commit();
+        }
+
+        public override void Delete(TType id, bool commit = false)
+        {
+            var entity = GetById(id).Result;
+            DbSet.Remove(entity);
+            if (commit)
+                _unitOfWork.CommitSync();
         }
     }
 }

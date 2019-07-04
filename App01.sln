@@ -13,6 +13,14 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "App01.Model..Application.Ap
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "App01.Model.Infra.CrossCutting", "App01.Model.Infra\App01.Model.Infra.CrossCutting\App01.Model.Infra.CrossCutting.csproj", "{A548477B-7F97-40D1-9570-2FC4454D662A}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{1CA0290B-ACB6-4491-8DBF-E1AB9FECF5E0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{641DB619-9C1B-4E98-842D-4275EEA674F0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infra", "Infra", "{DF176FFF-51F7-4CA8-B59C-EA3A2AF59B52}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Service", "Service", "{D3BB1BF2-EC64-40F2-94FA-5C398C01E04C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -42,6 +50,13 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0DD7FBBB-345F-43F8-81B0-B09BB3889F8B} = {641DB619-9C1B-4E98-842D-4275EEA674F0}
+		{E70AA589-7936-4E4C-BDBF-FBF650F8725C} = {DF176FFF-51F7-4CA8-B59C-EA3A2AF59B52}
+		{DAEA7051-36E3-406C-9527-BE2C0F751E7E} = {D3BB1BF2-EC64-40F2-94FA-5C398C01E04C}
+		{7C356B70-1175-46C8-BED5-017A6192F78F} = {1CA0290B-ACB6-4491-8DBF-E1AB9FECF5E0}
+		{A548477B-7F97-40D1-9570-2FC4454D662A} = {DF176FFF-51F7-4CA8-B59C-EA3A2AF59B52}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {36EA8178-A86D-4A0D-B693-08B1FE5EE473}

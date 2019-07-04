@@ -53,6 +53,28 @@
           "lib/netstandard1.0/Google.Protobuf.dll": {}
         }
       },
+      "MediatR/7.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/MediatR.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/MediatR.dll": {}
+        }
+      },
+      "MediatR.Extensions.Microsoft.DependencyInjection/7.0.0": {
+        "type": "package",
+        "dependencies": {
+          "MediatR": "7.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "2.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/MediatR.Extensions.Microsoft.DependencyInjection.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/MediatR.Extensions.Microsoft.DependencyInjection.dll": {}
+        }
+      },
       "Microsoft.AspNet.WebApi.Client/5.2.6": {
         "type": "package",
         "dependencies": {
@@ -4603,6 +4625,9 @@
       "App01.Model.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.0",
+        "dependencies": {
+          "FluentValidation.AspNetCore": "8.4.0"
+        },
         "compile": {
           "bin/placeholder/App01.Model.Domain.dll": {}
         },
@@ -4616,7 +4641,9 @@
         "dependencies": {
           "App01.Model.Domain": "1.0.0",
           "App01.Model.Infra.Data": "1.0.0",
-          "App01.Model.Service": "1.0.0"
+          "App01.Model.Service": "1.0.0",
+          "MediatR": "7.0.0",
+          "MediatR.Extensions.Microsoft.DependencyInjection": "7.0.0"
         },
         "compile": {
           "bin/placeholder/App01.Model.Infra.CrossCutting.dll": {}
@@ -4714,6 +4741,29 @@
         "lib/net45/Google.Protobuf.xml",
         "lib/netstandard1.0/Google.Protobuf.dll",
         "lib/netstandard1.0/Google.Protobuf.xml"
+      ]
+    },
+    "MediatR/7.0.0": {
+      "sha512": "YGFwy3pCM13K+s3nrSDjC/wP4AYSUt7+HLtgiPPRBe2bG1joeFdOq17YZ2Y1lc4lg+m9ew0dMcQHVn5yGH7uDA==",
+      "type": "package",
+      "path": "mediatr/7.0.0",
+      "files": [
+        ".signature.p7s",
+        "lib/net461/MediatR.dll",
+        "lib/netstandard2.0/MediatR.dll",
+        "mediatr.7.0.0.nupkg.sha512",
+        "mediatr.nuspec"
+      ]
+    },
+    "MediatR.Extensions.Microsoft.DependencyInjection/7.0.0": {
+      "sha512": "t5hdyZBYWzakFoor2iVh3OpG8hVtMBwzbItXMPOp/4Ytq5sLl1c0/tt6jp30VG+nme1bNtzULnpjbW/K0TYb8A==",
+      "type": "package",
+      "path": "mediatr.extensions.microsoft.dependencyinjection/7.0.0",
+      "files": [
+        ".signature.p7s",
+        "lib/netstandard2.0/MediatR.Extensions.Microsoft.DependencyInjection.dll",
+        "mediatr.extensions.microsoft.dependencyinjection.7.0.0.nupkg.sha512",
+        "mediatr.extensions.microsoft.dependencyinjection.nuspec"
       ]
     },
     "Microsoft.AspNet.WebApi.Client/5.2.6": {
@@ -12419,11 +12469,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Estudos\\DotNet\\App01\\App01.Model.Application\\App01.Model.Application.Api\\App01.Model..Application.Api.csproj",
+      "projectUniqueName": "F:\\Estudos\\DotNet\\app01\\App01.Model.Application\\App01.Model.Application.Api\\App01.Model..Application.Api.csproj",
       "projectName": "App01.Model..Application.Api",
-      "projectPath": "F:\\Estudos\\DotNet\\App01\\App01.Model.Application\\App01.Model.Application.Api\\App01.Model..Application.Api.csproj",
+      "projectPath": "F:\\Estudos\\DotNet\\app01\\App01.Model.Application\\App01.Model.Application.Api\\App01.Model..Application.Api.csproj",
       "packagesPath": "C:\\Users\\manz\\.nuget\\packages\\",
-      "outputPath": "F:\\Estudos\\DotNet\\App01\\App01.Model.Application\\App01.Model.Application.Api\\obj\\",
+      "outputPath": "F:\\Estudos\\DotNet\\app01\\App01.Model.Application\\App01.Model.Application.Api\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -12442,11 +12492,11 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "F:\\Estudos\\DotNet\\App01\\App01.Model.Infra\\App01.Model.Infra.CrossCutting\\App01.Model.Infra.CrossCutting.csproj": {
-              "projectPath": "F:\\Estudos\\DotNet\\App01\\App01.Model.Infra\\App01.Model.Infra.CrossCutting\\App01.Model.Infra.CrossCutting.csproj"
+            "F:\\Estudos\\DotNet\\app01\\App01.Model.Infra\\App01.Model.Infra.CrossCutting\\App01.Model.Infra.CrossCutting.csproj": {
+              "projectPath": "F:\\Estudos\\DotNet\\app01\\App01.Model.Infra\\App01.Model.Infra.CrossCutting\\App01.Model.Infra.CrossCutting.csproj"
             },
-            "F:\\Estudos\\DotNet\\App01\\App01.Model.Service\\App01.Model.Service.csproj": {
-              "projectPath": "F:\\Estudos\\DotNet\\App01\\App01.Model.Service\\App01.Model.Service.csproj"
+            "F:\\Estudos\\DotNet\\app01\\App01.Model.Service\\App01.Model.Service.csproj": {
+              "projectPath": "F:\\Estudos\\DotNet\\app01\\App01.Model.Service\\App01.Model.Service.csproj"
             }
           }
         }

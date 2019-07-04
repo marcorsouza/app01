@@ -2509,6 +2509,9 @@
       "App01.Model.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.0",
+        "dependencies": {
+          "FluentValidation.AspNetCore": "8.4.0"
+        },
         "compile": {
           "bin/placeholder/App01.Model.Domain.dll": {}
         },
@@ -7734,11 +7737,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Estudos\\DotNet\\App01\\App01.Model.Service\\App01.Model.Service.csproj",
+      "projectUniqueName": "F:\\Estudos\\DotNet\\app01\\App01.Model.Service\\App01.Model.Service.csproj",
       "projectName": "App01.Model.Service",
-      "projectPath": "F:\\Estudos\\DotNet\\App01\\App01.Model.Service\\App01.Model.Service.csproj",
+      "projectPath": "F:\\Estudos\\DotNet\\app01\\App01.Model.Service\\App01.Model.Service.csproj",
       "packagesPath": "C:\\Users\\manz\\.nuget\\packages\\",
-      "outputPath": "F:\\Estudos\\DotNet\\App01\\App01.Model.Service\\obj\\",
+      "outputPath": "F:\\Estudos\\DotNet\\app01\\App01.Model.Service\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -7757,8 +7760,8 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "F:\\Estudos\\DotNet\\App01\\App01.Model.Domain\\App01.Model.Domain.csproj": {
-              "projectPath": "F:\\Estudos\\DotNet\\App01\\App01.Model.Domain\\App01.Model.Domain.csproj"
+            "F:\\Estudos\\DotNet\\app01\\App01.Model.Domain\\App01.Model.Domain.csproj": {
+              "projectPath": "F:\\Estudos\\DotNet\\app01\\App01.Model.Domain\\App01.Model.Domain.csproj"
             }
           }
         }

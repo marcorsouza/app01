@@ -1,25 +1,23 @@
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using App01.Model.Domain.Entities;
+using FluentValidation;
 
 namespace App01.Model.Domain.Services
 {
-    public interface IService
-    {
+    public interface IService {
 
     }
 
-    public interface IService<T, R> : IService
-    {
-        void Delete(R id);
+    public interface IService<TEntity, TType> : IService {
 
-        Task<T> Get(R id);
+        TEntity Post<V> (TEntity obj) where V : AbstractValidator<TEntity>;
 
-        Task<IEnumerable<T>> Get();
-    }
+        TEntity Put<V> (TEntity obj) where V : AbstractValidator<TEntity>;
+        
+        void Delete (TType id);
 
-    public interface IUserService : IService<User, int>
-    {
+        Task<TEntity> Get (TType id);
 
+        Task<IEnumerable<TEntity>> Get ();
     }
 }

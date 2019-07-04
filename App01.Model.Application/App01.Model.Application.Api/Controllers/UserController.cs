@@ -1,9 +1,12 @@
+using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using App01.Model.Application.Api.Models;
 using App01.Model.Domain.Entities;
 using App01.Model.Domain.Services;
+using App01.Model.Infra.CrossCutting.Features.UserFeatures;
 using App01.Model.Service.Services;
+using App01.Model.Service.Validators;
+using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 
@@ -14,9 +17,11 @@ namespace App01.Model.Application.Api.Controllers
     /// </summary>
     public class UserController : ApiBaseController
     {
+        private readonly IMediator _mediator;
 
-        public UserController(ILogger<UserController> logger, IUserService userService) : base(logger)
+        public UserController(ILogger<UserController> logger, IMediator mediator, IUserService userService) : base(logger)
         {
+            this._mediator = mediator;
             //userService = new UserService();
             this.userService = userService;
         }
@@ -38,7 +43,8 @@ namespace App01.Model.Application.Api.Controllers
                 var user = userService.Get(id.Value).Result;
                 result = new ObjectResult(user);
             }
-            else {
+            else
+            {
                 var users = userService.Get().Result;
                 result = new ObjectResult(users);
             }
@@ -46,20 +52,68 @@ namespace App01.Model.Application.Api.Controllers
             return result;
         }
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="command"></param>
+        /// <returns></returns>
         [HttpPost]
-        public async Task<IActionResult> Create([FromBody]NewUserViewModel viewModel)
+        public async Task<IActionResult> Post([FromBody] CreateUser command)
         {
-            var user = new Domain.Entities.User(){
-                Name = viewModel.Name,
-                Email = viewModel.Email,
-                Active=true,
-                Cpf=viewModel.Cpf,
-                BirthDate = viewModel.BirthDate
-            };
+            try
+            {
+                var user = await _mediator.Send(command);
+                return new ObjectResult(user);
+            }
+            catch (ArgumentNullException ex)
+            {
+                return NotFound(ex);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex);
+            }
+        }
 
-            user.Authentication.Username = viewModel.AuthenticationUserName;
-            user.Authentication.Password = viewModel.AuthenticationPassword;
-            return  new ObjectResult(user);
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="command"></param>
+        /// <returns></returns>
+        [HttpPut]
+        public async Task<IActionResult> Put([FromBody] UpdateUser command)
+        {
+            try
+            {
+                var user = await _mediator.Send(command);
+                return new ObjectResult(user);
+            }
+            catch (ArgumentNullException ex)
+            {
+                return NotFound(ex);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex);
+            }
+        }
+
+        public IActionResult Delete(int id)
+        {
+            try
+            {
+                userService.Delete(id);
+
+                return new NoContentResult();
+            }
+            catch (ArgumentException ex)
+            {
+                return NotFound(ex);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex);
+            }
         }
     }
 }

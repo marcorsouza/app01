@@ -1,38 +1,52 @@
-﻿using System.Linq;
-using System;
+﻿using System;
 using System.Collections.Generic;
-using FluentValidation;
+using System.Linq;
+using System.Threading.Tasks;
 using App01.Model.Domain.Entities;
 using App01.Model.Domain.Repositories;
 using App01.Model.Domain.Services;
-using System.Threading.Tasks;
+using App01.Model.Service.Validators;
+using FluentValidation;
 
-namespace App01.Model.Service.Services
-{
+namespace App01.Model.Service.Services {
 
-    public class BaseService<T, R> : IService<T, R> 
-    {
-        private readonly IRepository<T, R> repository;
+    public class BaseService<TEntity, TType> : IService<TEntity, TType>
+        where TEntity : Entity<TType> {
+        private readonly IRepository<TEntity, TType> repository;
 
-        public BaseService(IRepository<T, R> repository)
-        {
+        public BaseService (IRepository<TEntity, TType> repository) {
             this.repository = repository;
-
         }
 
-        public void Delete(R id)
-        {
-            throw new NotImplementedException();
+        public TEntity Post<V> (TEntity entity) where V : AbstractValidator<TEntity> {
+
+            entity.Validate<TEntity>(entity, Activator.CreateInstance<V>());
+
+            //Validate (obj, Activator.CreateInstance<V> ());
+            if (entity.Valid)
+                repository.Create(entity, true);
+            return entity;
         }
 
-        public async Task<T> Get(R id)
-        {
-            return await repository.GetById(id);
+        public TEntity Put<V> (TEntity entity) where V : AbstractValidator<TEntity> {
+            entity.Validate<TEntity>(entity, Activator.CreateInstance<V>());
+
+            if (entity.Valid)
+                repository.Update(entity,true);
+            return entity;
         }
 
-        public async Task<IEnumerable<T>> Get()
+        public void Delete(TType id)
         {
-            var lst = await repository.GetAll();
+            repository.Delete(id);
+        }
+        
+        public async Task<TEntity> Get (TType id) {
+            return await repository.GetById (id);
+        }
+
+        public async Task<IEnumerable<TEntity>> Get () {
+            var lst = await repository.GetAll ();
             return lst;
         }
 

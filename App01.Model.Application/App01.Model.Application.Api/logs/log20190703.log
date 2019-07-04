@@ -698,3 +698,268 @@ System.InvalidOperationException: Unable to resolve service for type 'App01.Mode
 2019-07-03 14:39:11.916 -03:00 [INF] User profile is available. Using 'C:\Users\manz\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
 2019-07-03 14:40:19.823 -03:00 [INF] Starting Amplifier web host
 2019-07-03 14:40:20.357 -03:00 [INF] User profile is available. Using 'C:\Users\manz\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-07-03 15:39:09.309 -03:00 [INF] Starting Amplifier web host
+2019-07-03 15:39:11.824 -03:00 [INF] User profile is available. Using 'C:\Users\manz\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-07-03 15:39:48.062 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5000/api/User application/json 164
+2019-07-03 15:39:48.639 -03:00 [INF] Route matched with {action = "Post", controller = "User"}. Executing action App01.Model.Application.Api.Controllers.UserController.Post (App01.Model..Application.Api)
+2019-07-03 15:39:49.438 -03:00 [INF] Executing action method App01.Model.Application.Api.Controllers.UserController.Post (App01.Model..Application.Api) with arguments (["App01.Model.Application.Api.Models.NewUserViewModel"]) - Validation state: "Valid"
+2019-07-03 15:39:49.557 -03:00 [INF] Executed action method App01.Model.Application.Api.Controllers.UserController.Post (App01.Model..Application.Api), returned result Microsoft.AspNetCore.Mvc.BadRequestObjectResult in 110.7775ms.
+2019-07-03 15:39:49.588 -03:00 [INF] Executing ObjectResult, writing value of type 'FluentValidation.ValidationException'.
+2019-07-03 15:39:49.816 -03:00 [INF] Executed action App01.Model.Application.Api.Controllers.UserController.Post (App01.Model..Application.Api) in 1148.9663ms
+2019-07-03 15:39:49.840 -03:00 [INF] Request finished in 1780.0094ms 400 application/json; charset=utf-8
+2019-07-03 15:54:04.520 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5000/api/User application/json 192
+2019-07-03 15:54:04.522 -03:00 [INF] Route matched with {action = "Post", controller = "User"}. Executing action App01.Model.Application.Api.Controllers.UserController.Post (App01.Model..Application.Api)
+2019-07-03 15:54:04.527 -03:00 [INF] Executing action method App01.Model.Application.Api.Controllers.UserController.Post (App01.Model..Application.Api) with arguments (["App01.Model.Application.Api.Models.NewUserViewModel"]) - Validation state: "Valid"
+2019-07-03 15:54:04.645 -03:00 [INF] Executed action method App01.Model.Application.Api.Controllers.UserController.Post (App01.Model..Application.Api), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 116.70570000000001ms.
+2019-07-03 15:54:04.647 -03:00 [INF] Executing ObjectResult, writing value of type 'App01.Model.Domain.Entities.User'.
+2019-07-03 15:54:04.655 -03:00 [INF] Executed action App01.Model.Application.Api.Controllers.UserController.Post (App01.Model..Application.Api) in 130.86430000000001ms
+2019-07-03 15:54:04.656 -03:00 [INF] Request finished in 135.2019ms 200 application/json; charset=utf-8
+2019-07-03 15:54:21.274 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/User  
+2019-07-03 15:54:21.291 -03:00 [ERR] Request matched multiple actions resulting in ambiguity. Matching actions: App01.Model.Application.Api.Controllers.UserController.Put (App01.Model..Application.Api)
+App01.Model.Application.Api.Controllers.UserController.Delete (App01.Model..Application.Api)
+2019-07-03 15:54:21.294 -03:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.AspNetCore.Mvc.Internal.AmbiguousActionException: Multiple actions matched. The following actions matched route data and had all constraints satisfied:
+
+App01.Model.Application.Api.Controllers.UserController.Put (App01.Model..Application.Api)
+App01.Model.Application.Api.Controllers.UserController.Delete (App01.Model..Application.Api)
+   at Microsoft.AspNetCore.Mvc.Internal.ActionSelector.SelectBestCandidate(RouteContext context, IReadOnlyList`1 candidates)
+   at Microsoft.AspNetCore.Mvc.Internal.MvcAttributeRouteHandler.RouteAsync(RouteContext context)
+   at Microsoft.AspNetCore.Routing.Tree.TreeRouter.RouteAsync(RouteContext context)
+   at Microsoft.AspNetCore.Routing.RouteCollection.RouteAsync(RouteContext context)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2019-07-03 15:54:21.357 -03:00 [INF] Request finished in 82.3509ms 500 text/html; charset=utf-8
+2019-07-03 15:54:27.459 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/User/  
+2019-07-03 15:54:27.462 -03:00 [ERR] Request matched multiple actions resulting in ambiguity. Matching actions: App01.Model.Application.Api.Controllers.UserController.Put (App01.Model..Application.Api)
+App01.Model.Application.Api.Controllers.UserController.Delete (App01.Model..Application.Api)
+2019-07-03 15:54:27.463 -03:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.AspNetCore.Mvc.Internal.AmbiguousActionException: Multiple actions matched. The following actions matched route data and had all constraints satisfied:
+
+App01.Model.Application.Api.Controllers.UserController.Put (App01.Model..Application.Api)
+App01.Model.Application.Api.Controllers.UserController.Delete (App01.Model..Application.Api)
+   at Microsoft.AspNetCore.Mvc.Internal.ActionSelector.SelectBestCandidate(RouteContext context, IReadOnlyList`1 candidates)
+   at Microsoft.AspNetCore.Mvc.Internal.MvcAttributeRouteHandler.RouteAsync(RouteContext context)
+   at Microsoft.AspNetCore.Routing.Tree.TreeRouter.RouteAsync(RouteContext context)
+   at Microsoft.AspNetCore.Routing.RouteCollection.RouteAsync(RouteContext context)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2019-07-03 15:54:27.470 -03:00 [INF] Request finished in 10.6377ms 500 text/html; charset=utf-8
+2019-07-03 15:54:30.388 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/User/1  
+2019-07-03 15:54:30.407 -03:00 [INF] Route matched with {action = "Get", controller = "User"}. Executing action App01.Model.Application.Api.Controllers.UserController.Get (App01.Model..Application.Api)
+2019-07-03 15:54:30.409 -03:00 [INF] Executing action method App01.Model.Application.Api.Controllers.UserController.Get (App01.Model..Application.Api) with arguments (["1"]) - Validation state: "Valid"
+2019-07-03 15:54:31.105 -03:00 [INF] Executed action method App01.Model.Application.Api.Controllers.UserController.Get (App01.Model..Application.Api), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 688.38150000000007ms.
+2019-07-03 15:54:31.107 -03:00 [INF] Executing ObjectResult, writing value of type 'App01.Model.Domain.Entities.User'.
+2019-07-03 15:54:31.107 -03:00 [INF] Executed action App01.Model.Application.Api.Controllers.UserController.Get (App01.Model..Application.Api) in 699.6416ms
+2019-07-03 15:54:31.109 -03:00 [INF] Request finished in 720.6834ms 200 application/json; charset=utf-8
+2019-07-03 15:54:33.432 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/User/4  
+2019-07-03 15:54:33.437 -03:00 [INF] Route matched with {action = "Get", controller = "User"}. Executing action App01.Model.Application.Api.Controllers.UserController.Get (App01.Model..Application.Api)
+2019-07-03 15:54:33.454 -03:00 [INF] Executing action method App01.Model.Application.Api.Controllers.UserController.Get (App01.Model..Application.Api) with arguments (["4"]) - Validation state: "Valid"
+2019-07-03 15:54:33.600 -03:00 [INF] Executed action method App01.Model.Application.Api.Controllers.UserController.Get (App01.Model..Application.Api), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 143.9348ms.
+2019-07-03 15:54:33.603 -03:00 [INF] Executing ObjectResult, writing value of type 'null'.
+2019-07-03 15:54:33.604 -03:00 [INF] Executed action App01.Model.Application.Api.Controllers.UserController.Get (App01.Model..Application.Api) in 151.088ms
+2019-07-03 15:54:33.606 -03:00 [INF] Request finished in 173.3928ms 204 
+2019-07-03 15:54:36.939 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/User/3  
+2019-07-03 15:54:36.946 -03:00 [INF] Route matched with {action = "Get", controller = "User"}. Executing action App01.Model.Application.Api.Controllers.UserController.Get (App01.Model..Application.Api)
+2019-07-03 15:54:36.949 -03:00 [INF] Executing action method App01.Model.Application.Api.Controllers.UserController.Get (App01.Model..Application.Api) with arguments (["3"]) - Validation state: "Valid"
+2019-07-03 15:54:36.953 -03:00 [INF] Executed action method App01.Model.Application.Api.Controllers.UserController.Get (App01.Model..Application.Api), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1.4612ms.
+2019-07-03 15:54:36.954 -03:00 [INF] Executing ObjectResult, writing value of type 'App01.Model.Domain.Entities.User'.
+2019-07-03 15:54:36.955 -03:00 [INF] Executed action App01.Model.Application.Api.Controllers.UserController.Get (App01.Model..Application.Api) in 6.0417000000000005ms
+2019-07-03 15:54:36.956 -03:00 [INF] Request finished in 17.1826ms 200 application/json; charset=utf-8
+2019-07-03 15:55:51.066 -03:00 [INF] Starting Amplifier web host
+2019-07-03 15:55:51.575 -03:00 [INF] User profile is available. Using 'C:\Users\manz\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-07-03 15:55:52.809 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5000/api/User application/json 192
+2019-07-03 15:55:53.011 -03:00 [INF] Route matched with {action = "Post", controller = "User"}. Executing action App01.Model.Application.Api.Controllers.UserController.Post (App01.Model..Application.Api)
+2019-07-03 15:55:53.602 -03:00 [INF] Executing action method App01.Model.Application.Api.Controllers.UserController.Post (App01.Model..Application.Api) with arguments (["App01.Model.Application.Api.Models.NewUserViewModel"]) - Validation state: "Valid"
+2019-07-03 15:55:54.067 -03:00 [INF] Executed action method App01.Model.Application.Api.Controllers.UserController.Post (App01.Model..Application.Api), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 451.80670000000003ms.
+2019-07-03 15:55:54.426 -03:00 [INF] Executing ObjectResult, writing value of type 'App01.Model.Domain.Entities.User'.
+2019-07-03 15:55:54.445 -03:00 [INF] Executed action App01.Model.Application.Api.Controllers.UserController.Post (App01.Model..Application.Api) in 1427.7374ms
+2019-07-03 15:55:54.521 -03:00 [INF] Request finished in 1714.2463ms 200 application/json; charset=utf-8
+2019-07-03 15:58:10.679 -03:00 [INF] Starting Amplifier web host
+2019-07-03 15:58:15.459 -03:00 [INF] User profile is available. Using 'C:\Users\manz\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-07-03 15:58:16.565 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44383/  
+2019-07-03 15:58:16.565 -03:00 [INF] Request starting HTTP/1.1 DEBUG http://localhost:64819/  0
+2019-07-03 15:58:16.686 -03:00 [INF] Request finished in 120.7537ms 200 
+2019-07-03 15:58:17.049 -03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing action App01.Model.Application.Api.Controllers.HomeController.Index (App01.Model..Application.Api)
+2019-07-03 15:58:17.071 -03:00 [INF] Executing action method App01.Model.Application.Api.Controllers.HomeController.Index (App01.Model..Application.Api) - Validation state: "Valid"
+2019-07-03 15:58:17.079 -03:00 [INF] Executed action method App01.Model.Application.Api.Controllers.HomeController.Index (App01.Model..Application.Api), returned result Microsoft.AspNetCore.Mvc.ViewResult in 2.1798ms.
+2019-07-03 15:58:17.146 -03:00 [INF] Executing ViewResult, running view Index.
+2019-07-03 15:58:17.248 -03:00 [INF] Executed ViewResult - view Index executed in 151.2766ms.
+2019-07-03 15:58:17.249 -03:00 [INF] Executed action App01.Model.Application.Api.Controllers.HomeController.Index (App01.Model..Application.Api) in 197.5319ms
+2019-07-03 15:58:17.272 -03:00 [INF] Request finished in 709.7371ms 200 text/html; charset=utf-8
+2019-07-03 15:59:39.715 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:44383/api/User/3  
+2019-07-03 15:59:39.746 -03:00 [INF] Route matched with {action = "Get", controller = "User"}. Executing action App01.Model.Application.Api.Controllers.UserController.Get (App01.Model..Application.Api)
+2019-07-03 15:59:40.494 -03:00 [INF] Executing action method App01.Model.Application.Api.Controllers.UserController.Get (App01.Model..Application.Api) with arguments (["3"]) - Validation state: "Valid"
+2019-07-03 15:59:41.431 -03:00 [INF] Executed action method App01.Model.Application.Api.Controllers.UserController.Get (App01.Model..Application.Api), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 934.6494ms.
+2019-07-03 15:59:41.435 -03:00 [INF] Executing ObjectResult, writing value of type 'App01.Model.Domain.Entities.User'.
+2019-07-03 15:59:41.562 -03:00 [INF] Executed action App01.Model.Application.Api.Controllers.UserController.Get (App01.Model..Application.Api) in 1815.4725ms
+2019-07-03 15:59:41.563 -03:00 [INF] Request finished in 1847.4567ms 200 application/json; charset=utf-8
+2019-07-03 16:00:56.163 -03:00 [INF] Starting Amplifier web host
+2019-07-03 16:01:00.389 -03:00 [INF] User profile is available. Using 'C:\Users\manz\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-07-03 16:01:01.538 -03:00 [INF] Request starting HTTP/1.1 DEBUG http://localhost:5000/  0
+2019-07-03 16:01:01.538 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/  
+2019-07-03 16:01:01.604 -03:00 [INF] Request finished in 64.7965ms 200 
+2019-07-03 16:01:02.008 -03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing action App01.Model.Application.Api.Controllers.HomeController.Index (App01.Model..Application.Api)
+2019-07-03 16:01:02.026 -03:00 [INF] Executing action method App01.Model.Application.Api.Controllers.HomeController.Index (App01.Model..Application.Api) - Validation state: "Valid"
+2019-07-03 16:01:02.037 -03:00 [INF] Executed action method App01.Model.Application.Api.Controllers.HomeController.Index (App01.Model..Application.Api), returned result Microsoft.AspNetCore.Mvc.ViewResult in 2.1287000000000003ms.
+2019-07-03 16:01:02.068 -03:00 [INF] Executing ViewResult, running view Index.
+2019-07-03 16:01:02.107 -03:00 [INF] Executed ViewResult - view Index executed in 60.2869ms.
+2019-07-03 16:01:02.108 -03:00 [INF] Executed action App01.Model.Application.Api.Controllers.HomeController.Index (App01.Model..Application.Api) in 99.63300000000001ms
+2019-07-03 16:01:02.115 -03:00 [INF] Request finished in 580.0483ms 200 text/html; charset=utf-8
+2019-07-03 16:01:09.389 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/User/3  
+2019-07-03 16:01:09.409 -03:00 [INF] Route matched with {action = "Get", controller = "User"}. Executing action App01.Model.Application.Api.Controllers.UserController.Get (App01.Model..Application.Api)
+2019-07-03 16:01:09.958 -03:00 [INF] Executing action method App01.Model.Application.Api.Controllers.UserController.Get (App01.Model..Application.Api) with arguments (["3"]) - Validation state: "Valid"
+2019-07-03 16:01:10.767 -03:00 [INF] Executed action method App01.Model.Application.Api.Controllers.UserController.Get (App01.Model..Application.Api), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 806.7093ms.
+2019-07-03 16:01:10.771 -03:00 [INF] Executing ObjectResult, writing value of type 'App01.Model.Domain.Entities.User'.
+2019-07-03 16:01:10.893 -03:00 [INF] Executed action App01.Model.Application.Api.Controllers.UserController.Get (App01.Model..Application.Api) in 1483.9816ms
+2019-07-03 16:01:10.894 -03:00 [INF] Request finished in 1505.5276ms 200 application/json; charset=utf-8
+2019-07-03 16:01:19.061 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5000/api/User application/json 192
+2019-07-03 16:01:19.069 -03:00 [INF] Route matched with {action = "Post", controller = "User"}. Executing action App01.Model.Application.Api.Controllers.UserController.Post (App01.Model..Application.Api)
+2019-07-03 16:01:19.106 -03:00 [INF] Executing action method App01.Model.Application.Api.Controllers.UserController.Post (App01.Model..Application.Api) with arguments (["App01.Model.Application.Api.Models.NewUserViewModel"]) - Validation state: "Valid"
+2019-07-03 16:01:34.342 -03:00 [INF] Executed action method App01.Model.Application.Api.Controllers.UserController.Post (App01.Model..Application.Api), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 15235.9323ms.
+2019-07-03 16:01:34.344 -03:00 [INF] Executing ObjectResult, writing value of type 'App01.Model.Domain.Entities.User'.
+2019-07-03 16:01:34.345 -03:00 [INF] Executed action App01.Model.Application.Api.Controllers.UserController.Post (App01.Model..Application.Api) in 15275.4071ms
+2019-07-03 16:01:34.355 -03:00 [INF] Request finished in 15293.7513ms 200 application/json; charset=utf-8
+2019-07-03 16:02:54.899 -03:00 [INF] Starting Amplifier web host
+2019-07-03 16:03:00.611 -03:00 [INF] User profile is available. Using 'C:\Users\manz\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-07-03 16:03:07.497 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/  
+2019-07-03 16:03:07.497 -03:00 [INF] Request starting HTTP/1.1 DEBUG http://localhost:5000/  0
+2019-07-03 16:03:07.497 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5000/api/User application/json 192
+2019-07-03 16:03:07.611 -03:00 [INF] Request finished in 114.5628ms 200 
+2019-07-03 16:03:07.913 -03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing action App01.Model.Application.Api.Controllers.HomeController.Index (App01.Model..Application.Api)
+2019-07-03 16:03:07.916 -03:00 [INF] Route matched with {action = "Post", controller = "User"}. Executing action App01.Model.Application.Api.Controllers.UserController.Post (App01.Model..Application.Api)
+2019-07-03 16:03:07.942 -03:00 [INF] Executing action method App01.Model.Application.Api.Controllers.HomeController.Index (App01.Model..Application.Api) - Validation state: "Valid"
+2019-07-03 16:03:07.956 -03:00 [INF] Executed action method App01.Model.Application.Api.Controllers.HomeController.Index (App01.Model..Application.Api), returned result Microsoft.AspNetCore.Mvc.ViewResult in 7.5368ms.
+2019-07-03 16:03:08.051 -03:00 [INF] Executing ViewResult, running view Index.
+2019-07-03 16:03:08.152 -03:00 [INF] Executed ViewResult - view Index executed in 152.441ms.
+2019-07-03 16:03:08.154 -03:00 [INF] Executed action App01.Model.Application.Api.Controllers.HomeController.Index (App01.Model..Application.Api) in 239.7744ms
+2019-07-03 16:03:08.164 -03:00 [INF] Request finished in 669.2432ms 200 text/html; charset=utf-8
+2019-07-03 16:03:09.733 -03:00 [INF] Executing action method App01.Model.Application.Api.Controllers.UserController.Post (App01.Model..Application.Api) with arguments (["App01.Model.Application.Api.Models.NewUserViewModel"]) - Validation state: "Valid"
+2019-07-03 16:06:01.050 -03:00 [INF] Starting Amplifier web host
+2019-07-03 16:06:03.958 -03:00 [INF] User profile is available. Using 'C:\Users\manz\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-07-03 16:06:04.822 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/  
+2019-07-03 16:06:04.822 -03:00 [INF] Request starting HTTP/1.1 DEBUG http://localhost:5000/  0
+2019-07-03 16:06:04.887 -03:00 [INF] Request finished in 65.8636ms 200 
+2019-07-03 16:06:05.241 -03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing action App01.Model.Application.Api.Controllers.HomeController.Index (App01.Model..Application.Api)
+2019-07-03 16:06:05.258 -03:00 [INF] Executing action method App01.Model.Application.Api.Controllers.HomeController.Index (App01.Model..Application.Api) - Validation state: "Valid"
+2019-07-03 16:06:05.268 -03:00 [INF] Executed action method App01.Model.Application.Api.Controllers.HomeController.Index (App01.Model..Application.Api), returned result Microsoft.AspNetCore.Mvc.ViewResult in 4.6552ms.
+2019-07-03 16:06:05.301 -03:00 [INF] Executing ViewResult, running view Index.
+2019-07-03 16:06:05.340 -03:00 [INF] Executed ViewResult - view Index executed in 63.680200000000006ms.
+2019-07-03 16:06:05.341 -03:00 [INF] Executed action App01.Model.Application.Api.Controllers.HomeController.Index (App01.Model..Application.Api) in 99.3083ms
+2019-07-03 16:06:05.348 -03:00 [INF] Request finished in 529.007ms 200 text/html; charset=utf-8
+2019-07-03 16:06:18.898 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5000/api/User application/json 192
+2019-07-03 16:06:18.931 -03:00 [INF] Route matched with {action = "Post", controller = "User"}. Executing action App01.Model.Application.Api.Controllers.UserController.Post (App01.Model..Application.Api)
+2019-07-03 16:06:19.638 -03:00 [INF] Executing action method App01.Model.Application.Api.Controllers.UserController.Post (App01.Model..Application.Api) with arguments (["App01.Model.Application.Api.Models.NewUserViewModel"]) - Validation state: "Valid"
+2019-07-03 16:07:26.938 -03:00 [INF] Executed action method App01.Model.Application.Api.Controllers.UserController.Post (App01.Model..Application.Api), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 67298.4845ms.
+2019-07-03 16:07:26.947 -03:00 [INF] Executing ObjectResult, writing value of type 'App01.Model.Domain.Entities.User'.
+2019-07-03 16:07:26.967 -03:00 [INF] Executed action App01.Model.Application.Api.Controllers.UserController.Post (App01.Model..Application.Api) in 68031.7066ms
+2019-07-03 16:07:26.969 -03:00 [INF] Request finished in 68070.4363ms 200 application/json; charset=utf-8
+2019-07-03 16:08:05.821 -03:00 [INF] Starting Amplifier web host
+2019-07-03 16:08:08.515 -03:00 [INF] User profile is available. Using 'C:\Users\manz\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-07-03 16:08:09.756 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/  
+2019-07-03 16:08:09.756 -03:00 [INF] Request starting HTTP/1.1 DEBUG http://localhost:5000/  0
+2019-07-03 16:08:09.845 -03:00 [INF] Request finished in 89.9547ms 200 
+2019-07-03 16:08:10.112 -03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing action App01.Model.Application.Api.Controllers.HomeController.Index (App01.Model..Application.Api)
+2019-07-03 16:08:10.128 -03:00 [INF] Executing action method App01.Model.Application.Api.Controllers.HomeController.Index (App01.Model..Application.Api) - Validation state: "Valid"
+2019-07-03 16:08:10.137 -03:00 [INF] Executed action method App01.Model.Application.Api.Controllers.HomeController.Index (App01.Model..Application.Api), returned result Microsoft.AspNetCore.Mvc.ViewResult in 1.7338ms.
+2019-07-03 16:08:10.164 -03:00 [INF] Executing ViewResult, running view Index.
+2019-07-03 16:08:10.196 -03:00 [INF] Executed ViewResult - view Index executed in 51.208800000000004ms.
+2019-07-03 16:08:10.196 -03:00 [INF] Executed action App01.Model.Application.Api.Controllers.HomeController.Index (App01.Model..Application.Api) in 83.9299ms
+2019-07-03 16:08:10.204 -03:00 [INF] Request finished in 450.6367ms 200 text/html; charset=utf-8
+2019-07-03 16:10:12.341 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5000/api/User application/json 192
+2019-07-03 16:10:12.361 -03:00 [INF] Route matched with {action = "Post", controller = "User"}. Executing action App01.Model.Application.Api.Controllers.UserController.Post (App01.Model..Application.Api)
+2019-07-03 16:10:13.280 -03:00 [INF] Executing action method App01.Model.Application.Api.Controllers.UserController.Post (App01.Model..Application.Api) with arguments (["App01.Model.Application.Api.Models.NewUserViewModel"]) - Validation state: "Valid"
+2019-07-03 16:10:17.812 -03:00 [INF] Executed action method App01.Model.Application.Api.Controllers.UserController.Post (App01.Model..Application.Api), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 4527.9819ms.
+2019-07-03 16:10:17.815 -03:00 [INF] Executing ObjectResult, writing value of type 'App01.Model.Domain.Entities.User'.
+2019-07-03 16:10:17.825 -03:00 [INF] Executed action App01.Model.Application.Api.Controllers.UserController.Post (App01.Model..Application.Api) in 5464.2262ms
+2019-07-03 16:10:17.826 -03:00 [INF] Request finished in 5484.6258ms 200 application/json; charset=utf-8
+2019-07-03 16:15:35.494 -03:00 [INF] Starting Amplifier web host
+2019-07-03 16:15:40.689 -03:00 [INF] User profile is available. Using 'C:\Users\manz\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-07-03 16:15:42.081 -03:00 [INF] Request starting HTTP/1.1 DEBUG http://localhost:5000/  0
+2019-07-03 16:15:42.081 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/  
+2019-07-03 16:15:42.176 -03:00 [INF] Request finished in 94.7503ms 200 
+2019-07-03 16:15:42.602 -03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing action App01.Model.Application.Api.Controllers.HomeController.Index (App01.Model..Application.Api)
+2019-07-03 16:15:42.616 -03:00 [INF] Executing action method App01.Model.Application.Api.Controllers.HomeController.Index (App01.Model..Application.Api) - Validation state: "Valid"
+2019-07-03 16:15:42.623 -03:00 [INF] Executed action method App01.Model.Application.Api.Controllers.HomeController.Index (App01.Model..Application.Api), returned result Microsoft.AspNetCore.Mvc.ViewResult in 1.9309ms.
+2019-07-03 16:15:42.649 -03:00 [INF] Executing ViewResult, running view Index.
+2019-07-03 16:15:42.695 -03:00 [INF] Executed ViewResult - view Index executed in 58.0933ms.
+2019-07-03 16:15:42.696 -03:00 [INF] Executed action App01.Model.Application.Api.Controllers.HomeController.Index (App01.Model..Application.Api) in 93.652300000000011ms
+2019-07-03 16:15:42.703 -03:00 [INF] Request finished in 624.124ms 200 text/html; charset=utf-8
+2019-07-03 16:16:02.686 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/User  
+2019-07-03 16:16:02.694 -03:00 [ERR] Request matched multiple actions resulting in ambiguity. Matching actions: App01.Model.Application.Api.Controllers.UserController.Put (App01.Model..Application.Api)
+App01.Model.Application.Api.Controllers.UserController.Delete (App01.Model..Application.Api)
+2019-07-03 16:16:02.697 -03:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.AspNetCore.Mvc.Internal.AmbiguousActionException: Multiple actions matched. The following actions matched route data and had all constraints satisfied:
+
+App01.Model.Application.Api.Controllers.UserController.Put (App01.Model..Application.Api)
+App01.Model.Application.Api.Controllers.UserController.Delete (App01.Model..Application.Api)
+   at Microsoft.AspNetCore.Mvc.Internal.ActionSelector.SelectBestCandidate(RouteContext context, IReadOnlyList`1 candidates)
+   at Microsoft.AspNetCore.Mvc.Internal.MvcAttributeRouteHandler.RouteAsync(RouteContext context)
+   at Microsoft.AspNetCore.Routing.Tree.TreeRouter.RouteAsync(RouteContext context)
+   at Microsoft.AspNetCore.Routing.RouteCollection.RouteAsync(RouteContext context)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2019-07-03 16:16:02.880 -03:00 [INF] Request finished in 193.6471ms 500 text/html; charset=utf-8
+2019-07-03 16:16:57.289 -03:00 [INF] Request starting HTTP/1.1 PUT http://localhost:5000/api/User application/json 118
+2019-07-03 16:16:57.289 -03:00 [ERR] Request matched multiple actions resulting in ambiguity. Matching actions: App01.Model.Application.Api.Controllers.UserController.Put (App01.Model..Application.Api)
+App01.Model.Application.Api.Controllers.UserController.Delete (App01.Model..Application.Api)
+2019-07-03 16:16:57.291 -03:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.AspNetCore.Mvc.Internal.AmbiguousActionException: Multiple actions matched. The following actions matched route data and had all constraints satisfied:
+
+App01.Model.Application.Api.Controllers.UserController.Put (App01.Model..Application.Api)
+App01.Model.Application.Api.Controllers.UserController.Delete (App01.Model..Application.Api)
+   at Microsoft.AspNetCore.Mvc.Internal.ActionSelector.SelectBestCandidate(RouteContext context, IReadOnlyList`1 candidates)
+   at Microsoft.AspNetCore.Mvc.Internal.MvcAttributeRouteHandler.RouteAsync(RouteContext context)
+   at Microsoft.AspNetCore.Routing.Tree.TreeRouter.RouteAsync(RouteContext context)
+   at Microsoft.AspNetCore.Routing.RouteCollection.RouteAsync(RouteContext context)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2019-07-03 16:16:57.306 -03:00 [INF] Request finished in 17.2972ms 500 text/html; charset=utf-8
+2019-07-03 16:16:57.318 -03:00 [INF] Connection id "0HLNVTBBL5I12", Request id "0HLNVTBBL5I12:00000003": the application completed without reading the entire request body.
+2019-07-03 16:19:05.791 -03:00 [INF] Starting Amplifier web host
+2019-07-03 16:19:07.949 -03:00 [INF] User profile is available. Using 'C:\Users\manz\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-07-03 16:19:09.111 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/  
+2019-07-03 16:19:09.112 -03:00 [INF] Request starting HTTP/1.1 DEBUG http://localhost:5000/  0
+2019-07-03 16:19:09.190 -03:00 [INF] Request finished in 72.424ms 200 
+2019-07-03 16:19:09.473 -03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing action App01.Model.Application.Api.Controllers.HomeController.Index (App01.Model..Application.Api)
+2019-07-03 16:19:09.490 -03:00 [INF] Executing action method App01.Model.Application.Api.Controllers.HomeController.Index (App01.Model..Application.Api) - Validation state: "Valid"
+2019-07-03 16:19:09.502 -03:00 [INF] Executed action method App01.Model.Application.Api.Controllers.HomeController.Index (App01.Model..Application.Api), returned result Microsoft.AspNetCore.Mvc.ViewResult in 3.1471ms.
+2019-07-03 16:19:09.526 -03:00 [INF] Executing ViewResult, running view Index.
+2019-07-03 16:19:09.579 -03:00 [INF] Executed ViewResult - view Index executed in 66.024ms.
+2019-07-03 16:19:09.582 -03:00 [INF] Executed action App01.Model.Application.Api.Controllers.HomeController.Index (App01.Model..Application.Api) in 108.1106ms
+2019-07-03 16:19:09.592 -03:00 [INF] Request finished in 480.966ms 200 text/html; charset=utf-8
+2019-07-03 16:19:12.924 -03:00 [INF] Request starting HTTP/1.1 PUT http://localhost:5000/api/User application/json 118
+2019-07-03 16:19:12.942 -03:00 [INF] Route matched with {action = "Put", controller = "User"}. Executing action App01.Model.Application.Api.Controllers.UserController.Put (App01.Model..Application.Api)
+2019-07-03 16:19:14.272 -03:00 [INF] Executing action method App01.Model.Application.Api.Controllers.UserController.Put (App01.Model..Application.Api) with arguments (["App01.Model.Application.Api.Models.NewUserViewModel"]) - Validation state: "Valid"
+2019-07-03 16:19:15.474 -03:00 [INF] Executed action method App01.Model.Application.Api.Controllers.UserController.Put (App01.Model..Application.Api), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1199.972ms.
+2019-07-03 16:19:15.480 -03:00 [INF] Executing ObjectResult, writing value of type 'App01.Model.Domain.Entities.User'.
+2019-07-03 16:19:15.495 -03:00 [INF] Executed action App01.Model.Application.Api.Controllers.UserController.Put (App01.Model..Application.Api) in 2553.2991ms
+2019-07-03 16:19:15.496 -03:00 [INF] Request finished in 2571.9469ms 200 application/json; charset=utf-8
+2019-07-03 16:20:04.669 -03:00 [INF] Request starting HTTP/1.1 PUT http://localhost:5000/api/User application/json 118
+2019-07-03 16:20:04.685 -03:00 [INF] Route matched with {action = "Put", controller = "User"}. Executing action App01.Model.Application.Api.Controllers.UserController.Put (App01.Model..Application.Api)
+2019-07-03 16:20:04.688 -03:00 [INF] Executing action method App01.Model.Application.Api.Controllers.UserController.Put (App01.Model..Application.Api) with arguments (["App01.Model.Application.Api.Models.NewUserViewModel"]) - Validation state: "Valid"
+2019-07-03 16:21:00.636 -03:00 [INF] Starting Amplifier web host
+2019-07-03 16:21:04.515 -03:00 [INF] User profile is available. Using 'C:\Users\manz\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-07-03 16:21:05.596 -03:00 [INF] Request starting HTTP/1.1 PUT http://localhost:5000/api/User application/json 118
+2019-07-03 16:21:05.596 -03:00 [INF] Request starting HTTP/1.1 DEBUG http://localhost:5000/  0
+2019-07-03 16:21:05.596 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/  
+2019-07-03 16:21:05.707 -03:00 [INF] Request finished in 110.1177ms 200 
+2019-07-03 16:21:07.349 -03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing action App01.Model.Application.Api.Controllers.HomeController.Index (App01.Model..Application.Api)
+2019-07-03 16:21:07.349 -03:00 [INF] Route matched with {action = "Put", controller = "User"}. Executing action App01.Model.Application.Api.Controllers.UserController.Put (App01.Model..Application.Api)
+2019-07-03 16:21:07.390 -03:00 [INF] Executing action method App01.Model.Application.Api.Controllers.HomeController.Index (App01.Model..Application.Api) - Validation state: "Valid"
+2019-07-03 16:21:07.515 -03:00 [INF] Executed action method App01.Model.Application.Api.Controllers.HomeController.Index (App01.Model..Application.Api), returned result Microsoft.AspNetCore.Mvc.ViewResult in 45.1346ms.
+2019-07-03 16:21:07.668 -03:00 [INF] Executing ViewResult, running view Index.
+2019-07-03 16:21:08.275 -03:00 [INF] Executed ViewResult - view Index executed in 524.3908ms.
+2019-07-03 16:21:08.492 -03:00 [INF] Executed action App01.Model.Application.Api.Controllers.HomeController.Index (App01.Model..Application.Api) in 1142.6037000000001ms
+2019-07-03 16:21:08.797 -03:00 [INF] Request finished in 3203.4855ms 200 text/html; charset=utf-8
+2019-07-03 16:21:16.514 -03:00 [INF] Executing action method App01.Model.Application.Api.Controllers.UserController.Put (App01.Model..Application.Api) with arguments (["App01.Model.Application.Api.Models.NewUserViewModel"]) - Validation state: "Valid"
+2019-07-03 16:21:22.222 -03:00 [INF] Executed action method App01.Model.Application.Api.Controllers.UserController.Put (App01.Model..Application.Api), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 5692.4246ms.
+2019-07-03 16:21:22.226 -03:00 [INF] Executing ObjectResult, writing value of type 'App01.Model.Domain.Entities.User'.
+2019-07-03 16:21:22.238 -03:00 [INF] Executed action App01.Model.Application.Api.Controllers.UserController.Put (App01.Model..Application.Api) in 14888.304600000001ms
+2019-07-03 16:21:22.239 -03:00 [INF] Request finished in 16645.4838ms 200 application/json; charset=utf-8
+2019-07-03 16:21:45.939 -03:00 [INF] Request starting HTTP/1.1 PUT http://localhost:5000/api/User application/json 120
+2019-07-03 16:21:45.949 -03:00 [INF] Route matched with {action = "Put", controller = "User"}. Executing action App01.Model.Application.Api.Controllers.UserController.Put (App01.Model..Application.Api)
+2019-07-03 16:21:45.966 -03:00 [INF] Executing action method App01.Model.Application.Api.Controllers.UserController.Put (App01.Model..Application.Api) with arguments (["App01.Model.Application.Api.Models.NewUserViewModel"]) - Validation state: "Valid"
+2019-07-03 16:21:47.804 -03:00 [INF] Executed action method App01.Model.Application.Api.Controllers.UserController.Put (App01.Model..Application.Api), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1837.3873ms.
+2019-07-03 16:21:47.804 -03:00 [INF] Executing ObjectResult, writing value of type 'App01.Model.Domain.Entities.User'.
+2019-07-03 16:21:47.805 -03:00 [INF] Executed action App01.Model.Application.Api.Controllers.UserController.Put (App01.Model..Application.Api) in 1855.3652000000002ms
+2019-07-03 16:21:47.805 -03:00 [INF] Request finished in 1865.4363ms 200 application/json; charset=utf-8

@@ -21,10 +21,9 @@ namespace App01.Model.Infra.Data.Context.EF
 		{
 			base.OnModelCreating(modelBuilder);
 
-			//modelBuilder.Entity<User>().Ignore(b => b.IdBase);
+			modelBuilder.Entity<User>().Ignore(b => b.Valid).Ignore(b => b.ValidationResult).Ignore(b => b.Invalid);
 					
-			modelBuilder
-				.Entity<User>(new UserMap().Configure);
+			modelBuilder.Entity<User>(new UserMap().Configure);
 		}
 	}
 }
