@@ -1,6 +1,6 @@
 # O que é o Projeto App01?
 
-O Projeto App01 é um projeto open-source project escrito em .NET Core
+O Projeto App01 é um projeto open-source escrito em .NET Core
 
 O objetivo deste projeto é implementar e compartilhar com a comunidade novas tecnologias e boas praticas utilizando o .NET Core.
 
