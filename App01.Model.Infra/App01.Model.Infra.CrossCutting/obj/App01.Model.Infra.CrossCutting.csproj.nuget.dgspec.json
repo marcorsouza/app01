@@ -1,92 +1,9 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Desenvolvimento\\App01\\App01.Model.Application\\App01.Model.Application.Api\\App01.Model..Application.Api.csproj": {}
+    "D:\\Desenvolvimento\\App01\\App01.Model.Infra\\App01.Model.Infra.CrossCutting\\App01.Model.Infra.CrossCutting.csproj": {}
   },
   "projects": {
-    "D:\\Desenvolvimento\\App01\\App01.Model.Application\\App01.Model.Application.Api\\App01.Model..Application.Api.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "D:\\Desenvolvimento\\App01\\App01.Model.Application\\App01.Model.Application.Api\\App01.Model..Application.Api.csproj",
-        "projectName": "App01.Model..Application.Api",
-        "projectPath": "D:\\Desenvolvimento\\App01\\App01.Model.Application\\App01.Model.Application.Api\\App01.Model..Application.Api.csproj",
-        "packagesPath": "C:\\Users\\marco\\.nuget\\packages\\",
-        "outputPath": "D:\\Desenvolvimento\\App01\\App01.Model.Application\\App01.Model.Application.Api\\obj\\",
-        "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
-        "configFilePaths": [
-          "C:\\Users\\marco\\AppData\\Roaming\\NuGet\\NuGet.Config"
-        ],
-        "originalTargetFrameworks": [
-          "netcoreapp2.1"
-        ],
-        "sources": {
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "netcoreapp2.1": {
-            "projectReferences": {
-              "D:\\Desenvolvimento\\App01\\App01.Model.Infra\\App01.Model.Infra.CrossCutting\\App01.Model.Infra.CrossCutting.csproj": {
-                "projectPath": "D:\\Desenvolvimento\\App01\\App01.Model.Infra\\App01.Model.Infra.CrossCutting\\App01.Model.Infra.CrossCutting.csproj"
-              },
-              "D:\\Desenvolvimento\\App01\\App01.Model.Service\\App01.Model.Service.csproj": {
-                "projectPath": "D:\\Desenvolvimento\\App01\\App01.Model.Service\\App01.Model.Service.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "netcoreapp2.1": {
-          "dependencies": {
-            "Microsoft.AspNetCore.App": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[2.1.1, )",
-              "autoReferenced": true
-            },
-            "Microsoft.NETCore.App": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[2.1.0, )",
-              "autoReferenced": true
-            },
-            "Serilog.AspNetCore": {
-              "target": "Package",
-              "version": "[2.1.1, )"
-            },
-            "Serilog.Sinks.ColoredConsole": {
-              "target": "Package",
-              "version": "[3.0.1, )"
-            },
-            "Serilog.Sinks.Console": {
-              "target": "Package",
-              "version": "[3.1.1, )"
-            },
-            "Serilog.Sinks.File": {
-              "target": "Package",
-              "version": "[4.0.0, )"
-            },
-            "Serilog.Sinks.MySQL": {
-              "target": "Package",
-              "version": "[4.0.0, )"
-            }
-          },
-          "imports": [
-            "net461"
-          ],
-          "assetTargetFallback": true,
-          "warn": true
-        }
-      }
-    },
     "D:\\Desenvolvimento\\App01\\App01.Model.Domain\\App01.Model.Domain.csproj": {
       "version": "1.0.0",
       "restore": {

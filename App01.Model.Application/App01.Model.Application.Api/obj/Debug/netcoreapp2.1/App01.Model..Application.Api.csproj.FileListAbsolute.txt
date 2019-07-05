@@ -58,3 +58,5 @@ F:\Estudos\DotNet\App01\App01.Model.Application\App01.Model.Application.Api\obj\
 F:\Estudos\DotNet\App01\App01.Model.Application\App01.Model.Application.Api\obj\Debug\netcoreapp2.1\App01.Model..Application.Api.csproj.CopyComplete
 F:\Estudos\DotNet\App01\App01.Model.Application\App01.Model.Application.Api\obj\Debug\netcoreapp2.1\App01.Model..Application.Api.dll
 F:\Estudos\DotNet\App01\App01.Model.Application\App01.Model.Application.Api\obj\Debug\netcoreapp2.1\App01.Model..Application.Api.pdb
+D:\Desenvolvimento\App01\App01.Model.Application\App01.Model.Application.Api\bin\Debug\netcoreapp2.1\App01.Model.Infra.CrossCutting.dll
+D:\Desenvolvimento\App01\App01.Model.Application\App01.Model.Application.Api\bin\Debug\netcoreapp2.1\App01.Model.Infra.CrossCutting.pdb

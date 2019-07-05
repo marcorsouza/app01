@@ -11,6 +11,7 @@ using System.Linq;
 using System.Reflection;
 using MediatR;
 using System;
+using AutoMapper;
 
 namespace App01.Model.Infra.CrossCutting.IoC
 {
@@ -22,6 +23,7 @@ namespace App01.Model.Infra.CrossCutting.IoC
         {
       
             services.AddMediatR(typeof(BootStrapper));
+            services.AddAutoMapper(typeof(BootStrapper));
 
             services.AddSingleton<DbContext, MyContext>();
             services.AddScoped<IEFUnitOfWork, EFUnitOfWork>();

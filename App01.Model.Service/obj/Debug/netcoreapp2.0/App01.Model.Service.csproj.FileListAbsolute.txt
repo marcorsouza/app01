@@ -2,9 +2,7 @@ D:\Desenvolvimento\App01\App01.Model.Service\bin\Debug\netcoreapp2.0\App01.Model
 D:\Desenvolvimento\App01\App01.Model.Service\bin\Debug\netcoreapp2.0\App01.Model.Service.dll
 D:\Desenvolvimento\App01\App01.Model.Service\bin\Debug\netcoreapp2.0\App01.Model.Service.pdb
 D:\Desenvolvimento\App01\App01.Model.Service\bin\Debug\netcoreapp2.0\App01.Model.Domain.dll
-D:\Desenvolvimento\App01\App01.Model.Service\bin\Debug\netcoreapp2.0\App01.Model.Infra.Data.dll
 D:\Desenvolvimento\App01\App01.Model.Service\bin\Debug\netcoreapp2.0\App01.Model.Domain.pdb
-D:\Desenvolvimento\App01\App01.Model.Service\bin\Debug\netcoreapp2.0\App01.Model.Infra.Data.pdb
 D:\Desenvolvimento\App01\App01.Model.Service\obj\Debug\netcoreapp2.0\App01.Model.Service.csprojAssemblyReference.cache
 D:\Desenvolvimento\App01\App01.Model.Service\obj\Debug\netcoreapp2.0\App01.Model.Service.csproj.CoreCompileInputs.cache
 D:\Desenvolvimento\App01\App01.Model.Service\obj\Debug\netcoreapp2.0\App01.Model.Service.AssemblyInfoInputs.cache

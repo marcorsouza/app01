@@ -1,7 +1,6 @@
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using App01.Model.Domain.Entities;
 using App01.Model.Domain.Services;
 using App01.Model.Infra.CrossCutting.Features.UserFeatures;
 using App01.Model.Service.Services;
@@ -12,6 +11,7 @@ using Microsoft.Extensions.Logging;
 
 namespace App01.Model.Application.Api.Controllers
 {
+
     /// <summary>
     /// Controller Api User
     /// </summary>
@@ -58,7 +58,7 @@ namespace App01.Model.Application.Api.Controllers
         /// <param name="command"></param>
         /// <returns></returns>
         [HttpPost]
-        public async Task<IActionResult> Post([FromBody] CreateUser command)
+        public async Task<IActionResult> Post([FromBody] CreateUserCommand command)
         {
             try
             {

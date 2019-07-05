@@ -4,13 +4,14 @@ using System;
 
 namespace App01.Model.Infra.CrossCutting.Features.UserFeatures
 {
-    public class CreateUser : IRequest<User>
+    public class CreateUserCommand : ICreateCommand<User>
     {
-        public CreateUser()
+        public CreateUserCommand()
         {
         }
-
+    
         public int Id { get; set; }
+
         public string Name { get; set; }
         public string Email { get; set; }
 
