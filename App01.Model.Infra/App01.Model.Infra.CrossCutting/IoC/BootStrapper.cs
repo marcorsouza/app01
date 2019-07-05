@@ -12,6 +12,8 @@ using System.Reflection;
 using MediatR;
 using System;
 using AutoMapper;
+using App01.Model.Infra.CrossCutting.Features;
+using App01.Model.Infra.CrossCutting.Features.UserFeatures;
 
 namespace App01.Model.Infra.CrossCutting.IoC
 {

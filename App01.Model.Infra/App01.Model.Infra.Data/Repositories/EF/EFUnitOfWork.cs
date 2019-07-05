@@ -13,29 +13,29 @@ namespace App01.Model.Infra.Data.Repositories.EF
 
         public DbContext Context { get;set; }
 
-        public void BeginTransaction()
+        //public void BeginTransaction()
+        //{
+        //    throw new System.NotImplementedException();
+        //}
+
+        public bool Commit()
         {
-            throw new System.NotImplementedException();
+            return Context.SaveChanges() > 0;
         }
 
-        public void Commit()
+        public async Task<bool> CommitSync()
         {
-            Context.SaveChanges();
+            return await Context.SaveChangesAsync() > 0;
         }
 
-        public async Task CommitSync()
-        {
-            await Context.SaveChangesAsync();
-        }
+        //public void Rollback()
+        //{
+        //    throw new System.NotImplementedException();
+        //}
 
-        public void Rollback()
-        {
-            throw new System.NotImplementedException();
-        }
-
-        public bool WasCommitted()
-        {
-            throw new System.NotImplementedException();
-        }
+        //public bool WasCommitted()
+        //{
+        //    throw new System.NotImplementedException();
+        //}
     }
 }

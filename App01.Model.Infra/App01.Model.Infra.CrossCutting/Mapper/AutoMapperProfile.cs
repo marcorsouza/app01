@@ -9,6 +9,7 @@ namespace App01.Model.Infra.CrossCutting.Mapper
         public AutoMapperProfile()
         {
             CreateMap<User, CreateUserCommand>().ReverseMap();
+            CreateMap<User, UpdateUserCommand>().ReverseMap();
         }
     }
 }

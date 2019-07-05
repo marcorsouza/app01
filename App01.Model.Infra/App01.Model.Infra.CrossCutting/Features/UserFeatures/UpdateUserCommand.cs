@@ -1,14 +1,11 @@
 ﻿using App01.Model.Domain.Entities;
-using MediatR;
 using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace App01.Model.Infra.CrossCutting.Features.UserFeatures
 {
-    public class UpdateUser : IRequest<User>
+    public class UpdateUserCommand : IUpdateCommand<User,int>
     {
-        public UpdateUser()
+        public UpdateUserCommand()
         {
         }
 
@@ -20,4 +17,5 @@ namespace App01.Model.Infra.CrossCutting.Features.UserFeatures
 
         public DateTime BirthDate { get; set; }
     }
+
 }

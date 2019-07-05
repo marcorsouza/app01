@@ -1,6 +1,7 @@
 ﻿using App01.Model.Domain.Entities;
 using App01.Model.Infra.Data.Repositories.EF;
 using Microsoft.EntityFrameworkCore;
+using System;
 using System.Linq;
 using System.Threading.Tasks;
 
@@ -22,9 +23,7 @@ namespace App01.Model.Infra.Data.Repositories
 
         public override async Task<TEntity> GetById(TType id)
         {
-            return await DbSet
-                            .AsNoTracking()
-                            .FirstOrDefaultAsync(e => e.Id.Equals(id));
+            return await DbSet.FindAsync(id);
         }
 
         public override async Task<TEntity> Get(TEntity entity)
@@ -37,17 +36,18 @@ namespace App01.Model.Infra.Data.Repositories
         }
 
         public override void Dispose () {
-
+            ((IEFUnitOfWork)_unitOfWork).Context.Dispose();
+            GC.SuppressFinalize(this);
         }
 
-        public override async Task Create(TEntity entity, bool commit = false)
+        public override void Create(TEntity entity, bool commit = false)
         {
             DbSet.Add(entity);
             if (commit)
                 _unitOfWork.Commit();
         }
 
-        public override async Task Update(TEntity entity, bool commit = false)
+        public override void Update(TEntity entity, bool commit = false)
         {
             DbSet.Update(entity);
             if(commit)
@@ -56,8 +56,7 @@ namespace App01.Model.Infra.Data.Repositories
 
         public override void Delete(TType id, bool commit = false)
         {
-            var entity = GetById(id).Result;
-            DbSet.Remove(entity);
+            DbSet.Remove(DbSet.Find(id));
             if (commit)
                 _unitOfWork.CommitSync();
         }

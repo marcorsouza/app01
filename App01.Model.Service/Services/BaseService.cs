@@ -38,7 +38,7 @@ namespace App01.Model.Service.Services {
 
         public void Delete(TType id)
         {
-            repository.Delete(id);
+            repository.Delete(id,true);
         }
         
         public async Task<TEntity> Get (TType id) {
@@ -49,45 +49,6 @@ namespace App01.Model.Service.Services {
             var lst = await repository.GetAll ();
             return lst;
         }
-
-        /* public T Post<V>(T obj) where V : AbstractValidator<T>
-          {
-              Validate(obj, Activator.CreateInstance<V>());
-
-              //repository.Insert(obj);
-              return obj;
-          }
-
-          public T Put<V>(T obj) where V : AbstractValidator<T>
-          {
-              Validate(obj, Activator.CreateInstance<V>());
-
-              //repository.Update(obj);
-              return obj;
-          }
-
-          public void Delete(int id)
-          {
-              repository.Delete(id);
-          }
-
-          public T Get(int id)
-          {
-              return repository.Get(id);
-          }
-
-          public IEnumerable<T> Get()
-          {
-              return repository.List();
-          }
-
-          private void Validate(T obj, AbstractValidator<T> validator)
-          {
-              if (obj == null)
-                  throw new Exception("Registros não detectados!");
-
-              validator.ValidateAndThrow(obj);
-          } */
     }
 }
 

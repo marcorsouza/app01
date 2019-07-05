@@ -14,8 +14,8 @@ namespace App01.Model.Domain.Repositories {
         Task<TEntity> GetById(TType id);
         Task<TEntity> Get(TEntity entity);
         Task<IQueryable<TEntity>> GetAll ();
-        Task Create(TEntity entity, bool commit=false);
-        Task Update(TEntity entity, bool commit = false);
+        void Create(TEntity entity, bool commit=false);
+        void Update(TEntity entity, bool commit = false);
         void Delete(TType id, bool commit = false);
     }
 }

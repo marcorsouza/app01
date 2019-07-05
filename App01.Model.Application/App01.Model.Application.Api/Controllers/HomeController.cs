@@ -1,4 +1,5 @@
 using System.Threading.Tasks;
+using App01.Model.Application.Api.Controllers.Base;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 

@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 
-namespace App01.Model.Application.Api.Controllers
+namespace App01.Model.Application.Api.Controllers.Base
 {
     /// <summary>
     /// Controller Base da Aplicação

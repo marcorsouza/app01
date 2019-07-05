@@ -1,41 +1,16 @@
-﻿using System.Threading;
-using System.Threading.Tasks;
-using App01.Model.Domain.Entities;
+﻿using App01.Model.Domain.Entities;
 using App01.Model.Domain.Services;
 using App01.Model.Infra.CrossCutting.Notifications;
 using App01.Model.Service.Validators;
-using MediatR;
+using AutoMapper;
 
 namespace App01.Model.Infra.CrossCutting.Features.UserFeatures
 {
-    public class UpdateUserHandler : IRequestHandler<UpdateUser, User>
+    public class UpdateUserHandler : UpdateCommandHandler<User, int, UserValidator, UpdateUserCommand>
     {
-        private readonly NotificationContext _notificationContext;
-        private readonly IUserService _userService;
-
-        public UpdateUserHandler(NotificationContext notificationContext, IUserService userService)
+        public UpdateUserHandler(NotificationContext notificationContext, IUserService service, IMapper mapper)
+        : base(notificationContext, service, mapper)
         {
-            _notificationContext = notificationContext;
-            _userService = userService;
-        }
-
-        public async Task<User> Handle(UpdateUser request, CancellationToken cancellationToken)
-        {
-            var user = _userService.Get(request.Id).Result;
-            user.Name = request.Name;
-            user.Email = request.Email;
-            user.Cpf = request.Cpf;
-            user.BirthDate = request.BirthDate;
-            
-            _userService.Put<UserValidator>(user);
-
-            if (user.Invalid)
-            {
-                _notificationContext.AddNotifications(user.ValidationResult);
-                return null;
-            }
-
-            return user;
         }
     }
 }
