@@ -9,8 +9,6 @@ using Microsoft.Extensions.Logging;
 
 namespace App01.Model.Application.Api.Controllers
 {
-    [Route("api/[controller]")]
-    [ApiController]
     public abstract class GenericApiController<TEntity, TType> : ApiBaseController
         where TEntity : Entity<TType>
     {
@@ -44,8 +42,6 @@ namespace App01.Model.Application.Api.Controllers
         }
     }
 
-    [Route("api/User2")]
-    [ApiController]
     public class User2Controller : GenericApiController<User, int>
     {
         public User2Controller(ILogger<Controller> logger, IMediator mediator, IUserService service) : base(logger, mediator, service)
