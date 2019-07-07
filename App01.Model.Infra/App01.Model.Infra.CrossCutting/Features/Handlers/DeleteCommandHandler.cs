@@ -3,12 +3,13 @@ using System.Threading;
 using System.Threading.Tasks;
 using App01.Model.Domain.Entities;
 using App01.Model.Domain.Services;
+using App01.Model.Infra.CrossCutting.Features.Commands;
 using App01.Model.Infra.CrossCutting.Notifications;
 using MediatR;
 
-namespace App01.Model.Infra.CrossCutting.Features
+namespace App01.Model.Infra.CrossCutting.Features.handlers
 {
-    public abstract class DeleteCommandHandler<TEntity, TType, TCommand> : IRequestHandler<TCommand, bool>
+    public abstract class DeleteCommandHandler<TEntity, TType, TCommand> : IRequestHandler<TCommand>
         where TEntity : Entity<TType>
         where TCommand : class, IDeleteCommand<TEntity, TType>, new()
     {
@@ -21,7 +22,7 @@ namespace App01.Model.Infra.CrossCutting.Features
             this._service = service;
         }
 
-        public async Task<bool> Handle(TCommand request, CancellationToken cancellationToken)
+        public async Task<Unit> Handle(TCommand request, CancellationToken cancellationToken)
         {
             var entity = _service.Get(request.Id).Result;
 
@@ -32,7 +33,7 @@ namespace App01.Model.Infra.CrossCutting.Features
 
             try{
                 _service.Delete(entity.Id);
-                return true;
+                return Unit.Value;
             }catch(Exception ex){
                 throw ex;
             }

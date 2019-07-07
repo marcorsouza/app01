@@ -1,5 +1,6 @@
 ﻿using App01.Model.Domain.Entities;
 using App01.Model.Domain.Services;
+using App01.Model.Infra.CrossCutting.Features.handlers;
 using App01.Model.Infra.CrossCutting.Notifications;
 using App01.Model.Service.Validators;
 using AutoMapper;

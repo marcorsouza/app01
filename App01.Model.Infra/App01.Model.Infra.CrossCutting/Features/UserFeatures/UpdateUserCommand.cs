@@ -1,4 +1,5 @@
 ﻿using App01.Model.Domain.Entities;
+using App01.Model.Infra.CrossCutting.Features.Commands;
 using System;
 
 namespace App01.Model.Infra.CrossCutting.Features.UserFeatures

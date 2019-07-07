@@ -22,9 +22,7 @@ namespace App01.Model.Application.Api.Controllers
         public async Task<IActionResult> Get(int? id)
         {
             if(id.HasValue){
-                var request = new UserGetQuery();
-                request.Id = id.Value;
-                return await _getId(request);
+                return await _getId( new UserGetQuery() { Id = id.Value});
             }
 
             return new NotFoundResult();

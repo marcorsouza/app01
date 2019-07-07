@@ -2,7 +2,7 @@
 using System;
 using System.Linq;
 
-namespace App01.Model.Infra.CrossCutting.Features
+namespace App01.Model.Infra.CrossCutting.Features.Commands
 {
     public interface IGetQuery<TEntity, TType> : IRequest<TEntity>
     {

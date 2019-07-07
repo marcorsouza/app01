@@ -2,10 +2,11 @@
 using System.Threading.Tasks;
 using App01.Model.Domain.Entities;
 using App01.Model.Domain.Services;
+using App01.Model.Infra.CrossCutting.Features.Commands;
 using App01.Model.Infra.CrossCutting.Notifications;
 using MediatR;
 
-namespace App01.Model.Infra.CrossCutting.Features
+namespace App01.Model.Infra.CrossCutting.Features.handlers
 {
     public abstract class GetQueryHandler<TEntity, TType, TQuery> : IRequestHandler<TQuery, TEntity>
         where TEntity : Entity<TType>

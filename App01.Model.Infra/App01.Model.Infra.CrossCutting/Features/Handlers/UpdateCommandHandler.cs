@@ -1,16 +1,18 @@
-using System.Threading;
+﻿using System.Threading;
 using System.Threading.Tasks;
 using App01.Model.Domain.Entities;
 using App01.Model.Domain.Services;
+using App01.Model.Infra.CrossCutting.Features.Commands;
 using App01.Model.Infra.CrossCutting.Notifications;
 using AutoMapper;
 using FluentValidation;
 using MediatR;
 
-namespace App01.Model.Infra.CrossCutting.Features
+namespace App01.Model.Infra.CrossCutting.Features.handlers
 {
-    public abstract class CreateCommandHandler<TEntity, TType, TValidator, TCommand> : IRequestHandler<TCommand, TEntity>
-        where TCommand : class, ICreateCommand<TEntity>, new()
+
+    public abstract class UpdateCommandHandler<TEntity, TType, TValidator, TCommand> : IRequestHandler<TCommand, TEntity>
+        where TCommand : class, IUpdateCommand<TEntity, TType>, new()
         where TValidator : AbstractValidator<TEntity>
         where TEntity : Entity<TType>
     {
@@ -18,7 +20,7 @@ namespace App01.Model.Infra.CrossCutting.Features
         private readonly IService<TEntity, TType> _service;
         private readonly IMapper _mapper;
 
-        public CreateCommandHandler(NotificationContext notificationContext, IService<TEntity, TType> service, IMapper mapper)
+        public UpdateCommandHandler(NotificationContext notificationContext, IService<TEntity, TType> service, IMapper mapper)
         {
             this._notificationContext = notificationContext;
             this._service = service;
@@ -27,11 +29,10 @@ namespace App01.Model.Infra.CrossCutting.Features
 
         public async Task<TEntity> Handle(TCommand request, CancellationToken cancellationToken)
         {
-            var entity = _mapper.Map<TCommand, TEntity>(request);
- 
-            _service.Post<TValidator>(entity);
-    
-            //await _context.SaveChangesAsync(cancellationToken);
+            var entity = _service.Get(request.Id).Result;
+            entity = _mapper.Map<TCommand, TEntity>(request, entity);
+
+            _service.Put<TValidator>(entity);
 
             if (entity.Invalid)
             {

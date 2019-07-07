@@ -2,7 +2,7 @@
 using System.Threading.Tasks;
 using App01.Model.Domain.Entities;
 using App01.Model.Domain.Services;
-using App01.Model.Infra.CrossCutting.Features;
+using App01.Model.Infra.CrossCutting.Features.Commands;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
@@ -20,32 +20,8 @@ namespace App01.Model.Application.Api.Controllers.Base
         public GenericController(ILogger<Controller> logger, IMediator mediator, IService<TEntity, TType>  service) : base(logger)
         {
             this._mediator = mediator;
-            //userService = new UserService();
             this._service = service;
         }
-        /// <summary>
-        /// Action Get
-        /// </summary>
-        /// <param name="id">Codigo do Usuario</param>
-        /// <returns>Retorna Usuario</returns>
-        /*[HttpGet("{id?}")]
-        public async Task<IActionResult> Get(TType? id)
-        {
-            ObjectResult result;
-
-            if (id.HasValue)
-            {
-                var user = _service.Get(id.Value).Result;
-                result = new ObjectResult(user);
-            }
-            else
-            {
-                var users = _service.Get().Result;
-                result = new ObjectResult(users);
-            }
-
-            return result;
-        }*/
 
         protected async Task<IActionResult> _post<TCommand>(TCommand command)
             where TCommand : class, ICreateCommand<TEntity>, new()
@@ -88,12 +64,8 @@ namespace App01.Model.Application.Api.Controllers.Base
         {
             try
             {
-                var result = await _mediator.Send(command);
-
-                if(result)
-                    return Ok();
-                else
-                    return BadRequest();
+                MediatR.Unit result = await _mediator.Send(command);
+                return new ObjectResult(result);
             }
             catch (ArgumentNullException ex)
             {
