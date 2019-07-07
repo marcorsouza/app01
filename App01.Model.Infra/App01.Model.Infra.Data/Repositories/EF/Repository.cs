@@ -36,8 +36,8 @@ namespace App01.Model.Infra.Data.Repositories
         }
 
         public override void Dispose () {
-            ((IEFUnitOfWork)_unitOfWork).Context.Dispose();
-            GC.SuppressFinalize(this);
+           // ((IEFUnitOfWork)_unitOfWork).Context.Dispose();
+           // GC.SuppressFinalize(this);
         }
 
         public override void Create(TEntity entity, bool commit = false)

@@ -28,7 +28,7 @@ namespace App01.Model.Application.Api.Controllers.Base
         /// </summary>
         /// <param name="id">Codigo do Usuario</param>
         /// <returns>Retorna Usuario</returns>
-        [HttpGet("{id?}")]
+        /*[HttpGet("{id?}")]
         public async Task<IActionResult> Get(TType? id)
         {
             ObjectResult result;
@@ -45,7 +45,7 @@ namespace App01.Model.Application.Api.Controllers.Base
             }
 
             return result;
-        }
+        }*/
 
         protected async Task<IActionResult> _post<TCommand>(TCommand command)
             where TCommand : class, ICreateCommand<TEntity>, new()
@@ -88,8 +88,12 @@ namespace App01.Model.Application.Api.Controllers.Base
         {
             try
             {
-                var user = await _mediator.Send(command);
-                return new ObjectResult(user);
+                var result = await _mediator.Send(command);
+
+                if(result)
+                    return Ok();
+                else
+                    return BadRequest();
             }
             catch (ArgumentNullException ex)
             {
@@ -99,6 +103,18 @@ namespace App01.Model.Application.Api.Controllers.Base
             {
                 return BadRequest(ex);
             }
+        }
+
+
+        public async Task<IActionResult> _getId<TCommand>(TCommand command)
+            where TCommand : class, IGetQuery<TEntity, TType>, new()
+        {
+            var entity = await _mediator.Send(command);
+
+            if(entity !=null){
+                return new ObjectResult(entity);
+            }
+            return new NotFoundResult();
         }
     }
 }

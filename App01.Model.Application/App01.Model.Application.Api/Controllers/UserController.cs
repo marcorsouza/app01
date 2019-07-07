@@ -18,6 +18,18 @@ namespace App01.Model.Application.Api.Controllers
             
         }
 
+        [HttpGet("{id?}")]
+        public async Task<IActionResult> Get(int? id)
+        {
+            if(id.HasValue){
+                var request = new UserGetQuery();
+                request.Id = id.Value;
+                return await _getId(request);
+            }
+
+            return new NotFoundResult();
+        }
+
         [HttpPost]
         public async Task<IActionResult> Post([FromBody] CreateUserCommand command)
         {

@@ -1,4 +1,5 @@
-﻿using System.Threading;
+﻿using System;
+using System.Threading;
 using System.Threading.Tasks;
 using App01.Model.Domain.Entities;
 using App01.Model.Domain.Services;
@@ -7,7 +8,7 @@ using MediatR;
 
 namespace App01.Model.Infra.CrossCutting.Features
 {
-    public abstract class DeleteCommandHandler<TEntity, TType, TCommand> : IRequestHandler<TCommand, TEntity>
+    public abstract class DeleteCommandHandler<TEntity, TType, TCommand> : IRequestHandler<TCommand, bool>
         where TEntity : Entity<TType>
         where TCommand : class, IDeleteCommand<TEntity, TType>, new()
     {
@@ -20,7 +21,7 @@ namespace App01.Model.Infra.CrossCutting.Features
             this._service = service;
         }
 
-        public async Task<TEntity> Handle(TCommand request, CancellationToken cancellationToken)
+        public async Task<bool> Handle(TCommand request, CancellationToken cancellationToken)
         {
             var entity = _service.Get(request.Id).Result;
 
@@ -29,9 +30,12 @@ namespace App01.Model.Infra.CrossCutting.Features
                 //throw new EntityNotFoundException<TEntity>($"Id : {request.Id}");
             }
 
-            _service.Delete(entity.Id);
-
-            return entity;
+            try{
+                _service.Delete(entity.Id);
+                return true;
+            }catch(Exception ex){
+                throw ex;
+            }
         }
 
         /*
