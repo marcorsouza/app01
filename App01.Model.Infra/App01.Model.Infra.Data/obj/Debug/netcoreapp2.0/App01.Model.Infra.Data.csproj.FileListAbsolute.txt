@@ -26,3 +26,17 @@ F:\Estudos\DotNet\App01\App01.Model.Infra\App01.Model.Infra.Data\obj\Debug\netco
 F:\Estudos\DotNet\App01\App01.Model.Infra\App01.Model.Infra.Data\obj\Debug\netcoreapp2.0\App01.Model.Infra.Data.csproj.CopyComplete
 F:\Estudos\DotNet\App01\App01.Model.Infra\App01.Model.Infra.Data\obj\Debug\netcoreapp2.0\App01.Model.Infra.Data.dll
 F:\Estudos\DotNet\App01\App01.Model.Infra\App01.Model.Infra.Data\obj\Debug\netcoreapp2.0\App01.Model.Infra.Data.pdb
+F:\Estudos\app01\App01.Model.Infra\App01.Model.Infra.Data\bin\Debug\netcoreapp2.0\App01.Model.Infra.Data.deps.json
+F:\Estudos\app01\App01.Model.Infra\App01.Model.Infra.Data\bin\Debug\netcoreapp2.0\App01.Model.Infra.Data.runtimeconfig.json
+F:\Estudos\app01\App01.Model.Infra\App01.Model.Infra.Data\bin\Debug\netcoreapp2.0\App01.Model.Infra.Data.runtimeconfig.dev.json
+F:\Estudos\app01\App01.Model.Infra\App01.Model.Infra.Data\bin\Debug\netcoreapp2.0\App01.Model.Infra.Data.dll
+F:\Estudos\app01\App01.Model.Infra\App01.Model.Infra.Data\bin\Debug\netcoreapp2.0\App01.Model.Infra.Data.pdb
+F:\Estudos\app01\App01.Model.Infra\App01.Model.Infra.Data\bin\Debug\netcoreapp2.0\App01.Model.Domain.dll
+F:\Estudos\app01\App01.Model.Infra\App01.Model.Infra.Data\bin\Debug\netcoreapp2.0\App01.Model.Domain.pdb
+F:\Estudos\app01\App01.Model.Infra\App01.Model.Infra.Data\obj\Debug\netcoreapp2.0\App01.Model.Infra.Data.csprojAssemblyReference.cache
+F:\Estudos\app01\App01.Model.Infra\App01.Model.Infra.Data\obj\Debug\netcoreapp2.0\App01.Model.Infra.Data.csproj.CoreCompileInputs.cache
+F:\Estudos\app01\App01.Model.Infra\App01.Model.Infra.Data\obj\Debug\netcoreapp2.0\App01.Model.Infra.Data.AssemblyInfoInputs.cache
+F:\Estudos\app01\App01.Model.Infra\App01.Model.Infra.Data\obj\Debug\netcoreapp2.0\App01.Model.Infra.Data.AssemblyInfo.cs
+F:\Estudos\app01\App01.Model.Infra\App01.Model.Infra.Data\obj\Debug\netcoreapp2.0\App01.Model.Infra.Data.csproj.CopyComplete
+F:\Estudos\app01\App01.Model.Infra\App01.Model.Infra.Data\obj\Debug\netcoreapp2.0\App01.Model.Infra.Data.dll
+F:\Estudos\app01\App01.Model.Infra\App01.Model.Infra.Data\obj\Debug\netcoreapp2.0\App01.Model.Infra.Data.pdb

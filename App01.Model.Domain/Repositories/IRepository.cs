@@ -11,6 +11,8 @@ namespace App01.Model.Domain.Repositories {
 
     public interface IRepository<TEntity, TType> : IQueryable<TEntity>, IRepository {
 
+        IUnitOfWork UnitOfWork {get; }
+
         Task<TEntity> GetById(TType id);
         Task<TEntity> Get(TEntity entity);
         Task<IQueryable<TEntity>> GetAll ();

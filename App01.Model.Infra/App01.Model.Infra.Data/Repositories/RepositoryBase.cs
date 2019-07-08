@@ -10,10 +10,11 @@ using App01.Model.Domain.Repositories;
 
 namespace App01.Model.Infra.Data.Repositories {
     public abstract class RepositoryBase<TEntity, TType> : IRepository<TEntity, TType> {
-        protected readonly IUnitOfWork _unitOfWork;
+
+        public IUnitOfWork UnitOfWork { get; private set; }
 
         public RepositoryBase (IUnitOfWork unitOfWork) {
-            _unitOfWork = unitOfWork;
+            UnitOfWork = unitOfWork;
         }
 
         protected abstract IQueryable<TEntity> RepositoryQuery { get; }

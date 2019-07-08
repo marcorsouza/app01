@@ -1,6 +1,7 @@
 ﻿using System;
 using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.Extensions.Configuration;
 using Serilog;
 using Serilog.Events;
 
@@ -39,6 +40,15 @@ namespace App01.Model.Application.Api {
 
         public static IWebHostBuilder CreateWebHostBuilder (string[] args) =>
             WebHost.CreateDefaultBuilder (args)
+            .ConfigureAppConfiguration(
+            (WebHostBuilderContext context, IConfigurationBuilder builder) =>
+            {
+                builder.Sources.Clear();
+
+                builder
+                    .AddEnvironmentVariables()
+                    .AddJsonFile("appsettings.json", optional: false, reloadOnChange: true);
+            })
             .UseStartup<Startup> ()
             .UseSerilog (); // <-- Add this line;
     }

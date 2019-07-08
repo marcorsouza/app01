@@ -1,4 +1,5 @@
-﻿using App01.Model.Domain.Entities;
+﻿using App01.Model.Domain;
+using App01.Model.Domain.Entities;
 using App01.Model.Infra.Data.Repositories.EF;
 using Microsoft.EntityFrameworkCore;
 using System;
@@ -13,8 +14,8 @@ namespace App01.Model.Infra.Data.Repositories
 
         protected DbSet<TEntity> DbSet;
 
-        public Repository (IEFUnitOfWork unitOfWork) : base (unitOfWork) {
-            DbSet = unitOfWork.Context.Set<TEntity> ();
+        public Repository (IUnitOfWork unitOfWork) : base (unitOfWork) {
+            DbSet = ((IEFUnitOfWork)unitOfWork).Context.Set<TEntity> ();
         }
 
         protected override IQueryable<TEntity> RepositoryQuery {
@@ -36,29 +37,29 @@ namespace App01.Model.Infra.Data.Repositories
         }
 
         public override void Dispose () {
-           // ((IEFUnitOfWork)_unitOfWork).Context.Dispose();
-           // GC.SuppressFinalize(this);
+            ((IEFUnitOfWork)UnitOfWork).Context.Dispose();
+            GC.SuppressFinalize(this);
         }
 
         public override void Create(TEntity entity, bool commit = false)
         {
             DbSet.Add(entity);
             if (commit)
-                _unitOfWork.Commit();
+                UnitOfWork.Commit();
         }
 
         public override void Update(TEntity entity, bool commit = false)
         {
             DbSet.Update(entity);
             if(commit)
-                _unitOfWork.Commit();
+                UnitOfWork.Commit();
         }
 
         public override void Delete(TType id, bool commit = false)
         {
             DbSet.Remove(DbSet.Find(id));
             if (commit)
-                _unitOfWork.CommitSync();
+                UnitOfWork.CommitSync();
         }
     }
 }

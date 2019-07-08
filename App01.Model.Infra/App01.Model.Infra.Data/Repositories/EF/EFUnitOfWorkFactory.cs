@@ -12,11 +12,6 @@ namespace App01.Model.Infra.Data.Repositories.EF
             _context = context;
         }
 
-        public EFUnitOfWorkFactory()
-        {
-            _context = new MyContext();
-        }
-
         #region IUnitOfWorkFactory Members
 
         public IUnitOfWork Create()

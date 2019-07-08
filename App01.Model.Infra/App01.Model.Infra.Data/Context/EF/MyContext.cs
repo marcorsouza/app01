@@ -9,13 +9,19 @@ namespace App01.Model.Infra.Data.Context.EF
 	{
 		public DbSet<User> User { get; set; }
 
-		protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        public MyContext(DbContextOptions options):base(options)
+        {
+
+        }
+
+
+		/*protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 		{
 			if (!optionsBuilder.IsConfigured)
 				optionsBuilder.UseMySql("Server=localhost;Port=3306;Database=app01;Uid=root;Pwd=")
 				//optionsBuilder.UseMySql(Configuration.GetConnectionString("DefaultConnection"))
 				;
-		}
+		}*/
 
 		protected override void OnModelCreating(ModelBuilder modelBuilder)
 		{
