@@ -1,7 +1,9 @@
 ﻿using App01.Model.Application.Api.Filters;
 using App01.Model.Infra.CrossCutting.IoC;
+using App01.Model.Infra.Data.Context.EF;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -34,6 +36,10 @@ namespace App01.Model.Application.Api
             services.AddMvc(options => options.Filters.Add<NotificationFilter>())
                 .SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
 
+            services.AddDefaultIdentity<IdentityUser>()
+            .AddRoles<IdentityRole>()
+            .AddEntityFrameworkStores<MyContext>()
+            .AddDefaultTokenProviders();
 
             BootStrapper.RegisterServices(services, Configuration);
             

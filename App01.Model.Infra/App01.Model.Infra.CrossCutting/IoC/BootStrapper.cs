@@ -13,6 +13,7 @@ using App01.Model.Infra.Data.Repositories.EF;
 using App01.Model.Service.Services;
 using AutoMapper;
 using MediatR;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -22,7 +23,7 @@ namespace App01.Model.Infra.CrossCutting.IoC {
 
         public static void RegisterServices (IServiceCollection services, IConfiguration configuration)
         {
-
+            
             services.AddMediatR(typeof(BootStrapper));
             services.AddAutoMapper(typeof(BootStrapper));
 

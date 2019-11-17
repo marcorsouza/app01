@@ -86,7 +86,7 @@ namespace App01.Model.Application.Api.Controllers.Base
             if(entity !=null){
                 return new ObjectResult(entity);
             }
-            return new NotFoundResult();
+            return new NoContentResult();
         }
     }
 }

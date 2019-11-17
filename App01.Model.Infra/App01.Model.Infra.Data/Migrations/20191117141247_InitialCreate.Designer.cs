@@ -9,8 +9,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace App01.Model.Infra.Data.Migrations
 {
     [DbContext(typeof(MyContext))]
-    [Migration("20190703005839_Tabela_User_Alterado_Campos")]
-    partial class Tabela_User_Alterado_Campos
+    [Migration("20191117141247_InitialCreate")]
+    partial class InitialCreate
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

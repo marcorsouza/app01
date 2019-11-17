@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace App01.Model.Infra.Data.Migrations
 {
-    public partial class Add_Tabela_User : Migration
+    public partial class InitialCreate : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -18,8 +18,8 @@ namespace App01.Model.Infra.Data.Migrations
                     Email = table.Column<string>(nullable: false),
                     BirthDate = table.Column<DateTime>(nullable: false),
                     Cpf = table.Column<string>(nullable: false),
-                    User_Username = table.Column<string>(maxLength: 40, nullable: false),
-                    User_Password = table.Column<string>(maxLength: 30, nullable: false),
+                    Username = table.Column<string>(maxLength: 40, nullable: false),
+                    Password = table.Column<string>(maxLength: 30, nullable: false),
                     Active = table.Column<bool>(nullable: false)
                 },
                 constraints: table =>

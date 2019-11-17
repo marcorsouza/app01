@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Desenvolvimento\\App01\\App01.Model.Domain\\App01.Model.Domain.csproj": {}
+    "D:\\Desenvolvimento\\App01\\App01\\App01.Model.Domain\\App01.Model.Domain.csproj": {}
   },
   "projects": {
-    "D:\\Desenvolvimento\\App01\\App01.Model.Domain\\App01.Model.Domain.csproj": {
+    "D:\\Desenvolvimento\\App01\\App01\\App01.Model.Domain\\App01.Model.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Desenvolvimento\\App01\\App01.Model.Domain\\App01.Model.Domain.csproj",
+        "projectUniqueName": "D:\\Desenvolvimento\\App01\\App01\\App01.Model.Domain\\App01.Model.Domain.csproj",
         "projectName": "App01.Model.Domain",
-        "projectPath": "D:\\Desenvolvimento\\App01\\App01.Model.Domain\\App01.Model.Domain.csproj",
+        "projectPath": "D:\\Desenvolvimento\\App01\\App01\\App01.Model.Domain\\App01.Model.Domain.csproj",
         "packagesPath": "C:\\Users\\marco\\.nuget\\packages\\",
-        "outputPath": "D:\\Desenvolvimento\\App01\\App01.Model.Domain\\obj\\",
+        "outputPath": "D:\\Desenvolvimento\\App01\\App01\\App01.Model.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

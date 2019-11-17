@@ -4,7 +4,7 @@ O Projeto App01 é um projeto open-source escrito em .NET Core
 
 O objetivo deste projeto é implementar e compartilhar com a comunidade novas tecnologias e boas praticas utilizando o .NET Core.
 
-[![License](https://img.shields.io/github/license/eduardopires/equinoxproject.svg)](LICENSE)
+[![License](https://img.shields.io/github/license/marcorsouza/app01)](LICENSE)
 
 ## Como usar:
 Foi utlizado Visual Code (version 1.35) e a versão 2.1 do .NET Core SDK.

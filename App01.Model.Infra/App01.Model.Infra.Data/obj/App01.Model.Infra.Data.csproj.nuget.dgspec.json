@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Desenvolvimento\\App01\\App01.Model.Infra\\App01.Model.Infra.Data\\App01.Model.Infra.Data.csproj": {}
+    "D:\\Desenvolvimento\\App01\\App01\\App01.Model.Infra\\App01.Model.Infra.Data\\App01.Model.Infra.Data.csproj": {}
   },
   "projects": {
-    "D:\\Desenvolvimento\\App01\\App01.Model.Domain\\App01.Model.Domain.csproj": {
+    "D:\\Desenvolvimento\\App01\\App01\\App01.Model.Domain\\App01.Model.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Desenvolvimento\\App01\\App01.Model.Domain\\App01.Model.Domain.csproj",
+        "projectUniqueName": "D:\\Desenvolvimento\\App01\\App01\\App01.Model.Domain\\App01.Model.Domain.csproj",
         "projectName": "App01.Model.Domain",
-        "projectPath": "D:\\Desenvolvimento\\App01\\App01.Model.Domain\\App01.Model.Domain.csproj",
+        "projectPath": "D:\\Desenvolvimento\\App01\\App01\\App01.Model.Domain\\App01.Model.Domain.csproj",
         "packagesPath": "C:\\Users\\marco\\.nuget\\packages\\",
-        "outputPath": "D:\\Desenvolvimento\\App01\\App01.Model.Domain\\obj\\",
+        "outputPath": "D:\\Desenvolvimento\\App01\\App01\\App01.Model.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -58,14 +58,14 @@
         }
       }
     },
-    "D:\\Desenvolvimento\\App01\\App01.Model.Infra\\App01.Model.Infra.Data\\App01.Model.Infra.Data.csproj": {
+    "D:\\Desenvolvimento\\App01\\App01\\App01.Model.Infra\\App01.Model.Infra.Data\\App01.Model.Infra.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Desenvolvimento\\App01\\App01.Model.Infra\\App01.Model.Infra.Data\\App01.Model.Infra.Data.csproj",
+        "projectUniqueName": "D:\\Desenvolvimento\\App01\\App01\\App01.Model.Infra\\App01.Model.Infra.Data\\App01.Model.Infra.Data.csproj",
         "projectName": "App01.Model.Infra.Data",
-        "projectPath": "D:\\Desenvolvimento\\App01\\App01.Model.Infra\\App01.Model.Infra.Data\\App01.Model.Infra.Data.csproj",
+        "projectPath": "D:\\Desenvolvimento\\App01\\App01\\App01.Model.Infra\\App01.Model.Infra.Data\\App01.Model.Infra.Data.csproj",
         "packagesPath": "C:\\Users\\marco\\.nuget\\packages\\",
-        "outputPath": "D:\\Desenvolvimento\\App01\\App01.Model.Infra\\App01.Model.Infra.Data\\obj\\",
+        "outputPath": "D:\\Desenvolvimento\\App01\\App01\\App01.Model.Infra\\App01.Model.Infra.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -82,8 +82,8 @@
         "frameworks": {
           "netcoreapp2.0": {
             "projectReferences": {
-              "D:\\Desenvolvimento\\App01\\App01.Model.Domain\\App01.Model.Domain.csproj": {
-                "projectPath": "D:\\Desenvolvimento\\App01\\App01.Model.Domain\\App01.Model.Domain.csproj"
+              "D:\\Desenvolvimento\\App01\\App01\\App01.Model.Domain\\App01.Model.Domain.csproj": {
+                "projectPath": "D:\\Desenvolvimento\\App01\\App01\\App01.Model.Domain\\App01.Model.Domain.csproj"
               }
             }
           }
@@ -97,6 +97,10 @@
       "frameworks": {
         "netcoreapp2.0": {
           "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.1.6, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[2.1.1, )"

@@ -23,6 +23,8 @@ namespace App01.Model.Application.Api.Controllers
         {
             if(id.HasValue){
                 return await _getId( new UserGetQuery() { Id = id.Value});
+            }else{
+                return new NoContentResult();
             }
 
             return new NotFoundResult();
