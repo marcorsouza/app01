@@ -9,6 +9,7 @@ using Microsoft.Extensions.Options;
 using System.IdentityModel.Tokens.Jwt;
 using Microsoft.IdentityModel.Tokens;
 using System;
+using System.Security.Claims;
 
 namespace App01.Model.Application.Api.Controllers
 {
@@ -68,11 +69,14 @@ namespace App01.Model.Application.Api.Controllers
 
         private async Task<string> CreateJwt(string email){
             var user = await _userManager.FindByEmailAsync(email);
+            var IdentityClaims= new ClaimsIdentity();
+            IdentityClaims.AddClaims(await _userManager.GetClaimsAsync(user));
 
             var tokenHandler = new JwtSecurityTokenHandler();
             var key = Encoding.ASCII.GetBytes(_tokenConfigurations.Secret);
 
             var tokenDescriptor = new SecurityTokenDescriptor{
+                Subject = IdentityClaims,
                 Issuer = _tokenConfigurations.Issuer,
                 Audience=_tokenConfigurations.Audience,
                 Expires=DateTime.UtcNow.AddHours(_tokenConfigurations.Hours),
@@ -82,8 +86,7 @@ namespace App01.Model.Application.Api.Controllers
             return tokenHandler.WriteToken(tokenHandler.CreateToken(tokenDescriptor));
 
             if(tokenDescriptor != null)
-            return _tokenConfigurations.Secret;
-            return "teste";
+                return _tokenConfigurations.Secret;
         }
     }
 }

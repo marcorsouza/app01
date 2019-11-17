@@ -53,7 +53,8 @@ namespace App01.Model.Application.Api
             {
                 app.UseDeveloperExceptionPage();
             }
-app.UseAuthentication();
+            
+            app.UseAuthentication();
             app.UseMvcWithDefaultRoute();
 
             
