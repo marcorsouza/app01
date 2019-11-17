@@ -5,9 +5,10 @@ namespace App01.Model.Infra.CrossCutting.Security.JWT
 {
     public class TokenConfigurations
     {
-        public string Audience { get; set; }
+        public string Secret { get; set; }
         public string Issuer { get; set; }
-        public int Seconds { get; set; }
+        public int Hours { get; set; }
+        public string Audience { get; set; }
     }
 
     public class SigningConfigurations

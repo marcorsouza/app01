@@ -1,15 +1,17 @@
+using System.Net;
 using System.Threading.Tasks;
 using App01.Model.Application.Api.Controllers.Base;
 using App01.Model.Domain.Entities;
 using App01.Model.Domain.Services;
 using App01.Model.Infra.CrossCutting.Features.UserFeatures;
 using MediatR;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 
 namespace App01.Model.Application.Api.Controllers
 {
-    [Route("api/User")]
+    [Route("api/[controller]")]
     [ApiController]
     public class UserController : GenericController<User, int>
     {
@@ -18,6 +20,7 @@ namespace App01.Model.Application.Api.Controllers
             
         }
 
+        [Authorize]
         [HttpGet("{id?}")]
         public async Task<IActionResult> Get(int? id)
         {

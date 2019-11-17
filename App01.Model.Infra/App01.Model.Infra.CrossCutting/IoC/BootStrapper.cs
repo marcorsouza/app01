@@ -1,3 +1,4 @@
+using System.Text;
 using System;
 using System.Linq;
 using System.Reflection;
@@ -7,6 +8,7 @@ using App01.Model.Domain.Services;
 using App01.Model.Infra.CrossCutting.Features;
 using App01.Model.Infra.CrossCutting.Features.UserFeatures;
 using App01.Model.Infra.CrossCutting.Notifications;
+using App01.Model.Infra.CrossCutting.Security.JWT;
 using App01.Model.Infra.Data.Context.EF;
 using App01.Model.Infra.Data.Repositories;
 using App01.Model.Infra.Data.Repositories.EF;
@@ -17,6 +19,8 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.IdentityModel.Tokens;
 
 namespace App01.Model.Infra.CrossCutting.IoC {
     public static class BootStrapper {
@@ -39,6 +43,37 @@ namespace App01.Model.Infra.CrossCutting.IoC {
             services.RegisterAllTypes<IUserService>(new[] { typeof(UserService).Assembly });
 
             services.AddScoped<NotificationContext>();
+
+            //JWT
+            
+            var appTokenConfigurationsSection = configuration.GetSection("TokenConfigurations");
+            services.Configure<TokenConfigurations>(appTokenConfigurationsSection); 
+
+            var token = appTokenConfigurationsSection.Get<TokenConfigurations>();
+            var key = Encoding.ASCII.GetBytes(token.Secret);
+
+            services.AddAuthentication(options =>
+                {
+                     options.DefaultScheme = JwtBearerDefaults.AuthenticationScheme;
+   options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+   options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+                }
+            ).AddJwtBearer(x => {
+                x.RequireHttpsMetadata=false;
+                x.SaveToken=true;
+                x.TokenValidationParameters = new TokenValidationParameters
+                {
+                    ValidateIssuerSigningKey =true,
+                    IssuerSigningKey=new SymmetricSecurityKey(key),
+                    ValidateIssuer=true,
+                    ValidateAudience=true,
+                    ValidAudience = token.Audience,
+                    ValidIssuer=token.Issuer
+                };
+            });
+
+
+
         }
         
         private static void _efConfig(IServiceCollection services, IConfiguration configuration)

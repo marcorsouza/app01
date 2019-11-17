@@ -40,6 +40,7 @@ namespace App01.Model.Application.Api
             .AddRoles<IdentityRole>()
             .AddEntityFrameworkStores<MyContext>()
             .AddDefaultTokenProviders();
+        
 
             BootStrapper.RegisterServices(services, Configuration);
             
@@ -52,8 +53,10 @@ namespace App01.Model.Application.Api
             {
                 app.UseDeveloperExceptionPage();
             }
-
+app.UseAuthentication();
             app.UseMvcWithDefaultRoute();
+
+            
         }
     }
 }

@@ -1,8 +1,14 @@
+using System.Text;
 using System.Threading.Tasks;
 using App01.Model.Application.Api.Controllers.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Linq;
 using Microsoft.AspNetCore.Identity;
+using App01.Model.Infra.CrossCutting.Security.JWT;
+using Microsoft.Extensions.Options;
+using System.IdentityModel.Tokens.Jwt;
+using Microsoft.IdentityModel.Tokens;
+using System;
 
 namespace App01.Model.Application.Api.Controllers
 {
@@ -13,11 +19,16 @@ namespace App01.Model.Application.Api.Controllers
         
         private readonly SignInManager<IdentityUser> _signInManager;
         private readonly UserManager<IdentityUser> _userManager;
+
+        private readonly TokenConfigurations _tokenConfigurations;
+
         
-        public AuthController(SignInManager<IdentityUser> signInManager,UserManager<IdentityUser> userManager)
+        public AuthController(SignInManager<IdentityUser> signInManager,UserManager<IdentityUser> userManager,
+        IOptions<TokenConfigurations> tokenConfigurations)
         {
             _signInManager =signInManager;
             _userManager =userManager;
+            _tokenConfigurations = tokenConfigurations.Value;
         }
 
         [HttpGet("doLogin")]
@@ -28,7 +39,7 @@ namespace App01.Model.Application.Api.Controllers
             var result = await _signInManager.PasswordSignInAsync(loginUser.Email,loginUser.Password,false,true);
 
             if(result.Succeeded)
-                return Ok();
+                return Ok(await CreateJwt(loginUser.Email));
             return BadRequest("Username Or Password Incorrect");
 
 
@@ -42,8 +53,7 @@ namespace App01.Model.Application.Api.Controllers
             var user = new IdentityUser{
                 UserName = registerUser.Email,
                 Email = registerUser.Email,
-                EmailConfirmed=true
-                
+                EmailConfirmed=true                
             };
 
             var result = await _userManager.CreateAsync(user,registerUser.Password);
@@ -52,7 +62,28 @@ namespace App01.Model.Application.Api.Controllers
 
             await _signInManager.SignInAsync(user,false);
 
-            return Ok();
+            return Ok(await CreateJwt(registerUser.Email));
+        }
+
+
+        private async Task<string> CreateJwt(string email){
+            var user = await _userManager.FindByEmailAsync(email);
+
+            var tokenHandler = new JwtSecurityTokenHandler();
+            var key = Encoding.ASCII.GetBytes(_tokenConfigurations.Secret);
+
+            var tokenDescriptor = new SecurityTokenDescriptor{
+                Issuer = _tokenConfigurations.Issuer,
+                Audience=_tokenConfigurations.Audience,
+                Expires=DateTime.UtcNow.AddHours(_tokenConfigurations.Hours),
+                SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(key), SecurityAlgorithms.HmacSha256Signature)
+            };
+
+            return tokenHandler.WriteToken(tokenHandler.CreateToken(tokenDescriptor));
+
+            if(tokenDescriptor != null)
+            return _tokenConfigurations.Secret;
+            return "teste";
         }
     }
 }
